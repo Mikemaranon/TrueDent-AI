@@ -1,0 +1,3 @@
+Kaggle - Panoramic Dental Dataset: https://www.kaggle.com/datasets/thunderpede/panoramic-dental-dataset
+kaggle - Dental OPG XRAY Dataset: https://www.kaggle.com/datasets/orvile/dental-opg-xray-dataset
+Zenodo - Panoramic radiography database: https://zenodo.org/records/4457648
