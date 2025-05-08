@@ -109,4 +109,68 @@ El desarrollo de `TrueDent AI` está dividido en fases para garantizar un `avanc
 ## 4. Instalación
 
 Para correr TrueDent AI, asegurate de tener Python ≥ 3.9 y un entorno compatible con GPU (CUDA recomendado para aceleración).
+### Para trabajar en las ramas
+```bash
+# para mike
+git checkout mike
 
+# para javi
+git checkout javi
+```
+
+### para subir el contenido **(MUY IMPORTANTE ESTAR EN NUESTRA RAMA)**
+```bash
+# como siempre
+git add .
+git commit -m "feat: [lo que hiciste, ej. mejora de detección]"
+
+# para mike
+git push origin mike
+
+# para javi
+git push origin javi
+```
+
+### Antes de empezar a trabajar (o cada tanto), muy importante para evitar conflictos después
+```bash
+# para mike
+git checkout mike
+git fetch origin
+git merge origin/main
+
+# para javi
+git checkout javi
+git fetch origin
+git merge origin/main
+```
+
+### Cuando termines tu parte y quieras subirla a `main`
+```bash
+# para mike
+gh pr create --base main --head mike --title "Merge mike into main" --body "Descripción"
+
+# para javi
+gh pr create --base main --head javi --title "Merge javi into main" --body "Descripción"
+```
+
+### Después que se aprueba el PR
+```bash
+# para mike
+gh pr merge --merge
+
+# para javi
+gh pr merge --merge
+```
+
+### Para mantener la rama actualizada
+```bash
+# para mike
+git checkout mike
+git fetch origin
+git merge origin/main
+
+# para javi
+git checkout javi
+git fetch origin
+git merge origin/main
+```
