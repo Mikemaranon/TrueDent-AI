@@ -118,19 +118,6 @@ git checkout mike
 git checkout javi
 ```
 
-### para subir el contenido **(MUY IMPORTANTE ESTAR EN NUESTRA RAMA)**
-```bash
-# como siempre
-git add .
-git commit -m "feat: [lo que hiciste, ej. mejora de detección]"
-
-# para mike
-git push origin mike
-
-# para javi
-git push origin javi
-```
-
 ### Antes de empezar a trabajar (o cada tanto), muy importante para evitar conflictos después
 ```bash
 # para mike
@@ -142,6 +129,19 @@ git merge origin/main
 git checkout javi
 git fetch origin
 git merge origin/main
+```
+
+### para subir el contenido **(MUY IMPORTANTE ESTAR EN NUESTRA RAMA)**
+```bash
+# como siempre
+git add .
+git commit -m "feat: [lo que hiciste, ej. mejora de detección]"
+
+# para mike
+git push origin mike
+
+# para javi
+git push origin javi
 ```
 
 ### Cuando termines tu parte y quieras subirla a `main`
