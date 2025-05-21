@@ -33,5 +33,4 @@ def detectar_caries(ruta_imagen):
     return "Se detectaron caries en el lado izquierdo inferior."
 
 if __name__ == '__main__':
-    print("Iniciando Flask...")
     app.run(debug=True)
