@@ -1,0 +1,10 @@
+tensorflow>=2.12
+ultralytics>=8.0.0
+opencv-python
+matplotlib
+numpy
+pillow
+tifffile
+scikit-image
+psutil
+ipython
