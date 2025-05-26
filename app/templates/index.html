@@ -40,7 +40,7 @@
             .then(response => response.json())
             .then(data => {
                 resultadoDiv.style.display = 'block';
-                resultadoDiv.innerText = "🦷 " + data.resultado;
+                resultadoDiv.innerText = data.resultado;
             })
             .catch(error => {
                 resultadoDiv.style.display = 'block';
