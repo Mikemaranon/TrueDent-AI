@@ -5,7 +5,7 @@ import tensorflow as tf
 import numpy as np
 import os
 
-from models_m import detectar_caries
+from models_m import model_loader
 
 class API:
     def __init__(self, app):
