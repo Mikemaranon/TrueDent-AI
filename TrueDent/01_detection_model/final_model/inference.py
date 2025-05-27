@@ -118,9 +118,11 @@ def main():
     retraining_folder = os.path.join(HOME_DIR, "data/retraining_data/train")
     image_output_dir = os.path.join(retraining_folder, "images")
     label_output_dir = os.path.join(retraining_folder, "labels")
+    check_output_dir = os.path.join(retraining_folder, "check")
 
     os.makedirs(image_output_dir, exist_ok=True)
     os.makedirs(label_output_dir, exist_ok=True)
+    os.makedirs(check_output_dir, exist_ok=True)
 
     ensure_output_folder(output_folder)
     model = get_model(model_path)
@@ -153,6 +155,7 @@ def main():
             img_name = Path(img_path).name
             save_yolo_labels(results, img_path, label_output_dir)
             cv2.imwrite(os.path.join(image_output_dir, img_name), img)
+            draw_and_save_results(results, check_output_dir, img_name)
             print(f"📥 Imagen y label guardados para reentrenamiento: {img_name}")
         
         update_log(log_data, img_name, accuracy)
