@@ -1,6 +1,6 @@
 import json, os
 from flask import Flask
-from app.api import API 
+from api import API 
 
 class Server:
     def __init__(self, app: Flask):

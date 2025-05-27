@@ -102,6 +102,63 @@ def save_yolo_labels(results, img_path: str, label_output_path: str):
             x, y, bw, bh = xywh[0] / w, xywh[1] / h, xywh[2] / w, xywh[3] / h
             f.write(f"{cls} {x:.6f} {y:.6f} {bw:.6f} {bh:.6f}\n")
 
+def save_isolated_teeth(results, img, img_name: str, output_dir: str) -> None:
+    boxes = results[0].boxes
+    if boxes is None or boxes.shape[0] == 0:
+        return
+
+    img_basename = Path(img_name).stem
+    h_img, w_img = img.shape[:2]
+
+    for i, box in enumerate(boxes):
+        cls = int(box.cls.item())
+        xyxy = box.xyxy[0].cpu().numpy().astype(int)  # [x1, y1, x2, y2]
+        x1, y1, x2, y2 = xyxy
+
+        box_w, box_h = x2 - x1, y2 - y1
+
+        # Padding según proporción
+        if box_h < 2 * box_w:
+            pad_top = pad_bottom = pad_left = pad_right = 20
+        else:
+            pad_top = pad_bottom = 0
+            pad_left = pad_right = 20
+
+        # Calculamos crop con padding
+        crop_x1 = x1 - pad_left
+        crop_y1 = y1 - pad_top
+        crop_x2 = x2 + pad_right
+        crop_y2 = y2 + pad_bottom
+
+        # Ajustar límites para que no salga del tamaño de la imagen
+        crop_x1_clamped = max(0, crop_x1)
+        crop_y1_clamped = max(0, crop_y1)
+        crop_x2_clamped = min(w_img, crop_x2)
+        crop_y2_clamped = min(h_img, crop_y2)
+
+        tooth_crop = img[crop_y1_clamped:crop_y2_clamped, crop_x1_clamped:crop_x2_clamped]
+
+        # En caso de que haya padding fuera de la imagen, lo replicamos
+        pad_left_actual = crop_x1_clamped - crop_x1
+        pad_top_actual = crop_y1_clamped - crop_y1
+        pad_right_actual = crop_x2 - crop_x2_clamped
+        pad_bottom_actual = crop_y2 - crop_y2_clamped
+
+        if pad_left_actual > 0 or pad_top_actual > 0 or pad_right_actual > 0 or pad_bottom_actual > 0:
+            tooth_crop = cv2.copyMakeBorder(
+                tooth_crop,
+                top=pad_top_actual,
+                bottom=pad_bottom_actual,
+                left=pad_left_actual,
+                right=pad_right_actual,
+                borderType=cv2.BORDER_REPLICATE
+            )
+
+        out_path = os.path.join(output_dir, f"{img_basename}_tooth_{cls}_{i}.jpg")
+        cv2.imwrite(out_path, tooth_crop)
+        print(f"🖼️ Diente aislado guardado: {out_path}")
+
+
 def main():
     
     # ============ CONFIG AND CONSTANTS ============
@@ -115,10 +172,12 @@ def main():
     output_folder = os.path.join(HOME_DIR, "final_model/predictions")
     log_path = os.path.join(HOME_DIR, "final_model/inference_log.json")
     
+    isolated_teeth_dir = os.path.join(HOME_DIR, "data/isolated_teeth")
     retraining_folder = os.path.join(HOME_DIR, "data/retraining_data/train")
     image_output_dir = os.path.join(retraining_folder, "images")
     label_output_dir = os.path.join(retraining_folder, "labels")
     check_output_dir = os.path.join(retraining_folder, "check")
+    
 
     os.makedirs(image_output_dir, exist_ok=True)
     os.makedirs(label_output_dir, exist_ok=True)
@@ -157,6 +216,10 @@ def main():
             cv2.imwrite(os.path.join(image_output_dir, img_name), img)
             draw_and_save_results(results, check_output_dir, img_name)
             print(f"📥 Imagen y label guardados para reentrenamiento: {img_name}")
+            
+            os.makedirs(isolated_teeth_dir, exist_ok=True)
+            save_isolated_teeth(results, img, img_name, isolated_teeth_dir)
+            print(f"🦷 Dientes aislados guardados en: {isolated_teeth_dir}")
         
         update_log(log_data, img_name, accuracy)
         save_log(log_data, log_path)

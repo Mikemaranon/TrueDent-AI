@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Clasificador Dental</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 2rem; }
+        img { max-width: 90%; max-height: 400px; margin-bottom: 1rem; }
+        button { padding: 1rem 2rem; margin: 1rem; font-size: 1.2rem; }
+        #export { margin-top: 2rem; font-size: 1rem; }
+    </style>
+</head>
+<body>
+    <h1>Clasificador Dental</h1>
+    <div>
+        <img id="image" src="" alt="Cargando..." />
+        <div>
+        <button onclick="classify('sane')">Sano</button>
+        <button onclick="classify('bad')">Malo</button>
+        </div>
+        <button id="export" onclick="exportJSON()">Exportar JSON</button>
+    </div>
+    <script>
+        window.gitUrl = "https://tuusuario.github.io/TrueDent-AI/TrueDent/02_diagnosis_model"; // Cambia esto por tu URL real
+    </script>
+
+    <script>
+        // 🧠 Definí esto en tu entorno de producción
+        const gitUrl = window.gitUrl || ''; // Definilo antes de cargar este script
+
+        const imageFolder = gitUrl + '/static/images_to_classify';
+
+        // 🧾 Lista hardcodeada o generada desde backend previamente
+        const images = [
+        "1x_radio1.jpg",
+        "2x_radio2.jpg",
+        "3x_radio3.jpg",
+        "4x_radio4.jpg"
+        ];
+
+        let currentIndex = 0;
+        const classifications = {};
+
+        function showImage() {
+        if (currentIndex >= images.length) {
+            document.getElementById('image').src = '';
+            document.getElementById('image').alt = '¡Clasificación completada!';
+            return;
+        }
+        const filename = images[currentIndex];
+        document.getElementById('image').src = `${imageFolder}/${filename}`;
+        }
+
+        function classify(label) {
+        const filename = images[currentIndex];
+        classifications[filename] = label;
+        currentIndex++;
+        showImage();
+        }
+
+        function exportJSON() {
+        const blob = new Blob([JSON.stringify(classifications, null, 2)], { type: 'application/json' });
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'clasificacion_dientes.json';
+        a.click();
+        }
+
+        showImage();
+    </script>
+</body>
+</html>
