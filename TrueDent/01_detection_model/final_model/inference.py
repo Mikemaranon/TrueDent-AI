@@ -89,16 +89,45 @@ def draw_and_save_results(results, output_path: str, img_name: str) -> None:
     cv2.imwrite(out_file, annotated)
     print(f"✅ Imagen guardada: {out_file}")
 
+def save_yolo_labels(results, img_path: str, label_output_path: str):
+    img_name = Path(img_path).stem
+    label_file = os.path.join(label_output_path, f"{img_name}.txt")
+    boxes = results[0].boxes
+    h, w = results[0].orig_shape
+
+    with open(label_file, "w") as f:
+        for i in range(len(boxes)):
+            cls = int(boxes.cls[i].item())
+            xywh = boxes.xywh[i]  # tensor([x_center, y_center, width, height])
+            x, y, bw, bh = xywh[0] / w, xywh[1] / h, xywh[2] / w, xywh[3] / h
+            f.write(f"{cls} {x:.6f} {y:.6f} {bw:.6f} {bh:.6f}\n")
+
 def main():
-    model_path = "/home/mike/Desktop/codes/projects/AI_PRJ/TrueDent-AI/TrueDent/01_detection_model/final_model/TrueDent_v1.onnx"
-    input_folder = "/home/mike/Desktop/codes/projects/AI_PRJ/TrueDent-AI/TrueDent/01_detection_model/data/yolo_train_dataset/test/images"
-    output_folder = "/home/mike/Desktop/codes/projects/AI_PRJ/TrueDent-AI/TrueDent/01_detection_model/final_model/predictions"
-    log_path = os.path.join(output_folder, "inference_log.json")
+    
+    # ============ CONFIG AND CONSTANTS ============
+    
+    IMG_COUNT = 20
+    HOME_DIR = "/home/mike/Desktop/codes/projects/AI_PRJ/TrueDent-AI/TrueDent/01_detection_model/"
+    RETRAIN = True
+    
+    model_path = os.path.join(HOME_DIR, "final_model/TrueDent_v1.onnx")
+    input_folder = os.path.join(HOME_DIR, "data/yolo_train_dataset/test/images")
+    output_folder = os.path.join(HOME_DIR, "final_model/predictions")
+    log_path = os.path.join(HOME_DIR, "final_model/inference_log.json")
+    
+    retraining_folder = os.path.join(HOME_DIR, "data/retraining_data/train")
+    image_output_dir = os.path.join(retraining_folder, "images")
+    label_output_dir = os.path.join(retraining_folder, "labels")
+
+    os.makedirs(image_output_dir, exist_ok=True)
+    os.makedirs(label_output_dir, exist_ok=True)
 
     ensure_output_folder(output_folder)
     model = get_model(model_path)
     log_data = load_log(log_path)
-    selected_imgs = get_random_images(input_folder, 3)
+    selected_imgs = get_random_images(input_folder, IMG_COUNT)
+    
+    # =========== MAIN PROCESS ===========
 
     for img_name in selected_imgs:
         print(f"🦷 Procesando {img_name}...")
@@ -118,11 +147,19 @@ def main():
         detected_labels = [int(names_dict[idx]) for idx in cls_indices]
         
         accuracy = labeling_accuracy(detected_labels)
+        
+        # FILTRO: solo guardamos pseudo-labels si la precisión supera 90%
+        if RETRAIN and accuracy["precision"] >= 90 and len(accuracy["repeated"]) == 0:
+            img_name = Path(img_path).name
+            save_yolo_labels(results, img_path, label_output_dir)
+            cv2.imwrite(os.path.join(image_output_dir, img_name), img)
+            print(f"📥 Imagen y label guardados para reentrenamiento: {img_name}")
+        
         update_log(log_data, img_name, accuracy)
         save_log(log_data, log_path)
         draw_and_save_results(results, output_folder, img_name)
 
-    print("🏁 Listo. Solo se procesaron 3 imágenes.")
+    print("🏁 Listo. Solo se procesaron ", IMG_COUNT, " imágenes.")
 
 if __name__ == "__main__":
     main()
