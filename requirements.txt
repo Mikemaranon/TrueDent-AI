@@ -1,5 +1,6 @@
 tensorflow>=2.12
 ultralytics>=8.0.0
+cryptography==45.0.3
 opencv-python
 matplotlib
 numpy
@@ -8,3 +9,5 @@ tifffile
 scikit-image
 psutil
 ipython
+flask
+jwt
