@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Iniciar Sesión</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <script src="static/token_handler.js"></script>
     <!-- Bootstrap CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     
@@ -53,18 +53,16 @@
             const username = document.getElementById("username").value;
             const password = document.getElementById("password").value;
 
-            const res = await fetch("/login", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ username, password })
-            });
+            const res = await login(username, password);
 
             const data = await res.json();
-            if (res.ok) {
-                localStorage.setItem("token", data.token);
-                window.location.href = "/";
+            if (response.ok && data.token) {
+                store_token(data.token);
+                console.log("token: ", data.token);
+                loadPage("/");
             } else {
-                alert("Credenciales incorrectas");
+                errorMessage.textContent = data.error || "An error occurred.";
+                errorMessage.style.display = "block";
             }
         });
     </script>

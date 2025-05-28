@@ -24,8 +24,14 @@ class UserManager:
 
     def authenticate(self, username: str, password: str):
         user = self.db.get_user(username)
-        if user and check_password_hash(user["password"], password):
-            return True
+
+        if user:
+            print("🔐 Contraseña hasheada almacenada:", user["password"])
+            print("🧑 Contraseña introducida por el usuario:", password)
+
+            if check_password_hash(user["password"], password):
+                return True
+
         return False
 
     def generate_token(self, username: str):
