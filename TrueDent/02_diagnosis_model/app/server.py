@@ -16,7 +16,7 @@ class Server:
         # Clave secreta para la sesión
         app.secret_key = os.urandom(24)
         
-        app.run(debug=True, host='100.104.64.29', port='5000')
+        app.run(debug=True, host='127.0.0.1', port='5000')
         
     def ini_database(self):
         return Database()
