@@ -2,6 +2,7 @@ import os
 import cv2
 import random
 import json
+import numpy as np
 from pathlib import Path
 from ultralytics import YOLO
 from collections import Counter
@@ -46,7 +47,7 @@ def read_image(img_path: str):
     return img
 
 def predict_image(model: YOLO, img) -> list:
-    results = model.predict(source=img, imgsz=960, conf=0.25)
+    results = model.predict(source=img, imgsz=960, conf=0.1)
     boxes = results[0].boxes
     if boxes is None or boxes.shape[0] == 0:
         return None
@@ -59,7 +60,7 @@ def labeling_accuracy(detected_teeth: list[int]) -> dict:
         18,17,16,15,14,13,12,11,21,22,23,24,25,26,27,28,
         48,47,46,45,44,43,42,41,31,32,33,34,35,36,37,38
     }
-
+ 
     detected_set = set(detected_teeth)
     
     from collections import Counter
@@ -101,6 +102,42 @@ def save_yolo_labels(results, img_path: str, label_output_path: str):
             xywh = boxes.xywh[i]  # tensor([x_center, y_center, width, height])
             x, y, bw, bh = xywh[0] / w, xywh[1] / h, xywh[2] / w, xywh[3] / h
             f.write(f"{cls} {x:.6f} {y:.6f} {bw:.6f} {bh:.6f}\n")
+
+def transform_image(img, target_size=(1700, 1200)):
+    h, w = img.shape[:2]
+    target_w, target_h = target_size
+
+    if w < target_w or h < target_h:
+        return img
+
+    x_start = (w - target_w) // 2
+    y_start = (h - target_h) // 2
+
+    return img[y_start:y_start+target_h, x_start:x_start+target_w]
+
+
+def stretch_contrast_grayscale(img, clip_percent=10.0):
+    # Convertimos a escala de grises si no lo está
+    if len(img.shape) == 3:
+        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    else:
+        gray = img.copy()
+
+    pixels = gray.flatten()
+
+    # Definimos límites internos usando percentiles
+    lower = np.percentile(pixels, clip_percent)
+    upper = np.percentile(pixels, 100 - clip_percent)
+
+    if upper - lower < 10:
+        print("⚠️ Imagen con muy poca variación útil de grises, posible fondo plano.")
+        return cv2.merge([gray]*3)
+
+    # Stretching solo entre los límites definidos
+    stretched = ((gray - lower) * (255.0 / (upper - lower)))
+    stretched = np.clip(stretched, 0, 255).astype(np.uint8)
+
+    return cv2.merge([stretched]*3)
 
 def save_isolated_teeth(results, img, img_name: str, output_dir: str) -> None:
     boxes = results[0].boxes
@@ -163,12 +200,14 @@ def main():
     
     # ============ CONFIG AND CONSTANTS ============
     
-    IMG_COUNT = 20
+    IMG_COUNT = 900 # numero de imágenes a procesar elegido por ana
     HOME_DIR = "/home/mike/Desktop/codes/projects/AI_PRJ/TrueDent-AI/TrueDent/01_detection_model/"
     RETRAIN = True
     
+    good_cnt = 0
     model_path = os.path.join(HOME_DIR, "final_model/TrueDent_v1.onnx")
     input_folder = os.path.join(HOME_DIR, "data/yolo_train_dataset/test/images")
+    # input_folder = os.path.join(HOME_DIR, "data/retraining_data/prev")
     output_folder = os.path.join(HOME_DIR, "final_model/predictions")
     log_path = os.path.join(HOME_DIR, "final_model/inference_log.json")
     
@@ -178,7 +217,7 @@ def main():
     label_output_dir = os.path.join(retraining_folder, "labels")
     check_output_dir = os.path.join(retraining_folder, "check")
     
-
+    os.makedirs(isolated_teeth_dir, exist_ok=True)
     os.makedirs(image_output_dir, exist_ok=True)
     os.makedirs(label_output_dir, exist_ok=True)
     os.makedirs(check_output_dir, exist_ok=True)
@@ -197,6 +236,9 @@ def main():
         if img is None:
             continue
 
+        img = transform_image(img)
+        img = stretch_contrast_grayscale(img)
+        
         results = predict_image(model, img)
         if not results:
             print(f"⚠️ No se detectó nada en {img_name}")
@@ -210,22 +252,22 @@ def main():
         accuracy = labeling_accuracy(detected_labels)
         
         # FILTRO: solo guardamos pseudo-labels si la precisión supera 90%
-        if RETRAIN and accuracy["precision"] >= 90 and len(accuracy["repeated"]) == 0:
+        if RETRAIN and accuracy["precision"] >= 60:
             img_name = Path(img_path).name
             save_yolo_labels(results, img_path, label_output_dir)
             cv2.imwrite(os.path.join(image_output_dir, img_name), img)
             draw_and_save_results(results, check_output_dir, img_name)
             print(f"📥 Imagen y label guardados para reentrenamiento: {img_name}")
             
-            os.makedirs(isolated_teeth_dir, exist_ok=True)
             save_isolated_teeth(results, img, img_name, isolated_teeth_dir)
             print(f"🦷 Dientes aislados guardados en: {isolated_teeth_dir}")
+            good_cnt += 1
         
         update_log(log_data, img_name, accuracy)
         save_log(log_data, log_path)
         draw_and_save_results(results, output_folder, img_name)
 
-    print("🏁 Listo. Solo se procesaron ", IMG_COUNT, " imágenes.")
+    print("🏁 Listo. Se procesaron ", IMG_COUNT, " imágenes. ", good_cnt, " han sido con precision de 90% o mas")
 
 if __name__ == "__main__":
     main()

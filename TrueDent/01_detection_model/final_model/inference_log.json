@@ -1,6 +1,565 @@
 {
-    "inferences": 0,
+    "inferences": 37,
     "results": {
-
+        "image_1": {
+            "file": "cate3-00003_jpg.rf.242fe63ad7de085f4641dfa555cefc93.jpg",
+            "precision": "100.00",
+            "repeated": [
+                "32",
+                "33"
+            ],
+            "missing": []
+        },
+        "image_2": {
+            "file": "cate2-00004_jpg.rf.1fb15fe8ac6efd72e12e1eb323fe15c2.jpg",
+            "precision": "96.88",
+            "repeated": [],
+            "missing": [
+                "24"
+            ]
+        },
+        "image_3": {
+            "file": "cate4-00106_jpg.rf.0b94a0c5f3ce997322d764ff6f7eca16.jpg",
+            "precision": "81.25",
+            "repeated": [
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "31",
+                "32",
+                "33",
+                "48"
+            ],
+            "missing": [
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17"
+            ]
+        },
+        "image_4": {
+            "file": "cate6-00027_jpg.rf.f527451eb9f5af83370ee7c4211d5b00.jpg",
+            "precision": "100.00",
+            "repeated": [
+                "37"
+            ],
+            "missing": []
+        },
+        "image_5": {
+            "file": "cate4-00073_jpg.rf.42e2dae6771a43bf524a930eb73e6ebb.jpg",
+            "precision": "100.00",
+            "repeated": [],
+            "missing": []
+        },
+        "image_6": {
+            "file": "cate4-00111_jpg.rf.1d271e4bcca3671a387db2ec5f0d4341.jpg",
+            "precision": "100.00",
+            "repeated": [
+                "27",
+                "27",
+                "28",
+                "31",
+                "32"
+            ],
+            "missing": []
+        },
+        "image_7": {
+            "file": "cate2-00115_jpg.rf.feb85e64865d69bce1e36077deaeab61.jpg",
+            "precision": "87.50",
+            "repeated": [
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "38"
+            ],
+            "missing": [
+                "15",
+                "16",
+                "17",
+                "45"
+            ]
+        },
+        "image_8": {
+            "file": "cate4-00113_jpg.rf.239bf24468fa8c46ccf721c6515d5b3a.jpg",
+            "precision": "100.00",
+            "repeated": [],
+            "missing": []
+        },
+        "image_9": {
+            "file": "cate2-00101_jpg.rf.9f60235642c365cc56434856eef4ee09.jpg",
+            "precision": "100.00",
+            "repeated": [
+                "23",
+                "42"
+            ],
+            "missing": []
+        },
+        "image_10": {
+            "file": "cate4-00072_jpg.rf.0fbed3f154747c201c7c216b2634bd66.jpg",
+            "precision": "100.00",
+            "repeated": [
+                "13",
+                "31"
+            ],
+            "missing": []
+        },
+        "image_11": {
+            "file": "cate4-00112_jpg.rf.8888c76673fdb18c3510b7fe28dab826.jpg",
+            "precision": "87.50",
+            "repeated": [
+                "11",
+                "12",
+                "13",
+                "18",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "47",
+                "48"
+            ],
+            "missing": [
+                "15",
+                "16",
+                "17",
+                "38"
+            ]
+        },
+        "image_12": {
+            "file": "cate4-00107_jpg.rf.d28348f3fd74ad59bd11cdab2fbab85b.jpg",
+            "precision": "100.00",
+            "repeated": [
+                "18"
+            ],
+            "missing": []
+        },
+        "image_13": {
+            "file": "cate4-00089_jpg.rf.6a2aeed3b1c4b9c2fcacff9124a98b63.jpg",
+            "precision": "100.00",
+            "repeated": [],
+            "missing": []
+        },
+        "image_14": {
+            "file": "cate2-00129_jpg.rf.f341f1cc565a40e9be61f8ba8cf2d12c.jpg",
+            "precision": "87.50",
+            "repeated": [
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "31"
+            ],
+            "missing": [
+                "14",
+                "15",
+                "16",
+                "17"
+            ]
+        },
+        "image_15": {
+            "file": "cate6-00122_jpg.rf.83a34eeb48a30429e949b04145c8b4aa.jpg",
+            "precision": "90.62",
+            "repeated": [
+                "14",
+                "27"
+            ],
+            "missing": [
+                "18",
+                "28",
+                "48"
+            ]
+        },
+        "image_16": {
+            "file": "cate10-00018_jpg.rf.e2fee68ab8c4d58743e6099bb6ccb597.jpg",
+            "precision": "75.00",
+            "repeated": [
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "17",
+                "21",
+                "46",
+                "47",
+                "48"
+            ],
+            "missing": [
+                "16",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "38"
+            ]
+        },
+        "image_17": {
+            "file": "cate1-00041_jpg.rf.08c050565c2241e65e4ca3ce7f714368.jpg",
+            "precision": "100.00",
+            "repeated": [
+                "32",
+                "33",
+                "34",
+                "35"
+            ],
+            "missing": []
+        },
+        "image_18": {
+            "file": "cate10-00030_jpg.rf.d3e923451688ebd1865ebd7575569547.jpg",
+            "precision": "31.25",
+            "repeated": [],
+            "missing": [
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "34",
+                "35",
+                "36",
+                "37",
+                "38",
+                "44",
+                "45",
+                "46",
+                "47",
+                "48"
+            ]
+        },
+        "image_19": {
+            "file": "cate10-00024_jpg.rf.e7c951f564a56d45f88c13401e4ccfdb.jpg",
+            "precision": "62.50",
+            "repeated": [
+                "26",
+                "27",
+                "31",
+                "32",
+                "42"
+            ],
+            "missing": [
+                "13",
+                "15",
+                "34",
+                "35",
+                "36",
+                "37",
+                "38",
+                "41",
+                "45",
+                "46",
+                "47",
+                "48"
+            ]
+        },
+        "image_20": {
+            "file": "cate2-00102_jpg.rf.65c9c658282d3cde127278893e6dc9c9.jpg",
+            "precision": "100.00",
+            "repeated": [],
+            "missing": []
+        },
+        "image_21": {
+            "file": "cate1-00047_jpg.rf.bcf913fc3b431f25462c25c32c8435d7.jpg",
+            "precision": "90.62",
+            "repeated": [
+                "13",
+                "14",
+                "17",
+                "18",
+                "45",
+                "46",
+                "47",
+                "48"
+            ],
+            "missing": [
+                "36",
+                "37",
+                "38"
+            ]
+        },
+        "image_22": {
+            "file": "cate2-00114_jpg.rf.1187a09bcb3a05a2fe0cb942506602e3.jpg",
+            "precision": "93.75",
+            "repeated": [
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "31",
+                "32",
+                "33",
+                "41",
+                "42",
+                "43",
+                "44"
+            ],
+            "missing": [
+                "16",
+                "17"
+            ]
+        },
+        "image_23": {
+            "file": "cate2-00106_jpg.rf.c9b9875046320ef052a8807e49a365ca.jpg",
+            "precision": "100.00",
+            "repeated": [
+                "18",
+                "28",
+                "47",
+                "48"
+            ],
+            "missing": []
+        },
+        "image_24": {
+            "file": "cate2-00012_jpg.rf.0484e22a6f13c36d8fc5ae4bbbf568c6.jpg",
+            "precision": "62.50",
+            "repeated": [
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "37",
+                "38",
+                "38"
+            ],
+            "missing": [
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "43",
+                "44",
+                "45",
+                "46",
+                "47",
+                "48"
+            ]
+        },
+        "image_25": {
+            "file": "cate2-00007_jpg.rf.d7753ecf517d9a439fe7de643301610f.jpg",
+            "precision": "100.00",
+            "repeated": [
+                "12"
+            ],
+            "missing": []
+        },
+        "image_26": {
+            "file": "cate2-00105_jpg.rf.45cac4248100d4856cc4a83d20298685.jpg",
+            "precision": "100.00",
+            "repeated": [],
+            "missing": []
+        },
+        "image_27": {
+            "file": "cate4-00099_jpg.rf.710e9edac74fdf77a1a2feb13d809232.jpg",
+            "precision": "96.88",
+            "repeated": [
+                "22",
+                "28",
+                "31"
+            ],
+            "missing": [
+                "12"
+            ]
+        },
+        "image_28": {
+            "file": "cate2-00111_jpg.rf.9501b5f21a6741a69453c5660ce8353e.jpg",
+            "precision": "96.88",
+            "repeated": [
+                "28",
+                "28"
+            ],
+            "missing": [
+                "26"
+            ]
+        },
+        "image_29": {
+            "file": "cate5-00007_jpg.rf.875910a4429adb2f8a817ac772717e58.jpg",
+            "precision": "6.25",
+            "repeated": [
+                "18"
+            ],
+            "missing": [
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "31",
+                "32",
+                "33",
+                "34",
+                "35",
+                "36",
+                "37",
+                "38",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45",
+                "46",
+                "47",
+                "48"
+            ]
+        },
+        "image_30": {
+            "file": "cate5-00115_jpg.rf.481409bf4dfed95590e0ec97ff2f0dd6.jpg",
+            "precision": "46.88",
+            "repeated": [
+                "17",
+                "27",
+                "31",
+                "32",
+                "33",
+                "33",
+                "34",
+                "34",
+                "41"
+            ],
+            "missing": [
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "35",
+                "36",
+                "37",
+                "38",
+                "46",
+                "47",
+                "48"
+            ]
+        },
+        "image_31": {
+            "file": "cate3-00016_jpg.rf.d93c71c586be9b9c8ffb0e596b8904d1.jpg",
+            "precision": "100.00",
+            "repeated": [
+                "28",
+                "31",
+                "48"
+            ],
+            "missing": []
+        },
+        "image_32": {
+            "file": "cate1-00026_jpg.rf.365e2e2d1d708d69d19a27a09f0b05de.jpg",
+            "precision": "100.00",
+            "repeated": [],
+            "missing": []
+        },
+        "image_33": {
+            "file": "cate2-00113_jpg.rf.13ff40ae6bbb7cddc3abb1bbda329c1e.jpg",
+            "precision": "100.00",
+            "repeated": [
+                "21",
+                "22",
+                "23",
+                "28",
+                "32",
+                "48"
+            ],
+            "missing": []
+        },
+        "image_34": {
+            "file": "cate2-00112_jpg.rf.2acee4ae1d94cb4342a95211a91f401b.jpg",
+            "precision": "90.62",
+            "repeated": [
+                "13",
+                "15",
+                "16",
+                "17",
+                "18",
+                "21",
+                "22",
+                "23",
+                "24",
+                "25",
+                "46",
+                "47",
+                "48"
+            ],
+            "missing": [
+                "27",
+                "37",
+                "38"
+            ]
+        },
+        "image_35": {
+            "file": "cate4-00088_jpg.rf.d5f9b0e2f64eb033dcf8f86c5f0374a5.jpg",
+            "precision": "100.00",
+            "repeated": [],
+            "missing": []
+        },
+        "image_36": {
+            "file": "cate3-00014_jpg.rf.8042132daeee070cd7bf4fb49c14f85a.jpg",
+            "precision": "100.00",
+            "repeated": [],
+            "missing": []
+        },
+        "image_37": {
+            "file": "cate5-00061_jpg.rf.06b2bd4f9d9083fbab3b38698c67dba4.jpg",
+            "precision": "65.62",
+            "repeated": [
+                "22"
+            ],
+            "missing": [
+                "13",
+                "14",
+                "16",
+                "18",
+                "26",
+                "35",
+                "36",
+                "37",
+                "38",
+                "46",
+                "47"
+            ]
+        }
     }
 }
