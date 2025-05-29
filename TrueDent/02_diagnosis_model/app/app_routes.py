@@ -119,7 +119,20 @@ class AppRoutes:
         return 0
     
     def API_get_image(self):
-        return 0
+        user = self.check_user()
+        if not user:
+            return jsonify({"error": "Unauthorized"}), 401
+
+        # Obtenemos el nombre de la imagen actual desde query param opcional
+        image_name = request.args.get("image_name")
+
+        # Intentamos obtener la siguiente imagen
+        image_path = self.database.get_image(image_name, user.username)
+        
+        if image_path:
+            return jsonify({"image": image_path}), 200
+        else:
+            return jsonify({"message": "No more images"}), 204
     
     def check():
         return jsonify({"status": "ok"}), 200
