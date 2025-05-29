@@ -51,6 +51,7 @@ class AppRoutes:
     def _register_APIs(self):        
         self.app.add_url_rule("/api/post-result", "post_result", self.API_post_result, methods=["POST"])
         self.app.add_url_rule("/api/get-image", "get_image", self.API_get_image, methods=["GET"])
+        self.app.add_url_rule("/api/check", "check", self.check, methods=["GET"])
 
     # ==================================================================================
     #                           BASIC ROUTINGS URLs
@@ -119,9 +120,6 @@ class AppRoutes:
         
         return 0
     
-    # def API_get_image(self):
-    #     return 0
-    
     
     DATA_DIR = os.path.join(os.path.dirname(__file__), "data_m", "images")
     SRC_DIR = os.path.join(DATA_DIR, "src")
@@ -141,3 +139,6 @@ class AppRoutes:
             return jsonify({"image": image_path}), 200
         else:
             return jsonify({"message": "No more images"}), 204
+
+    def check():
+        return jsonify({"status": "ok"}), 200
