@@ -57,7 +57,7 @@
             const data = await res.json();
             console.log("Response: ", data);
 
-            if (response.ok && data.token) {
+            if (res.ok && data.token) {
                 store_token(data.token);
                 console.log("token: ", data.token);
                 loadPage("/");
