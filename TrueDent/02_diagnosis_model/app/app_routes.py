@@ -1,5 +1,6 @@
 import jwt
-from flask import render_template, redirect, request, url_for, jsonify
+import zipfile
+from flask import render_template, redirect, request, url_for, jsonify, send_file
 from user_m.user_manager import UserManager
 from data_m.database import Database, USERNAME, PASSWORD
 from main import app
@@ -15,7 +16,6 @@ class AppRoutes:
         self._register_APIs()
     
     def get_request_token(self):
-        # 1. token from header Authorization
         auth_header = request.headers.get("Authorization")
         if auth_header and auth_header.startswith("Bearer "):
             token = auth_header.split(" ")[1]
@@ -51,15 +51,16 @@ class AppRoutes:
     def _register_APIs(self):        
         self.app.add_url_rule("/api/post-result", "post_result", self.API_post_result, methods=["POST"])
         self.app.add_url_rule("/api/get-image", "get_image", self.API_get_image, methods=["GET"])
-        self.app.add_url_rule("/api/check", "check", self.check, methods=["GET"])
+        self.app.add_url_rule("/api/check", "check", self.API_check, methods=["GET"])
+        self.app.add_url_rule("/api/download/jsons", "download_jsons", self.API_download_jsons, methods=["GET"])
 
     # ==================================================================================
     #                           BASIC ROUTINGS URLs
     #
-    #            [get_home]             go to index.html
+    #            [get_home]             check user and redirect to get_index
+    #            [get_index]            go to index.html
     #            [get_login]            log user and send his token
     #            [get_logout]           log user out, send to index.html 
-    #            [get_userConfig]       redirect to users current condiguration
     # ================================================================================== 
     
     def get_index(self):
@@ -140,5 +141,26 @@ class AppRoutes:
         else:
             return jsonify({"message": "No more images"}), 204
 
-    def check():
+    def API_check(self):
         return jsonify({"status": "ok"}), 200
+    
+    def API_download_jsons(self):
+        zip_path = "/tmp/truedent_jsons.zip"
+
+        base_path = os.path.join(os.getcwd(), "data_m")
+        images_path = os.path.join(base_path, "images")
+
+        with zipfile.ZipFile(zip_path, 'w') as zipf:
+            # Add users.json
+            users_json = os.path.join(base_path, "users.json")
+            if os.path.exists(users_json):
+                zipf.write(users_json, arcname="users.json")
+
+            # Add all JSON files inside images/
+            for filename in os.listdir(images_path):
+                if filename.endswith(".json"):
+                    file_path = os.path.join(images_path, filename)
+                    zipf.write(file_path, arcname=f"images/{filename}")
+
+        return send_file(zip_path, as_attachment=True)
+    
