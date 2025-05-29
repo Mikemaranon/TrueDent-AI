@@ -54,8 +54,9 @@
             const password = document.getElementById("password").value;
 
             const res = await login(username, password);
-
             const data = await res.json();
+            console.log("Response: ", data);
+
             if (response.ok && data.token) {
                 store_token(data.token);
                 console.log("token: ", data.token);
