@@ -3,6 +3,8 @@ from flask import render_template, redirect, request, url_for, jsonify
 from user_m.user_manager import UserManager
 from data_m.database import Database, USERNAME, PASSWORD
 from main import app
+import os
+import json
 
 class AppRoutes:
     def __init__(self, app, user_manager: UserManager, database: Database):
@@ -117,5 +119,25 @@ class AppRoutes:
         
         return 0
     
+    # def API_get_image(self):
+    #     return 0
+    
+    
+    DATA_DIR = os.path.join(os.path.dirname(__file__), "data_m", "images")
+    SRC_DIR = os.path.join(DATA_DIR, "src")
+
     def API_get_image(self):
-        return 0
+        user = self.check_user()
+        if not user:
+            return jsonify({"error": "Unauthorized"}), 401
+
+        # Obtenemos el nombre de la imagen actual desde query param opcional
+        image_name = request.args.get("image_name")
+
+        # Intentamos obtener la siguiente imagen
+        image_path = self.database.get_image(image_name, user.username)
+        
+        if image_path:
+            return jsonify({"image": image_path}), 200
+        else:
+            return jsonify({"message": "No more images"}), 204
