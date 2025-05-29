@@ -59,6 +59,7 @@
 
             if (res.ok && data.token) {
                 store_token(data.token);
+                localStorage.setItem("username", username);
                 console.log("token: ", data.token);
                 loadPage("/");
             } else {
