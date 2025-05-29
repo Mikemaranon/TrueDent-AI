@@ -1,24 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Inicio</title>
+    <meta charset="UTF-8">
+    <title>¿Es un diente sano?</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body>
-    <h1>Bienvenido</h1>
-    <button id="logoutBtn">Cerrar Sesión</button>
 
+<body>
+    <!-- Encabezado azul claro -->
+    <nav class="navbar bg-info justify-content-center">
+        <span class="navbar-brand mb-0 h2 text-center">¿Es un diente sano?</span>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="container mt-5">
+        <div class="d-flex justify-content-center align-items-center mb-3">
+            <button id="noBtn" class="btn btn-danger me-3">No</button>
+            <img id="toothImage" src="" class="img-fluid" style="max-height: 400px;">
+            <button id="yesBtn" class="btn btn-success ms-3">Sí</button>
+        </div>
+
+        <div class="text-center">
+            <button id="uncertainBtn" class="btn btn-secondary">No lo tengo claro</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
     <script>
-        document.getElementById("logoutBtn").addEventListener("click", async () => {
-            const token = localStorage.getItem("token");
-            await fetch("/logout", {
+        let currentIndex = 0;
+        let username = localStorage.getItem("username");
+
+        async function loadImage() {
+            const res = await fetch(`/image/${username}`);
+            const data = await res.json();
+            document.getElementById("toothImage").src = data.url;
+            currentIndex = data.index;
+        }
+
+        async function sendLabel(label) {
+            await fetch(`/label/${username}`, {
                 method: "POST",
-                headers: {
-                    "Authorization": "Bearer " + token
-                }
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ index: currentIndex, label: label })
             });
-            localStorage.removeItem("token");
-            window.location.href = "/login";
-        });
+            loadImage();  // load next image
+        }
+
+        document.getElementById("yesBtn").addEventListener("click", () => sendLabel("sane"));
+        document.getElementById("noBtn").addEventListener("click", () => sendLabel("insane"));
+        document.getElementById("uncertainBtn").addEventListener("click", () => sendLabel("unknown"));
+
+        loadImage();
     </script>
 </body>
 </html>
