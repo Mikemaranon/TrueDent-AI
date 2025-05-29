@@ -15,8 +15,10 @@ class Server:
 
         # Clave secreta para la sesión
         app.secret_key = os.urandom(24)
-        
-        app.run(debug=True, host='127.0.0.1', port='5000')
+
+        # render.com configuration
+        port = int(os.environ.get('PORT', 5000))
+        app.run(debug=True, host='0.0.0.0', port=port)
         
     def ini_database(self):
         return Database()
