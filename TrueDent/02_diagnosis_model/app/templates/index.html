@@ -5,6 +5,18 @@
     <title>¿Es un diente sano?</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+<style>
+    body {
+        zoom: 150%;
+    }
+
+    @media (max-width: 1000px) {
+        body {
+            zoom: 300%;
+        }
+    }
+</style>
+
 
 <script src="static/token_handler.js"></script>
 <body>
@@ -12,12 +24,13 @@
     <nav class="navbar bg-info justify-content-center">
         <span class="navbar-brand mb-0 h2 text-center">¿Es un diente sano?</span>
     </nav>
-
     <!-- Contenido principal -->
     <div class="container mt-5">
+        <div class="text-center mb-4">
+            <img id="toothImage" src="" class="img-fluid" style="max-height: 400px;">
+        </div>
         <div class="d-flex justify-content-center align-items-center mb-3">
             <button id="noBtn" class="btn btn-danger me-3">No</button>
-            <img id="toothImage" src="" class="img-fluid" style="max-height: 400px;">
             <button id="yesBtn" class="btn btn-success ms-3">Sí</button>
         </div>
 
