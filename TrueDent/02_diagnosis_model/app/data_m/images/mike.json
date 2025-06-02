@@ -1,11 +1,3 @@
 {
-    "last-image": 0,
-    "image_1": {
-        "class": "sane",
-        "comment": "healthy teeth"
-    },
-    "image_2": {
-        "class": "insane",
-        "comment": "caries detected"
-    }
+    "last-image": 0
 }
