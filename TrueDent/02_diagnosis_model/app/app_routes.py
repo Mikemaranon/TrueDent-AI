@@ -158,20 +158,20 @@ class AppRoutes:
     def API_download_jsons(self):
         zip_path = "/tmp/truedent_jsons.zip"
 
-        base_path = os.path.join(os.getcwd(), "data_m")
+        base_path = os.path.join("/tmp", "data_m")
         images_path = os.path.join(base_path, "images")
 
         with zipfile.ZipFile(zip_path, 'w') as zipf:
-            # Add users.json
+            # Add users.json si querés mantenerlo en /tmp también (opcional)
             users_json = os.path.join(base_path, "users.json")
             if os.path.exists(users_json):
                 zipf.write(users_json, arcname="users.json")
 
-            # Add all JSON files inside images/
-            for filename in os.listdir(images_path):
-                if filename.endswith(".json"):
-                    file_path = os.path.join(images_path, filename)
-                    zipf.write(file_path, arcname=f"images/{filename}")
+            # Add all JSON files inside /tmp/data_m/images/
+            if os.path.exists(images_path):
+                for filename in os.listdir(images_path):
+                    if filename.endswith(".json"):
+                        file_path = os.path.join(images_path, filename)
+                        zipf.write(file_path, arcname=f"images/{filename}")
 
         return send_file(zip_path, as_attachment=True)
-    

@@ -71,16 +71,27 @@ class Database:
 
         
     def post_image(self, image_name: str, username: str, data: dict):
-        user_file = os.path.join(os.path.dirname(__file__), IMGS_PATH, username + ".json")
+        try:
+            # Creamos ruta nueva en /tmp/data_m/images
+            images_dir = os.path.join("/tmp", "data_m", "images")
+            os.makedirs(images_dir, exist_ok=True)
 
-        with open(user_file, "r") as f:
-            history = json.load(f)
+            user_file = os.path.join(images_dir, f"{username}.json")
 
-        # Guardamos la respuesta bajo el nombre de imagen
-        history[image_name] = data
+            # Si no existe el archivo del usuario, inicializamos
+            if not os.path.exists(user_file):
+                history = {"last-image": 0}
+            else:
+                with open(user_file, "r") as f:
+                    history = json.load(f)
 
-        # Avanzamos el índice
-        history["last-image"] += 1
+            history[image_name] = data
+            history["last-image"] += 1
 
-        with open(user_file, "w") as f:
-            json.dump(history, f, indent=4)
+            with open(user_file, "w") as f:
+                json.dump(history, f, indent=4)
+
+        except Exception as e:
+            print(f"Error al guardar imagen: {e}")
+            raise
+
