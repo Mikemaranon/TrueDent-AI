@@ -3,7 +3,7 @@ import json
 
 USER_FILE = "users.json"
 IMGS_PATH = "images/"
-TMP_IMGS_PATH = "/tmp/data_m/images/"
+TMP_IMGS_PATH = "/tmp/"
 
 # SESSION PARAMS
 USERNAME = 'username'
@@ -73,11 +73,7 @@ class Database:
         
     def post_image(self, image_name: str, username: str, data: dict):
         try:
-            # Creamos ruta nueva en /tmp/data_m/images
-            images_dir = os.path.join("/tmp", "data_m", "images")
-            os.makedirs(images_dir, exist_ok=True)
-
-            user_file = os.path.join(images_dir, f"{username}.json")
+            user_file = os.path.join(TMP_IMGS_PATH, f"{username}.json")
 
             # Si no existe el archivo del usuario, inicializamos
             if not os.path.exists(user_file):
