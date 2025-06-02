@@ -7,5 +7,26 @@
     },
     "javi": {
         "password": "scrypt:32768:8:1$qpcn67G7v1qimyke$bab894c2b54acbbe390fa9bfa8349f44054807b019c8497e12ff4695f216367ca475410469340a3894b97478327d71c7dd90551298524f1a01478c9e885f07d7"
+    },
+    "angelcidad": {
+        "password": "scrypt:32768:8:1$ZocEyH0WuVRbiiOK$31cbad57dbc1bcbf4ef3ffe2f88a76ebb42d0ef8b2fdd602f1bf849567b197fd797d3f86c4345576eeb7546b7a5afcae09e089f4ddc04fb3f6fab3d681c63cec"
+    },
+    "paulacidad": {
+        "password": "scrypt:32768:8:1$rwZCgs4doNm69eZj$333ba707b02806affcdc7fb9563b946fc12e78e95acb9426c9c2bff84f5f9d6425a45d8a8bee8ad4454b4867f325049184a336d82c08652f46cf2fd4555a2745"
+    },
+    "anarabal": {
+        "password": "scrypt:32768:8:1$B9GkfYY27tIl2hyf$0a2b33b283d4fad1614860fcccd2e4660685fbea15f1ca8e86f72b26364ad8f8305d8f0d222e01436b4cd57623e98872f2cdf01a96af75e2ebeb58cc4cb6aaeb"
+    },
+    "martadiez": {
+        "password": "scrypt:32768:8:1$y4ZL9EO1pFNRClxK$3d2684501bbd63921d5793f17cc93d5cc933ba50769347671cd53994831007d473577a104f40eca807824c9150721d7f51491a61ab6a50fe8b0ee42c049fc0f9"
+    },
+    "jramonarias": {
+        "password": "scrypt:32768:8:1$xXGwlkjHTyDfxvbf$866ff1a595b19ecf3f7254bc717151d8ea016cf538475925acea25a42f30eb32b82c208ed36da7da9868ba3b47f653ed1f800c0b8495bce1e2a2827f11a5aa74"
+    },
+    "antoniojover": {
+        "password": "scrypt:32768:8:1$yiGMF9HXX7IMarFJ$2e5b498385b88649870ec49eecf16e5a1ae08f79a30a89b00180961949a6e6ac8574190ac80486c2640b832ae5e8ec380b3fa333c4a7a8ded53164aa9aecc832"
+    },
+    "sergioangel": {
+        "password": "scrypt:32768:8:1$1Z1vP4IHSHqwGXRM$6f9d0c4c154f9f8bd5f879c4e87af28608fbea2fcd2fc3c762cb8fc1aaed36c105b78975b302b9edfb2a6a40b0e69cb5f9623526bfbf94dc3e8435194f49218d"
     }
 }
