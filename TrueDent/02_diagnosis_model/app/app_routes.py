@@ -2,7 +2,7 @@ import jwt
 import zipfile
 from flask import render_template, redirect, request, send_from_directory, url_for, jsonify, send_file
 from user_m.user_manager import UserManager
-from data_m.database import Database, USERNAME, PASSWORD
+from data_m.database import Database, USERNAME, PASSWORD, TMP_IMGS_PATH
 from main import app
 import os
 import json
@@ -158,13 +158,19 @@ class AppRoutes:
     def API_download_jsons(self):
         zip_path = "/tmp/truedent_jsons.zip"
 
-        base_path = os.path.join("/tmp")
-        images_path = os.path.join(base_path, "images")
+        images_path = TMP_IMGS_PATH
 
         with zipfile.ZipFile(zip_path, 'w') as zipf:
             # Add users.json si querés mantenerlo en /tmp también (opcional)
-            users_json = os.path.join(base_path, "users.json")
+            users_json = os.path.join(images_path, "users.json")
             if os.path.exists(users_json):
                 zipf.write(users_json, arcname="users.json")
+
+            # Add all JSON files inside /tmp/data_m/images/
+            if os.path.exists(images_path):
+                for filename in os.listdir(images_path):
+                    if filename.endswith(".json"):
+                        file_path = os.path.join(images_path, filename)
+                        zipf.write(file_path, arcname=f"images/{filename}")
 
         return send_file(zip_path, as_attachment=True)
