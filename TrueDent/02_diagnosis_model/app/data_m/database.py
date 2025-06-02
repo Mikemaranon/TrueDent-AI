@@ -2,7 +2,8 @@ import os
 import json
 
 USER_FILE = "users.json"
-IMGS_PATH = "/tmp/data_m/images/"
+IMGS_PATH = "images/"
+TMP_IMGS_PATH = "/tmp/data_m/images/"
 
 # SESSION PARAMS
 USERNAME = 'username'
@@ -48,7 +49,7 @@ class Database:
     # ================= IMAGES ================= #
     
     def get_user_index(self, username: str):
-        user_file = os.path.join(os.path.dirname(__file__), IMGS_PATH, username + ".json")
+        user_file = os.path.join(os.path.dirname(__file__), TMP_IMGS_PATH, username + ".json")
 
         if not os.path.exists(user_file):
             with open(user_file, "w") as f:
