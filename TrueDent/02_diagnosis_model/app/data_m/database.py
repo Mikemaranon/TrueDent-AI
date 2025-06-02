@@ -2,7 +2,7 @@ import os
 import json
 
 USER_FILE = "users.json"
-IMGS_PATH = "images/"
+IMGS_PATH = "/tmp/data_m/images/"
 
 # SESSION PARAMS
 USERNAME = 'username'
