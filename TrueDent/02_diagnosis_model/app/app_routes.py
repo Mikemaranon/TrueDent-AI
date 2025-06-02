@@ -1,6 +1,6 @@
 import jwt
 import zipfile
-from flask import render_template, redirect, request, url_for, jsonify, send_file
+from flask import render_template, redirect, request, send_from_directory, url_for, jsonify, send_file
 from user_m.user_manager import UserManager
 from data_m.database import Database, USERNAME, PASSWORD
 from main import app
@@ -53,6 +53,7 @@ class AppRoutes:
         self.app.add_url_rule("/api/get-image", "get_image", self.API_get_image, methods=["GET"])
         self.app.add_url_rule("/api/check", "check", self.API_check, methods=["GET"])
         self.app.add_url_rule("/api/download/jsons", "download_jsons", self.API_download_jsons, methods=["GET"])
+        self.app.add_url_rule("/images/<path:filename>", "serve_image", self.API_serve_image, methods=["GET"])
 
     # ==================================================================================
     #                           BASIC ROUTINGS URLs
@@ -107,20 +108,20 @@ class AppRoutes:
     
     def API_post_result(self):
         user = self.check_user()
-        if user:   
-            data = request.get_json()
-            if not data:
-                return jsonify({"error": "No data provided"}), 400
-            # Process the data as needed, e.g., save to database
-            
-            self.database.save_result(user.username, data)
-            
-            print(f"Received data from {user.username}: {data}")
-            
-            return jsonify({"status": "success", "message": "Data received"}), 200
-        
-        return 0
-    
+        if not user:
+            return jsonify({"error": "Unauthorized"}), 401
+
+        data = request.get_json()
+        if not data:
+            return jsonify({"error": "No data provided"}), 400
+
+        image_name = data.get("image_name")
+        if not image_name:
+            return jsonify({"error": "Missing image_name"}), 400
+
+        self.database.post_image(image_name, user.username, data)
+
+        return jsonify({"status": "success", "message": "Data received"}), 200
     
     DATA_DIR = os.path.join(os.path.dirname(__file__), "data_m", "images")
     SRC_DIR = os.path.join(DATA_DIR, "src")
@@ -130,16 +131,26 @@ class AppRoutes:
         if not user:
             return jsonify({"error": "Unauthorized"}), 401
 
-        # Obtenemos el nombre de la imagen actual desde query param opcional
-        image_name = request.args.get("image_name")
-
-        # Intentamos obtener la siguiente imagen
-        image_path = self.database.get_image(image_name, user.username)
+        image_path = self.database.get_image(user.username)
+        image_name_ext = os.path.basename(image_path) 
+        image_name = os.path.splitext(image_name_ext)[0]
+        
         
         if image_path:
-            return jsonify({"image": image_path}), 200
+            return jsonify({
+                "image": image_path,
+                "name": image_name
+            }), 200
         else:
             return jsonify({"message": "No more images"}), 204
+
+    def API_serve_image(self, filename):
+        print(f"Serving image: {filename}")
+        return send_from_directory('data_m/images', filename)
+
+    # =============================================
+    #       API protocols for ADMINISTRATORS
+    # =============================================
 
     def API_check(self):
         return jsonify({"status": "ok"}), 200

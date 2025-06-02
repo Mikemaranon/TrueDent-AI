@@ -28,22 +28,24 @@
 
     <!-- Scripts -->
     <script>
-        let currentIndex = 0;
+        let currentIndex = 0; //creo que no hace nada
         let username = localStorage.getItem("username");
+        let img_data = {
+            image_name: "",
+            class: ""
+        };
         async function loadImage() {
             const res = await send_API_request("GET", "/api/get-image")
             const data = await res.json();
-            document.getElementById("toothImage").src = data.url;
+            img_data.image_name = data.name;
+            document.getElementById("toothImage").src = data.image;
             currentIndex = data.index;
         }
 
         async function sendLabel(label) {
-            await fetch(`/label/${username}`, {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ index: currentIndex, label: label })
-            });
-            loadImage();  // load next image
+            img_data.class = label;
+            const res = await send_API_request("POST", "/api/post-result", img_data)
+            loadImage();  
         }
 
         document.getElementById("yesBtn").addEventListener("click", () => sendLabel("sane"));
