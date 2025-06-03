@@ -3,10 +3,15 @@ import json
 
 USER_FILE = "users.json"
 IMGS_PATH = "images/"
+TMP_IMGS_PATH = "/tmp/data_m/images/"
 
 # SESSION PARAMS
 USERNAME = 'username'
 PASSWORD = 'password'
+
+TOTAL_IMAGES = 1152
+IMAGE_PREFIX = "image_"
+IMAGE_EXT = ".jpg" 
 
 class Database:
     
@@ -44,55 +49,48 @@ class Database:
     # ================= IMAGES ================= #
     
     def get_user_index(self, username: str):
-        user_file = os.path.join(os.path.dirname(__file__), IMGS_PATH, username + ".json")
-        
+        app_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+        tmp_path = os.path.join(app_dir, TMP_IMGS_PATH)
+        user_file = os.path.join(tmp_path, f"{username}.json")
+
         if not os.path.exists(user_file):
-            # If user file does not exist, create it with an empty list
             with open(user_file, "w") as f:
-                json.dump({
-                    "last-image": 0,
-                }, f)
+                json.dump({"last-image": 0}, f)
             return 0
-        
+
         with open(user_file, "r") as f:
             data = json.load(f)
-            return data.get("last-image", 0)  # Returns 0 if key doesn't exist
+            return data.get("last-image", 0)
+
     
-    def get_image(self, image_name: str, username: str):
-        images_file = os.path.join(os.path.dirname(__file__), IMGS_PATH, "images.json")
-    
-        with open(images_file, "r") as f:
-            images_list = json.load(f)
+    def get_image(self, username: str):
+        index = self.get_user_index(username)
+
+        if index < TOTAL_IMAGES:
+            next_image_name = f"{IMAGE_PREFIX}{(index + 1):04d}{IMAGE_EXT}"
+            return os.path.join(IMGS_PATH, "src", next_image_name)
         
-        if not image_name:
-            # If no image provided, return first image
-            if images_list:
-                return os.path.join(IMGS_PATH, "src", images_list[0])
-            return None
-        
-        try:
-            current_index = self.get_user_index(username)
-            # If there's a next image, return it
-            if current_index < len(images_list) - 1:
-                next_image = images_list[current_index + 1]
-                return os.path.join(IMGS_PATH, "src", next_image)
-            # If we're at the last image, return None or wrap around to first
-            return None
-        except ValueError:
-            # If image not found in list, return first image
-            if images_list:
-                return os.path.join(IMGS_PATH, "src", images_list[0])
-            return None
+        return None  # Ya no hay más imágenes
+
         
     def post_image(self, image_name: str, username: str, data: dict):
-        user_file = os.path.join(os.path.dirname(__file__), IMGS_PATH, username + ".json")
-        
-        with open(user_file, "r") as f:
-            history = json.load(f)
-        
-        img = "image_" + history.get("last-image")
-        
-        history[img] = data
-        history["last-image"] += 1
-        with open(user_file, "w") as f:
-            json.dump(history, f)
+        try:
+            user_file = os.path.join(TMP_IMGS_PATH, f"{username}.json")
+
+            # Si no existe el archivo del usuario, inicializamos
+            if not os.path.exists(user_file):
+                history = {"last-image": 0}
+            else:
+                with open(user_file, "r") as f:
+                    history = json.load(f)
+
+            history[image_name] = data
+            history["last-image"] += 1
+
+            with open(user_file, "w") as f:
+                json.dump(history, f, indent=4)
+
+        except Exception as e:
+            print(f"Error al guardar imagen: {e}")
+            raise
+

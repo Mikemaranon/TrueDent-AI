@@ -8,7 +8,7 @@ password = input("Introduce la contraseña: ")
 hashed_password = generate_password_hash(password)
 
 # Cargar los usuarios existentes del archivo JSON
-with open('../data_m/users.json', 'r') as f:
+with open('data_m/users.json', 'r') as f:
     users = json.load(f)
 
 # Solicitar el nombre de usuario
@@ -19,7 +19,7 @@ username = input("Introduce el nombre de usuario: ")
 users[username] = {"password": hashed_password}
 
 # Guardar el archivo JSON con el nuevo usuario
-with open('../data_m/users.json', 'w') as f:
+with open('data_m/users.json', 'w') as f:
     json.dump(users, f, indent=4)
 
 print(f"Usuario {username} añadido con la contraseña hasheada.")

@@ -10,4 +10,4 @@ scikit-image
 psutil
 ipython
 flask
-jwt
+PyJWT

@@ -1,2 +1,5 @@
 virt
 runs
+TrueDent/02_diagnosis_model/app/__pycache__
+TrueDent/02_diagnosis_model/app/user_m/__pycache__
+TrueDent/02_diagnosis_model/app/data_m/__pycache__
