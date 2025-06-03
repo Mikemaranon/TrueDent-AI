@@ -1,6 +1,6 @@
 # TrueDent AI: Detección de caries con un solo click
 
-![TrueDent AI Logo](TrueDent-t.png)
+![TrueDent AI Logo](doc/img/TrueDent-t.png)
 
 TrueDent es un servicio que usa tecnologías de reconocimiento de imágenes mediante modelos CNN. Está pensado como un MVP para un proyecto final, pero con la arquitectura adecuada para ser escalable a futuro.
 
