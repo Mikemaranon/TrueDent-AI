@@ -1,0 +1,6914 @@
+{
+    "image_0001.jpg": {
+        "blancos": 4815,
+        "total_pixeles": 11178,
+        "porcentaje_blancos": 0.4308,
+        "salud": 1
+    },
+    "image_0002.jpg": {
+        "blancos": 859,
+        "total_pixeles": 9152,
+        "porcentaje_blancos": 0.0939,
+        "salud": 0
+    },
+    "image_0003.jpg": {
+        "blancos": 2082,
+        "total_pixeles": 8710,
+        "porcentaje_blancos": 0.239,
+        "salud": 0
+    },
+    "image_0004.jpg": {
+        "blancos": 3387,
+        "total_pixeles": 8256,
+        "porcentaje_blancos": 0.4102,
+        "salud": 1
+    },
+    "image_0005.jpg": {
+        "blancos": 6035,
+        "total_pixeles": 8584,
+        "porcentaje_blancos": 0.7031,
+        "salud": 1
+    },
+    "image_0006.jpg": {
+        "blancos": 5517,
+        "total_pixeles": 8140,
+        "porcentaje_blancos": 0.6778,
+        "salud": 1
+    },
+    "image_0007.jpg": {
+        "blancos": 4140,
+        "total_pixeles": 5850,
+        "porcentaje_blancos": 0.7077,
+        "salud": 1
+    },
+    "image_0008.jpg": {
+        "blancos": 2431,
+        "total_pixeles": 5152,
+        "porcentaje_blancos": 0.4719,
+        "salud": 1
+    },
+    "image_0009.jpg": {
+        "blancos": 1352,
+        "total_pixeles": 7254,
+        "porcentaje_blancos": 0.1864,
+        "salud": 0
+    },
+    "image_0010.jpg": {
+        "blancos": 575,
+        "total_pixeles": 8064,
+        "porcentaje_blancos": 0.0713,
+        "salud": 0
+    },
+    "image_0011.jpg": {
+        "blancos": 699,
+        "total_pixeles": 8316,
+        "porcentaje_blancos": 0.0841,
+        "salud": 0
+    },
+    "image_0012.jpg": {
+        "blancos": 3859,
+        "total_pixeles": 8844,
+        "porcentaje_blancos": 0.4363,
+        "salud": 1
+    },
+    "image_0013.jpg": {
+        "blancos": 1284,
+        "total_pixeles": 9694,
+        "porcentaje_blancos": 0.1325,
+        "salud": 0
+    },
+    "image_0014.jpg": {
+        "blancos": 3457,
+        "total_pixeles": 12445,
+        "porcentaje_blancos": 0.2778,
+        "salud": 0
+    },
+    "image_0015.jpg": {
+        "blancos": 5253,
+        "total_pixeles": 10235,
+        "porcentaje_blancos": 0.5132,
+        "salud": 1
+    },
+    "image_0016.jpg": {
+        "blancos": 4736,
+        "total_pixeles": 7878,
+        "porcentaje_blancos": 0.6012,
+        "salud": 1
+    },
+    "image_0017.jpg": {
+        "blancos": 3942,
+        "total_pixeles": 6206,
+        "porcentaje_blancos": 0.6352,
+        "salud": 1
+    },
+    "image_0018.jpg": {
+        "blancos": 4045,
+        "total_pixeles": 7130,
+        "porcentaje_blancos": 0.5673,
+        "salud": 1
+    },
+    "image_0019.jpg": {
+        "blancos": 2275,
+        "total_pixeles": 8515,
+        "porcentaje_blancos": 0.2672,
+        "salud": 0
+    },
+    "image_0020.jpg": {
+        "blancos": 804,
+        "total_pixeles": 8710,
+        "porcentaje_blancos": 0.0923,
+        "salud": 0
+    },
+    "image_0021.jpg": {
+        "blancos": 1379,
+        "total_pixeles": 8911,
+        "porcentaje_blancos": 0.1548,
+        "salud": 0
+    },
+    "image_0022.jpg": {
+        "blancos": 3156,
+        "total_pixeles": 12288,
+        "porcentaje_blancos": 0.2568,
+        "salud": 0
+    },
+    "image_0023.jpg": {
+        "blancos": 1011,
+        "total_pixeles": 9425,
+        "porcentaje_blancos": 0.1073,
+        "salud": 0
+    },
+    "image_0024.jpg": {
+        "blancos": 4766,
+        "total_pixeles": 11400,
+        "porcentaje_blancos": 0.4181,
+        "salud": 1
+    },
+    "image_0025.jpg": {
+        "blancos": 6387,
+        "total_pixeles": 12052,
+        "porcentaje_blancos": 0.53,
+        "salud": 1
+    },
+    "image_0026.jpg": {
+        "blancos": 1192,
+        "total_pixeles": 8576,
+        "porcentaje_blancos": 0.139,
+        "salud": 0
+    },
+    "image_0027.jpg": {
+        "blancos": 2689,
+        "total_pixeles": 8442,
+        "porcentaje_blancos": 0.3185,
+        "salud": 1
+    },
+    "image_0028.jpg": {
+        "blancos": 5227,
+        "total_pixeles": 8814,
+        "porcentaje_blancos": 0.593,
+        "salud": 1
+    },
+    "image_0029.jpg": {
+        "blancos": 6950,
+        "total_pixeles": 9500,
+        "porcentaje_blancos": 0.7316,
+        "salud": 1
+    },
+    "image_0030.jpg": {
+        "blancos": 6154,
+        "total_pixeles": 7347,
+        "porcentaje_blancos": 0.8376,
+        "salud": 1
+    },
+    "image_0031.jpg": {
+        "blancos": 2783,
+        "total_pixeles": 9108,
+        "porcentaje_blancos": 0.3056,
+        "salud": 1
+    },
+    "image_0032.jpg": {
+        "blancos": 577,
+        "total_pixeles": 8432,
+        "porcentaje_blancos": 0.0684,
+        "salud": 0
+    },
+    "image_0033.jpg": {
+        "blancos": 4130,
+        "total_pixeles": 9849,
+        "porcentaje_blancos": 0.4193,
+        "salud": 1
+    },
+    "image_0034.jpg": {
+        "blancos": 1557,
+        "total_pixeles": 9408,
+        "porcentaje_blancos": 0.1655,
+        "salud": 0
+    },
+    "image_0035.jpg": {
+        "blancos": 2805,
+        "total_pixeles": 9135,
+        "porcentaje_blancos": 0.3071,
+        "salud": 1
+    },
+    "image_0036.jpg": {
+        "blancos": 4222,
+        "total_pixeles": 8418,
+        "porcentaje_blancos": 0.5015,
+        "salud": 1
+    },
+    "image_0037.jpg": {
+        "blancos": 5686,
+        "total_pixeles": 8880,
+        "porcentaje_blancos": 0.6403,
+        "salud": 1
+    },
+    "image_0038.jpg": {
+        "blancos": 5783,
+        "total_pixeles": 8832,
+        "porcentaje_blancos": 0.6548,
+        "salud": 1
+    },
+    "image_0039.jpg": {
+        "blancos": 4817,
+        "total_pixeles": 8470,
+        "porcentaje_blancos": 0.5687,
+        "salud": 1
+    },
+    "image_0040.jpg": {
+        "blancos": 2508,
+        "total_pixeles": 7080,
+        "porcentaje_blancos": 0.3542,
+        "salud": 1
+    },
+    "image_0041.jpg": {
+        "blancos": 2375,
+        "total_pixeles": 8382,
+        "porcentaje_blancos": 0.2833,
+        "salud": 0
+    },
+    "image_0042.jpg": {
+        "blancos": 2496,
+        "total_pixeles": 6900,
+        "porcentaje_blancos": 0.3617,
+        "salud": 1
+    },
+    "image_0043.jpg": {
+        "blancos": 2375,
+        "total_pixeles": 8382,
+        "porcentaje_blancos": 0.2833,
+        "salud": 0
+    },
+    "image_0044.jpg": {
+        "blancos": 2459,
+        "total_pixeles": 9720,
+        "porcentaje_blancos": 0.253,
+        "salud": 0
+    },
+    "image_0045.jpg": {
+        "blancos": 2448,
+        "total_pixeles": 9648,
+        "porcentaje_blancos": 0.2537,
+        "salud": 0
+    },
+    "image_0046.jpg": {
+        "blancos": 2212,
+        "total_pixeles": 9384,
+        "porcentaje_blancos": 0.2357,
+        "salud": 0
+    },
+    "image_0047.jpg": {
+        "blancos": 3662,
+        "total_pixeles": 9035,
+        "porcentaje_blancos": 0.4053,
+        "salud": 1
+    },
+    "image_0048.jpg": {
+        "blancos": 2226,
+        "total_pixeles": 9453,
+        "porcentaje_blancos": 0.2355,
+        "salud": 0
+    },
+    "image_0049.jpg": {
+        "blancos": 2868,
+        "total_pixeles": 9453,
+        "porcentaje_blancos": 0.3034,
+        "salud": 1
+    },
+    "image_0050.jpg": {
+        "blancos": 5018,
+        "total_pixeles": 11837,
+        "porcentaje_blancos": 0.4239,
+        "salud": 1
+    },
+    "image_0051.jpg": {
+        "blancos": 6795,
+        "total_pixeles": 11495,
+        "porcentaje_blancos": 0.5911,
+        "salud": 1
+    },
+    "image_0052.jpg": {
+        "blancos": 5772,
+        "total_pixeles": 13774,
+        "porcentaje_blancos": 0.4191,
+        "salud": 1
+    },
+    "image_0053.jpg": {
+        "blancos": 3048,
+        "total_pixeles": 6962,
+        "porcentaje_blancos": 0.4378,
+        "salud": 1
+    },
+    "image_0054.jpg": {
+        "blancos": 3216,
+        "total_pixeles": 7308,
+        "porcentaje_blancos": 0.4401,
+        "salud": 1
+    },
+    "image_0055.jpg": {
+        "blancos": 2170,
+        "total_pixeles": 9685,
+        "porcentaje_blancos": 0.2241,
+        "salud": 0
+    },
+    "image_0056.jpg": {
+        "blancos": 1185,
+        "total_pixeles": 9165,
+        "porcentaje_blancos": 0.1293,
+        "salud": 0
+    },
+    "image_0057.jpg": {
+        "blancos": 1783,
+        "total_pixeles": 9940,
+        "porcentaje_blancos": 0.1794,
+        "salud": 0
+    },
+    "image_0058.jpg": {
+        "blancos": 4461,
+        "total_pixeles": 13020,
+        "porcentaje_blancos": 0.3426,
+        "salud": 1
+    },
+    "image_0059.jpg": {
+        "blancos": 1199,
+        "total_pixeles": 11356,
+        "porcentaje_blancos": 0.1056,
+        "salud": 0
+    },
+    "image_0060.jpg": {
+        "blancos": 6381,
+        "total_pixeles": 12384,
+        "porcentaje_blancos": 0.5153,
+        "salud": 1
+    },
+    "image_0061.jpg": {
+        "blancos": 6097,
+        "total_pixeles": 14798,
+        "porcentaje_blancos": 0.412,
+        "salud": 1
+    },
+    "image_0062.jpg": {
+        "blancos": 2234,
+        "total_pixeles": 9936,
+        "porcentaje_blancos": 0.2248,
+        "salud": 0
+    },
+    "image_0063.jpg": {
+        "blancos": 3533,
+        "total_pixeles": 8768,
+        "porcentaje_blancos": 0.4029,
+        "salud": 1
+    },
+    "image_0064.jpg": {
+        "blancos": 6042,
+        "total_pixeles": 9348,
+        "porcentaje_blancos": 0.6463,
+        "salud": 1
+    },
+    "image_0065.jpg": {
+        "blancos": 6302,
+        "total_pixeles": 9490,
+        "porcentaje_blancos": 0.6641,
+        "salud": 1
+    },
+    "image_0066.jpg": {
+        "blancos": 5077,
+        "total_pixeles": 8856,
+        "porcentaje_blancos": 0.5733,
+        "salud": 1
+    },
+    "image_0067.jpg": {
+        "blancos": 2443,
+        "total_pixeles": 10268,
+        "porcentaje_blancos": 0.2379,
+        "salud": 0
+    },
+    "image_0068.jpg": {
+        "blancos": 644,
+        "total_pixeles": 8556,
+        "porcentaje_blancos": 0.0753,
+        "salud": 0
+    },
+    "image_0069.jpg": {
+        "blancos": 2407,
+        "total_pixeles": 9782,
+        "porcentaje_blancos": 0.2461,
+        "salud": 0
+    },
+    "image_0070.jpg": {
+        "blancos": 1430,
+        "total_pixeles": 8512,
+        "porcentaje_blancos": 0.168,
+        "salud": 0
+    },
+    "image_0071.jpg": {
+        "blancos": 2694,
+        "total_pixeles": 7571,
+        "porcentaje_blancos": 0.3558,
+        "salud": 1
+    },
+    "image_0072.jpg": {
+        "blancos": 3988,
+        "total_pixeles": 8004,
+        "porcentaje_blancos": 0.4983,
+        "salud": 1
+    },
+    "image_0073.jpg": {
+        "blancos": 5539,
+        "total_pixeles": 8034,
+        "porcentaje_blancos": 0.6894,
+        "salud": 1
+    },
+    "image_0074.jpg": {
+        "blancos": 5522,
+        "total_pixeles": 9559,
+        "porcentaje_blancos": 0.5777,
+        "salud": 1
+    },
+    "image_0075.jpg": {
+        "blancos": 5564,
+        "total_pixeles": 7663,
+        "porcentaje_blancos": 0.7261,
+        "salud": 1
+    },
+    "image_0076.jpg": {
+        "blancos": 1122,
+        "total_pixeles": 5555,
+        "porcentaje_blancos": 0.202,
+        "salud": 0
+    },
+    "image_0077.jpg": {
+        "blancos": 923,
+        "total_pixeles": 6480,
+        "porcentaje_blancos": 0.1424,
+        "salud": 0
+    },
+    "image_0078.jpg": {
+        "blancos": 1019,
+        "total_pixeles": 8500,
+        "porcentaje_blancos": 0.1199,
+        "salud": 0
+    },
+    "image_0079.jpg": {
+        "blancos": 1199,
+        "total_pixeles": 7373,
+        "porcentaje_blancos": 0.1626,
+        "salud": 0
+    },
+    "image_0080.jpg": {
+        "blancos": 2976,
+        "total_pixeles": 12880,
+        "porcentaje_blancos": 0.2311,
+        "salud": 0
+    },
+    "image_0081.jpg": {
+        "blancos": 1746,
+        "total_pixeles": 8979,
+        "porcentaje_blancos": 0.1945,
+        "salud": 0
+    },
+    "image_0082.jpg": {
+        "blancos": 2166,
+        "total_pixeles": 7500,
+        "porcentaje_blancos": 0.2888,
+        "salud": 0
+    },
+    "image_0083.jpg": {
+        "blancos": 2171,
+        "total_pixeles": 7800,
+        "porcentaje_blancos": 0.2783,
+        "salud": 0
+    },
+    "image_0084.jpg": {
+        "blancos": 1732,
+        "total_pixeles": 8568,
+        "porcentaje_blancos": 0.2021,
+        "salud": 0
+    },
+    "image_0085.jpg": {
+        "blancos": 814,
+        "total_pixeles": 8228,
+        "porcentaje_blancos": 0.0989,
+        "salud": 0
+    },
+    "image_0086.jpg": {
+        "blancos": 1727,
+        "total_pixeles": 8856,
+        "porcentaje_blancos": 0.195,
+        "salud": 0
+    },
+    "image_0087.jpg": {
+        "blancos": 1774,
+        "total_pixeles": 10584,
+        "porcentaje_blancos": 0.1676,
+        "salud": 0
+    },
+    "image_0088.jpg": {
+        "blancos": 5336,
+        "total_pixeles": 17985,
+        "porcentaje_blancos": 0.2967,
+        "salud": 0
+    },
+    "image_0089.jpg": {
+        "blancos": 4029,
+        "total_pixeles": 13000,
+        "porcentaje_blancos": 0.3099,
+        "salud": 1
+    },
+    "image_0090.jpg": {
+        "blancos": 2360,
+        "total_pixeles": 11200,
+        "porcentaje_blancos": 0.2107,
+        "salud": 0
+    },
+    "image_0091.jpg": {
+        "blancos": 333,
+        "total_pixeles": 7600,
+        "porcentaje_blancos": 0.0438,
+        "salud": 0
+    },
+    "image_0092.jpg": {
+        "blancos": 6395,
+        "total_pixeles": 12400,
+        "porcentaje_blancos": 0.5157,
+        "salud": 1
+    },
+    "image_0093.jpg": {
+        "blancos": 5647,
+        "total_pixeles": 11036,
+        "porcentaje_blancos": 0.5117,
+        "salud": 1
+    },
+    "image_0094.jpg": {
+        "blancos": 6909,
+        "total_pixeles": 11264,
+        "porcentaje_blancos": 0.6134,
+        "salud": 1
+    },
+    "image_0095.jpg": {
+        "blancos": 6175,
+        "total_pixeles": 11125,
+        "porcentaje_blancos": 0.5551,
+        "salud": 1
+    },
+    "image_0096.jpg": {
+        "blancos": 1710,
+        "total_pixeles": 7770,
+        "porcentaje_blancos": 0.2201,
+        "salud": 0
+    },
+    "image_0097.jpg": {
+        "blancos": 2694,
+        "total_pixeles": 7571,
+        "porcentaje_blancos": 0.3558,
+        "salud": 1
+    },
+    "image_0098.jpg": {
+        "blancos": 3516,
+        "total_pixeles": 9933,
+        "porcentaje_blancos": 0.354,
+        "salud": 1
+    },
+    "image_0099.jpg": {
+        "blancos": 6762,
+        "total_pixeles": 11000,
+        "porcentaje_blancos": 0.6147,
+        "salud": 1
+    },
+    "image_0100.jpg": {
+        "blancos": 5452,
+        "total_pixeles": 9438,
+        "porcentaje_blancos": 0.5777,
+        "salud": 1
+    },
+    "image_0101.jpg": {
+        "blancos": 5949,
+        "total_pixeles": 8586,
+        "porcentaje_blancos": 0.6929,
+        "salud": 1
+    },
+    "image_0102.jpg": {
+        "blancos": 5543,
+        "total_pixeles": 7680,
+        "porcentaje_blancos": 0.7217,
+        "salud": 1
+    },
+    "image_0103.jpg": {
+        "blancos": 5593,
+        "total_pixeles": 6880,
+        "porcentaje_blancos": 0.8129,
+        "salud": 1
+    },
+    "image_0104.jpg": {
+        "blancos": 1025,
+        "total_pixeles": 10075,
+        "porcentaje_blancos": 0.1017,
+        "salud": 0
+    },
+    "image_0105.jpg": {
+        "blancos": 817,
+        "total_pixeles": 7812,
+        "porcentaje_blancos": 0.1046,
+        "salud": 0
+    },
+    "image_0106.jpg": {
+        "blancos": 1971,
+        "total_pixeles": 8640,
+        "porcentaje_blancos": 0.2281,
+        "salud": 0
+    },
+    "image_0107.jpg": {
+        "blancos": 1978,
+        "total_pixeles": 8768,
+        "porcentaje_blancos": 0.2256,
+        "salud": 0
+    },
+    "image_0108.jpg": {
+        "blancos": 2389,
+        "total_pixeles": 5995,
+        "porcentaje_blancos": 0.3985,
+        "salud": 1
+    },
+    "image_0109.jpg": {
+        "blancos": 2419,
+        "total_pixeles": 6270,
+        "porcentaje_blancos": 0.3858,
+        "salud": 1
+    },
+    "image_0110.jpg": {
+        "blancos": 3301,
+        "total_pixeles": 7808,
+        "porcentaje_blancos": 0.4228,
+        "salud": 1
+    },
+    "image_0111.jpg": {
+        "blancos": 3644,
+        "total_pixeles": 8960,
+        "porcentaje_blancos": 0.4067,
+        "salud": 1
+    },
+    "image_0112.jpg": {
+        "blancos": 2683,
+        "total_pixeles": 7308,
+        "porcentaje_blancos": 0.3671,
+        "salud": 1
+    },
+    "image_0113.jpg": {
+        "blancos": 2036,
+        "total_pixeles": 7788,
+        "porcentaje_blancos": 0.2614,
+        "salud": 0
+    },
+    "image_0114.jpg": {
+        "blancos": 3593,
+        "total_pixeles": 9869,
+        "porcentaje_blancos": 0.3641,
+        "salud": 1
+    },
+    "image_0115.jpg": {
+        "blancos": 3805,
+        "total_pixeles": 11570,
+        "porcentaje_blancos": 0.3289,
+        "salud": 1
+    },
+    "image_0116.jpg": {
+        "blancos": 4949,
+        "total_pixeles": 11220,
+        "porcentaje_blancos": 0.4411,
+        "salud": 1
+    },
+    "image_0117.jpg": {
+        "blancos": 2410,
+        "total_pixeles": 6384,
+        "porcentaje_blancos": 0.3775,
+        "salud": 1
+    },
+    "image_0118.jpg": {
+        "blancos": 3082,
+        "total_pixeles": 7688,
+        "porcentaje_blancos": 0.4009,
+        "salud": 1
+    },
+    "image_0119.jpg": {
+        "blancos": 4542,
+        "total_pixeles": 9472,
+        "porcentaje_blancos": 0.4795,
+        "salud": 1
+    },
+    "image_0120.jpg": {
+        "blancos": 4134,
+        "total_pixeles": 9855,
+        "porcentaje_blancos": 0.4195,
+        "salud": 1
+    },
+    "image_0121.jpg": {
+        "blancos": 3651,
+        "total_pixeles": 10032,
+        "porcentaje_blancos": 0.3639,
+        "salud": 1
+    },
+    "image_0122.jpg": {
+        "blancos": 3805,
+        "total_pixeles": 11570,
+        "porcentaje_blancos": 0.3289,
+        "salud": 1
+    },
+    "image_0123.jpg": {
+        "blancos": 3558,
+        "total_pixeles": 12880,
+        "porcentaje_blancos": 0.2762,
+        "salud": 0
+    },
+    "image_0124.jpg": {
+        "blancos": 3183,
+        "total_pixeles": 9216,
+        "porcentaje_blancos": 0.3454,
+        "salud": 1
+    },
+    "image_0125.jpg": {
+        "blancos": 3117,
+        "total_pixeles": 8960,
+        "porcentaje_blancos": 0.3479,
+        "salud": 1
+    },
+    "image_0126.jpg": {
+        "blancos": 5574,
+        "total_pixeles": 12236,
+        "porcentaje_blancos": 0.4555,
+        "salud": 1
+    },
+    "image_0127.jpg": {
+        "blancos": 4949,
+        "total_pixeles": 11220,
+        "porcentaje_blancos": 0.4411,
+        "salud": 1
+    },
+    "image_0128.jpg": {
+        "blancos": 5891,
+        "total_pixeles": 10622,
+        "porcentaje_blancos": 0.5546,
+        "salud": 1
+    },
+    "image_0129.jpg": {
+        "blancos": 6567,
+        "total_pixeles": 11400,
+        "porcentaje_blancos": 0.5761,
+        "salud": 1
+    },
+    "image_0130.jpg": {
+        "blancos": 4664,
+        "total_pixeles": 9072,
+        "porcentaje_blancos": 0.5141,
+        "salud": 1
+    },
+    "image_0131.jpg": {
+        "blancos": 4937,
+        "total_pixeles": 8844,
+        "porcentaje_blancos": 0.5582,
+        "salud": 1
+    },
+    "image_0132.jpg": {
+        "blancos": 3401,
+        "total_pixeles": 8704,
+        "porcentaje_blancos": 0.3907,
+        "salud": 1
+    },
+    "image_0133.jpg": {
+        "blancos": 3152,
+        "total_pixeles": 8840,
+        "porcentaje_blancos": 0.3566,
+        "salud": 1
+    },
+    "image_0134.jpg": {
+        "blancos": 3831,
+        "total_pixeles": 9009,
+        "porcentaje_blancos": 0.4252,
+        "salud": 1
+    },
+    "image_0135.jpg": {
+        "blancos": 3774,
+        "total_pixeles": 9546,
+        "porcentaje_blancos": 0.3953,
+        "salud": 1
+    },
+    "image_0136.jpg": {
+        "blancos": 3831,
+        "total_pixeles": 9009,
+        "porcentaje_blancos": 0.4252,
+        "salud": 1
+    },
+    "image_0137.jpg": {
+        "blancos": 1962,
+        "total_pixeles": 8710,
+        "porcentaje_blancos": 0.2253,
+        "salud": 0
+    },
+    "image_0138.jpg": {
+        "blancos": 1955,
+        "total_pixeles": 8704,
+        "porcentaje_blancos": 0.2246,
+        "salud": 0
+    },
+    "image_0139.jpg": {
+        "blancos": 2779,
+        "total_pixeles": 7493,
+        "porcentaje_blancos": 0.3709,
+        "salud": 1
+    },
+    "image_0140.jpg": {
+        "blancos": 3299,
+        "total_pixeles": 8883,
+        "porcentaje_blancos": 0.3714,
+        "salud": 1
+    },
+    "image_0141.jpg": {
+        "blancos": 2561,
+        "total_pixeles": 10230,
+        "porcentaje_blancos": 0.2503,
+        "salud": 0
+    },
+    "image_0142.jpg": {
+        "blancos": 2945,
+        "total_pixeles": 9100,
+        "porcentaje_blancos": 0.3236,
+        "salud": 1
+    },
+    "image_0143.jpg": {
+        "blancos": 1860,
+        "total_pixeles": 5146,
+        "porcentaje_blancos": 0.3614,
+        "salud": 1
+    },
+    "image_0144.jpg": {
+        "blancos": 3503,
+        "total_pixeles": 4824,
+        "porcentaje_blancos": 0.7262,
+        "salud": 1
+    },
+    "image_0145.jpg": {
+        "blancos": 3013,
+        "total_pixeles": 6674,
+        "porcentaje_blancos": 0.4515,
+        "salud": 1
+    },
+    "image_0146.jpg": {
+        "blancos": 3431,
+        "total_pixeles": 4752,
+        "porcentaje_blancos": 0.722,
+        "salud": 1
+    },
+    "image_0147.jpg": {
+        "blancos": 4442,
+        "total_pixeles": 9000,
+        "porcentaje_blancos": 0.4936,
+        "salud": 1
+    },
+    "image_0148.jpg": {
+        "blancos": 4432,
+        "total_pixeles": 8906,
+        "porcentaje_blancos": 0.4976,
+        "salud": 1
+    },
+    "image_0149.jpg": {
+        "blancos": 1999,
+        "total_pixeles": 6608,
+        "porcentaje_blancos": 0.3025,
+        "salud": 1
+    },
+    "image_0150.jpg": {
+        "blancos": 2782,
+        "total_pixeles": 6954,
+        "porcentaje_blancos": 0.4001,
+        "salud": 1
+    },
+    "image_0151.jpg": {
+        "blancos": 2508,
+        "total_pixeles": 8512,
+        "porcentaje_blancos": 0.2946,
+        "salud": 0
+    },
+    "image_0152.jpg": {
+        "blancos": 2006,
+        "total_pixeles": 6669,
+        "porcentaje_blancos": 0.3008,
+        "salud": 1
+    },
+    "image_0153.jpg": {
+        "blancos": 1894,
+        "total_pixeles": 10017,
+        "porcentaje_blancos": 0.1891,
+        "salud": 0
+    },
+    "image_0154.jpg": {
+        "blancos": 2761,
+        "total_pixeles": 9577,
+        "porcentaje_blancos": 0.2883,
+        "salud": 0
+    },
+    "image_0155.jpg": {
+        "blancos": 3949,
+        "total_pixeles": 7182,
+        "porcentaje_blancos": 0.5498,
+        "salud": 1
+    },
+    "image_0156.jpg": {
+        "blancos": 2762,
+        "total_pixeles": 4902,
+        "porcentaje_blancos": 0.5634,
+        "salud": 1
+    },
+    "image_0157.jpg": {
+        "blancos": 5131,
+        "total_pixeles": 9984,
+        "porcentaje_blancos": 0.5139,
+        "salud": 1
+    },
+    "image_0158.jpg": {
+        "blancos": 3948,
+        "total_pixeles": 9730,
+        "porcentaje_blancos": 0.4058,
+        "salud": 1
+    },
+    "image_0159.jpg": {
+        "blancos": 3132,
+        "total_pixeles": 10575,
+        "porcentaje_blancos": 0.2962,
+        "salud": 0
+    },
+    "image_0160.jpg": {
+        "blancos": 1864,
+        "total_pixeles": 5544,
+        "porcentaje_blancos": 0.3362,
+        "salud": 1
+    },
+    "image_0161.jpg": {
+        "blancos": 6122,
+        "total_pixeles": 12000,
+        "porcentaje_blancos": 0.5102,
+        "salud": 1
+    },
+    "image_0162.jpg": {
+        "blancos": 2749,
+        "total_pixeles": 5520,
+        "porcentaje_blancos": 0.498,
+        "salud": 1
+    },
+    "image_0163.jpg": {
+        "blancos": 2669,
+        "total_pixeles": 9324,
+        "porcentaje_blancos": 0.2863,
+        "salud": 0
+    },
+    "image_0164.jpg": {
+        "blancos": 1878,
+        "total_pixeles": 7946,
+        "porcentaje_blancos": 0.2363,
+        "salud": 0
+    },
+    "image_0165.jpg": {
+        "blancos": 2124,
+        "total_pixeles": 11096,
+        "porcentaje_blancos": 0.1914,
+        "salud": 0
+    },
+    "image_0166.jpg": {
+        "blancos": 3314,
+        "total_pixeles": 8710,
+        "porcentaje_blancos": 0.3805,
+        "salud": 1
+    },
+    "image_0167.jpg": {
+        "blancos": 4793,
+        "total_pixeles": 7920,
+        "porcentaje_blancos": 0.6052,
+        "salud": 1
+    },
+    "image_0168.jpg": {
+        "blancos": 6873,
+        "total_pixeles": 9072,
+        "porcentaje_blancos": 0.7576,
+        "salud": 1
+    },
+    "image_0169.jpg": {
+        "blancos": 5466,
+        "total_pixeles": 9394,
+        "porcentaje_blancos": 0.5819,
+        "salud": 1
+    },
+    "image_0170.jpg": {
+        "blancos": 5925,
+        "total_pixeles": 10005,
+        "porcentaje_blancos": 0.5922,
+        "salud": 1
+    },
+    "image_0171.jpg": {
+        "blancos": 1558,
+        "total_pixeles": 6649,
+        "porcentaje_blancos": 0.2343,
+        "salud": 0
+    },
+    "image_0172.jpg": {
+        "blancos": 1565,
+        "total_pixeles": 7381,
+        "porcentaje_blancos": 0.212,
+        "salud": 0
+    },
+    "image_0173.jpg": {
+        "blancos": 1544,
+        "total_pixeles": 11550,
+        "porcentaje_blancos": 0.1337,
+        "salud": 0
+    },
+    "image_0174.jpg": {
+        "blancos": 2408,
+        "total_pixeles": 11218,
+        "porcentaje_blancos": 0.2147,
+        "salud": 0
+    },
+    "image_0175.jpg": {
+        "blancos": 2296,
+        "total_pixeles": 8970,
+        "porcentaje_blancos": 0.256,
+        "salud": 0
+    },
+    "image_0176.jpg": {
+        "blancos": 3139,
+        "total_pixeles": 11700,
+        "porcentaje_blancos": 0.2683,
+        "salud": 0
+    },
+    "image_0177.jpg": {
+        "blancos": 6052,
+        "total_pixeles": 13632,
+        "porcentaje_blancos": 0.444,
+        "salud": 1
+    },
+    "image_0178.jpg": {
+        "blancos": 8376,
+        "total_pixeles": 12513,
+        "porcentaje_blancos": 0.6694,
+        "salud": 1
+    },
+    "image_0179.jpg": {
+        "blancos": 9645,
+        "total_pixeles": 13299,
+        "porcentaje_blancos": 0.7252,
+        "salud": 1
+    },
+    "image_0180.jpg": {
+        "blancos": 1627,
+        "total_pixeles": 7616,
+        "porcentaje_blancos": 0.2136,
+        "salud": 0
+    },
+    "image_0181.jpg": {
+        "blancos": 1863,
+        "total_pixeles": 9088,
+        "porcentaje_blancos": 0.205,
+        "salud": 0
+    },
+    "image_0182.jpg": {
+        "blancos": 1338,
+        "total_pixeles": 8901,
+        "porcentaje_blancos": 0.1503,
+        "salud": 0
+    },
+    "image_0183.jpg": {
+        "blancos": 1469,
+        "total_pixeles": 10508,
+        "porcentaje_blancos": 0.1398,
+        "salud": 0
+    },
+    "image_0184.jpg": {
+        "blancos": 1673,
+        "total_pixeles": 8712,
+        "porcentaje_blancos": 0.192,
+        "salud": 0
+    },
+    "image_0185.jpg": {
+        "blancos": 3099,
+        "total_pixeles": 13580,
+        "porcentaje_blancos": 0.2282,
+        "salud": 0
+    },
+    "image_0186.jpg": {
+        "blancos": 2693,
+        "total_pixeles": 10010,
+        "porcentaje_blancos": 0.269,
+        "salud": 0
+    },
+    "image_0187.jpg": {
+        "blancos": 6563,
+        "total_pixeles": 14338,
+        "porcentaje_blancos": 0.4577,
+        "salud": 1
+    },
+    "image_0188.jpg": {
+        "blancos": 6730,
+        "total_pixeles": 13818,
+        "porcentaje_blancos": 0.487,
+        "salud": 1
+    },
+    "image_0189.jpg": {
+        "blancos": 3877,
+        "total_pixeles": 9928,
+        "porcentaje_blancos": 0.3905,
+        "salud": 1
+    },
+    "image_0190.jpg": {
+        "blancos": 4994,
+        "total_pixeles": 9310,
+        "porcentaje_blancos": 0.5364,
+        "salud": 1
+    },
+    "image_0191.jpg": {
+        "blancos": 7257,
+        "total_pixeles": 9828,
+        "porcentaje_blancos": 0.7384,
+        "salud": 1
+    },
+    "image_0192.jpg": {
+        "blancos": 6098,
+        "total_pixeles": 9956,
+        "porcentaje_blancos": 0.6125,
+        "salud": 1
+    },
+    "image_0193.jpg": {
+        "blancos": 3344,
+        "total_pixeles": 6241,
+        "porcentaje_blancos": 0.5358,
+        "salud": 1
+    },
+    "image_0194.jpg": {
+        "blancos": 1711,
+        "total_pixeles": 10804,
+        "porcentaje_blancos": 0.1584,
+        "salud": 0
+    },
+    "image_0195.jpg": {
+        "blancos": 1597,
+        "total_pixeles": 9727,
+        "porcentaje_blancos": 0.1642,
+        "salud": 0
+    },
+    "image_0196.jpg": {
+        "blancos": 1907,
+        "total_pixeles": 10752,
+        "porcentaje_blancos": 0.1774,
+        "salud": 0
+    },
+    "image_0197.jpg": {
+        "blancos": 1806,
+        "total_pixeles": 9072,
+        "porcentaje_blancos": 0.1991,
+        "salud": 0
+    },
+    "image_0198.jpg": {
+        "blancos": 2880,
+        "total_pixeles": 9648,
+        "porcentaje_blancos": 0.2985,
+        "salud": 0
+    },
+    "image_0199.jpg": {
+        "blancos": 3929,
+        "total_pixeles": 8910,
+        "porcentaje_blancos": 0.441,
+        "salud": 1
+    },
+    "image_0200.jpg": {
+        "blancos": 5863,
+        "total_pixeles": 9525,
+        "porcentaje_blancos": 0.6155,
+        "salud": 1
+    },
+    "image_0201.jpg": {
+        "blancos": 6327,
+        "total_pixeles": 9828,
+        "porcentaje_blancos": 0.6438,
+        "salud": 1
+    },
+    "image_0202.jpg": {
+        "blancos": 6485,
+        "total_pixeles": 9240,
+        "porcentaje_blancos": 0.7018,
+        "salud": 1
+    },
+    "image_0203.jpg": {
+        "blancos": 2592,
+        "total_pixeles": 5580,
+        "porcentaje_blancos": 0.4645,
+        "salud": 1
+    },
+    "image_0204.jpg": {
+        "blancos": 2437,
+        "total_pixeles": 5504,
+        "porcentaje_blancos": 0.4428,
+        "salud": 1
+    },
+    "image_0205.jpg": {
+        "blancos": 2608,
+        "total_pixeles": 7992,
+        "porcentaje_blancos": 0.3263,
+        "salud": 1
+    },
+    "image_0206.jpg": {
+        "blancos": 2533,
+        "total_pixeles": 9164,
+        "porcentaje_blancos": 0.2764,
+        "salud": 0
+    },
+    "image_0207.jpg": {
+        "blancos": 2335,
+        "total_pixeles": 8673,
+        "porcentaje_blancos": 0.2692,
+        "salud": 0
+    },
+    "image_0208.jpg": {
+        "blancos": 2662,
+        "total_pixeles": 11328,
+        "porcentaje_blancos": 0.235,
+        "salud": 0
+    },
+    "image_0209.jpg": {
+        "blancos": 3177,
+        "total_pixeles": 10472,
+        "porcentaje_blancos": 0.3034,
+        "salud": 1
+    },
+    "image_0210.jpg": {
+        "blancos": 4095,
+        "total_pixeles": 13158,
+        "porcentaje_blancos": 0.3112,
+        "salud": 1
+    },
+    "image_0211.jpg": {
+        "blancos": 6046,
+        "total_pixeles": 11305,
+        "porcentaje_blancos": 0.5348,
+        "salud": 1
+    },
+    "image_0212.jpg": {
+        "blancos": 5058,
+        "total_pixeles": 9153,
+        "porcentaje_blancos": 0.5526,
+        "salud": 1
+    },
+    "image_0213.jpg": {
+        "blancos": 3020,
+        "total_pixeles": 4644,
+        "porcentaje_blancos": 0.6503,
+        "salud": 1
+    },
+    "image_0214.jpg": {
+        "blancos": 3446,
+        "total_pixeles": 5640,
+        "porcentaje_blancos": 0.611,
+        "salud": 1
+    },
+    "image_0215.jpg": {
+        "blancos": 4029,
+        "total_pixeles": 7776,
+        "porcentaje_blancos": 0.5181,
+        "salud": 1
+    },
+    "image_0216.jpg": {
+        "blancos": 3779,
+        "total_pixeles": 8892,
+        "porcentaje_blancos": 0.425,
+        "salud": 1
+    },
+    "image_0217.jpg": {
+        "blancos": 4269,
+        "total_pixeles": 11125,
+        "porcentaje_blancos": 0.3837,
+        "salud": 1
+    },
+    "image_0218.jpg": {
+        "blancos": 4556,
+        "total_pixeles": 11880,
+        "porcentaje_blancos": 0.3835,
+        "salud": 1
+    },
+    "image_0219.jpg": {
+        "blancos": 2686,
+        "total_pixeles": 9088,
+        "porcentaje_blancos": 0.2956,
+        "salud": 0
+    },
+    "image_0220.jpg": {
+        "blancos": 7876,
+        "total_pixeles": 14304,
+        "porcentaje_blancos": 0.5506,
+        "salud": 1
+    },
+    "image_0221.jpg": {
+        "blancos": 5299,
+        "total_pixeles": 9047,
+        "porcentaje_blancos": 0.5857,
+        "salud": 1
+    },
+    "image_0222.jpg": {
+        "blancos": 4148,
+        "total_pixeles": 9800,
+        "porcentaje_blancos": 0.4233,
+        "salud": 1
+    },
+    "image_0223.jpg": {
+        "blancos": 4747,
+        "total_pixeles": 8976,
+        "porcentaje_blancos": 0.5289,
+        "salud": 1
+    },
+    "image_0224.jpg": {
+        "blancos": 5996,
+        "total_pixeles": 9471,
+        "porcentaje_blancos": 0.6331,
+        "salud": 1
+    },
+    "image_0225.jpg": {
+        "blancos": 6971,
+        "total_pixeles": 10043,
+        "porcentaje_blancos": 0.6941,
+        "salud": 1
+    },
+    "image_0226.jpg": {
+        "blancos": 6463,
+        "total_pixeles": 8715,
+        "porcentaje_blancos": 0.7416,
+        "salud": 1
+    },
+    "image_0227.jpg": {
+        "blancos": 1773,
+        "total_pixeles": 10710,
+        "porcentaje_blancos": 0.1655,
+        "salud": 0
+    },
+    "image_0228.jpg": {
+        "blancos": 1289,
+        "total_pixeles": 7493,
+        "porcentaje_blancos": 0.172,
+        "salud": 0
+    },
+    "image_0229.jpg": {
+        "blancos": 605,
+        "total_pixeles": 10458,
+        "porcentaje_blancos": 0.0579,
+        "salud": 0
+    },
+    "image_0230.jpg": {
+        "blancos": 1275,
+        "total_pixeles": 11180,
+        "porcentaje_blancos": 0.114,
+        "salud": 0
+    },
+    "image_0231.jpg": {
+        "blancos": 1263,
+        "total_pixeles": 9782,
+        "porcentaje_blancos": 0.1291,
+        "salud": 0
+    },
+    "image_0232.jpg": {
+        "blancos": 3401,
+        "total_pixeles": 9996,
+        "porcentaje_blancos": 0.3402,
+        "salud": 1
+    },
+    "image_0233.jpg": {
+        "blancos": 1944,
+        "total_pixeles": 10944,
+        "porcentaje_blancos": 0.1776,
+        "salud": 0
+    },
+    "image_0234.jpg": {
+        "blancos": 3770,
+        "total_pixeles": 9522,
+        "porcentaje_blancos": 0.3959,
+        "salud": 1
+    },
+    "image_0235.jpg": {
+        "blancos": 5301,
+        "total_pixeles": 8192,
+        "porcentaje_blancos": 0.6471,
+        "salud": 1
+    },
+    "image_0236.jpg": {
+        "blancos": 7942,
+        "total_pixeles": 13760,
+        "porcentaje_blancos": 0.5772,
+        "salud": 1
+    },
+    "image_0237.jpg": {
+        "blancos": 7813,
+        "total_pixeles": 9779,
+        "porcentaje_blancos": 0.799,
+        "salud": 1
+    },
+    "image_0238.jpg": {
+        "blancos": 6909,
+        "total_pixeles": 10480,
+        "porcentaje_blancos": 0.6593,
+        "salud": 1
+    },
+    "image_0239.jpg": {
+        "blancos": 7974,
+        "total_pixeles": 11954,
+        "porcentaje_blancos": 0.6671,
+        "salud": 1
+    },
+    "image_0240.jpg": {
+        "blancos": 4863,
+        "total_pixeles": 6873,
+        "porcentaje_blancos": 0.7076,
+        "salud": 1
+    },
+    "image_0241.jpg": {
+        "blancos": 5748,
+        "total_pixeles": 8840,
+        "porcentaje_blancos": 0.6502,
+        "salud": 1
+    },
+    "image_0242.jpg": {
+        "blancos": 2548,
+        "total_pixeles": 6664,
+        "porcentaje_blancos": 0.3824,
+        "salud": 1
+    },
+    "image_0243.jpg": {
+        "blancos": 2984,
+        "total_pixeles": 5985,
+        "porcentaje_blancos": 0.4986,
+        "salud": 1
+    },
+    "image_0244.jpg": {
+        "blancos": 2698,
+        "total_pixeles": 8580,
+        "porcentaje_blancos": 0.3145,
+        "salud": 1
+    },
+    "image_0245.jpg": {
+        "blancos": 2234,
+        "total_pixeles": 10286,
+        "porcentaje_blancos": 0.2172,
+        "salud": 0
+    },
+    "image_0246.jpg": {
+        "blancos": 519,
+        "total_pixeles": 9045,
+        "porcentaje_blancos": 0.0574,
+        "salud": 0
+    },
+    "image_0247.jpg": {
+        "blancos": 2894,
+        "total_pixeles": 11297,
+        "porcentaje_blancos": 0.2562,
+        "salud": 0
+    },
+    "image_0248.jpg": {
+        "blancos": 5731,
+        "total_pixeles": 13920,
+        "porcentaje_blancos": 0.4117,
+        "salud": 1
+    },
+    "image_0249.jpg": {
+        "blancos": 7601,
+        "total_pixeles": 19712,
+        "porcentaje_blancos": 0.3856,
+        "salud": 1
+    },
+    "image_0250.jpg": {
+        "blancos": 8019,
+        "total_pixeles": 12831,
+        "porcentaje_blancos": 0.625,
+        "salud": 1
+    },
+    "image_0251.jpg": {
+        "blancos": 6691,
+        "total_pixeles": 10680,
+        "porcentaje_blancos": 0.6265,
+        "salud": 1
+    },
+    "image_0252.jpg": {
+        "blancos": 7409,
+        "total_pixeles": 16695,
+        "porcentaje_blancos": 0.4438,
+        "salud": 1
+    },
+    "image_0253.jpg": {
+        "blancos": 4308,
+        "total_pixeles": 7695,
+        "porcentaje_blancos": 0.5598,
+        "salud": 1
+    },
+    "image_0254.jpg": {
+        "blancos": 2596,
+        "total_pixeles": 6099,
+        "porcentaje_blancos": 0.4256,
+        "salud": 1
+    },
+    "image_0255.jpg": {
+        "blancos": 3224,
+        "total_pixeles": 7021,
+        "porcentaje_blancos": 0.4592,
+        "salud": 1
+    },
+    "image_0256.jpg": {
+        "blancos": 465,
+        "total_pixeles": 10400,
+        "porcentaje_blancos": 0.0447,
+        "salud": 0
+    },
+    "image_0257.jpg": {
+        "blancos": 519,
+        "total_pixeles": 9045,
+        "porcentaje_blancos": 0.0574,
+        "salud": 0
+    },
+    "image_0258.jpg": {
+        "blancos": 294,
+        "total_pixeles": 9920,
+        "porcentaje_blancos": 0.0296,
+        "salud": 0
+    },
+    "image_0259.jpg": {
+        "blancos": 921,
+        "total_pixeles": 8844,
+        "porcentaje_blancos": 0.1041,
+        "salud": 0
+    },
+    "image_0260.jpg": {
+        "blancos": 1825,
+        "total_pixeles": 7750,
+        "porcentaje_blancos": 0.2355,
+        "salud": 0
+    },
+    "image_0261.jpg": {
+        "blancos": 3439,
+        "total_pixeles": 11408,
+        "porcentaje_blancos": 0.3015,
+        "salud": 1
+    },
+    "image_0262.jpg": {
+        "blancos": 2215,
+        "total_pixeles": 8255,
+        "porcentaje_blancos": 0.2683,
+        "salud": 0
+    },
+    "image_0263.jpg": {
+        "blancos": 3564,
+        "total_pixeles": 7749,
+        "porcentaje_blancos": 0.4599,
+        "salud": 1
+    },
+    "image_0264.jpg": {
+        "blancos": 5468,
+        "total_pixeles": 8925,
+        "porcentaje_blancos": 0.6127,
+        "salud": 1
+    },
+    "image_0265.jpg": {
+        "blancos": 4150,
+        "total_pixeles": 6006,
+        "porcentaje_blancos": 0.691,
+        "salud": 1
+    },
+    "image_0266.jpg": {
+        "blancos": 4060,
+        "total_pixeles": 7220,
+        "porcentaje_blancos": 0.5623,
+        "salud": 1
+    },
+    "image_0267.jpg": {
+        "blancos": 501,
+        "total_pixeles": 6765,
+        "porcentaje_blancos": 0.0741,
+        "salud": 0
+    },
+    "image_0268.jpg": {
+        "blancos": 226,
+        "total_pixeles": 7680,
+        "porcentaje_blancos": 0.0294,
+        "salud": 0
+    },
+    "image_0269.jpg": {
+        "blancos": 671,
+        "total_pixeles": 9856,
+        "porcentaje_blancos": 0.0681,
+        "salud": 0
+    },
+    "image_0270.jpg": {
+        "blancos": 1198,
+        "total_pixeles": 8946,
+        "porcentaje_blancos": 0.1339,
+        "salud": 0
+    },
+    "image_0271.jpg": {
+        "blancos": 1032,
+        "total_pixeles": 6944,
+        "porcentaje_blancos": 0.1486,
+        "salud": 0
+    },
+    "image_0272.jpg": {
+        "blancos": 2414,
+        "total_pixeles": 9798,
+        "porcentaje_blancos": 0.2464,
+        "salud": 0
+    },
+    "image_0273.jpg": {
+        "blancos": 4035,
+        "total_pixeles": 12831,
+        "porcentaje_blancos": 0.3145,
+        "salud": 1
+    },
+    "image_0274.jpg": {
+        "blancos": 5100,
+        "total_pixeles": 11625,
+        "porcentaje_blancos": 0.4387,
+        "salud": 1
+    },
+    "image_0275.jpg": {
+        "blancos": 3138,
+        "total_pixeles": 8701,
+        "porcentaje_blancos": 0.3606,
+        "salud": 1
+    },
+    "image_0276.jpg": {
+        "blancos": 590,
+        "total_pixeles": 7482,
+        "porcentaje_blancos": 0.0789,
+        "salud": 0
+    },
+    "image_0277.jpg": {
+        "blancos": 500,
+        "total_pixeles": 7308,
+        "porcentaje_blancos": 0.0684,
+        "salud": 0
+    },
+    "image_0278.jpg": {
+        "blancos": 738,
+        "total_pixeles": 9211,
+        "porcentaje_blancos": 0.0801,
+        "salud": 0
+    },
+    "image_0279.jpg": {
+        "blancos": 827,
+        "total_pixeles": 9610,
+        "porcentaje_blancos": 0.0861,
+        "salud": 0
+    },
+    "image_0280.jpg": {
+        "blancos": 1636,
+        "total_pixeles": 9295,
+        "porcentaje_blancos": 0.176,
+        "salud": 0
+    },
+    "image_0281.jpg": {
+        "blancos": 2614,
+        "total_pixeles": 10008,
+        "porcentaje_blancos": 0.2612,
+        "salud": 0
+    },
+    "image_0282.jpg": {
+        "blancos": 4145,
+        "total_pixeles": 14112,
+        "porcentaje_blancos": 0.2937,
+        "salud": 0
+    },
+    "image_0283.jpg": {
+        "blancos": 1748,
+        "total_pixeles": 7854,
+        "porcentaje_blancos": 0.2226,
+        "salud": 0
+    },
+    "image_0284.jpg": {
+        "blancos": 5229,
+        "total_pixeles": 12348,
+        "porcentaje_blancos": 0.4235,
+        "salud": 1
+    },
+    "image_0285.jpg": {
+        "blancos": 3281,
+        "total_pixeles": 9396,
+        "porcentaje_blancos": 0.3492,
+        "salud": 1
+    },
+    "image_0286.jpg": {
+        "blancos": 2086,
+        "total_pixeles": 7571,
+        "porcentaje_blancos": 0.2755,
+        "salud": 0
+    },
+    "image_0287.jpg": {
+        "blancos": 3125,
+        "total_pixeles": 7276,
+        "porcentaje_blancos": 0.4295,
+        "salud": 1
+    },
+    "image_0288.jpg": {
+        "blancos": 5028,
+        "total_pixeles": 9396,
+        "porcentaje_blancos": 0.5351,
+        "salud": 1
+    },
+    "image_0289.jpg": {
+        "blancos": 5493,
+        "total_pixeles": 8118,
+        "porcentaje_blancos": 0.6766,
+        "salud": 1
+    },
+    "image_0290.jpg": {
+        "blancos": 3339,
+        "total_pixeles": 7980,
+        "porcentaje_blancos": 0.4184,
+        "salud": 1
+    },
+    "image_0291.jpg": {
+        "blancos": 842,
+        "total_pixeles": 8448,
+        "porcentaje_blancos": 0.0997,
+        "salud": 0
+    },
+    "image_0292.jpg": {
+        "blancos": 1129,
+        "total_pixeles": 6893,
+        "porcentaje_blancos": 0.1638,
+        "salud": 0
+    },
+    "image_0293.jpg": {
+        "blancos": 1560,
+        "total_pixeles": 9867,
+        "porcentaje_blancos": 0.1581,
+        "salud": 0
+    },
+    "image_0294.jpg": {
+        "blancos": 1894,
+        "total_pixeles": 9656,
+        "porcentaje_blancos": 0.1961,
+        "salud": 0
+    },
+    "image_0295.jpg": {
+        "blancos": 3411,
+        "total_pixeles": 10676,
+        "porcentaje_blancos": 0.3195,
+        "salud": 1
+    },
+    "image_0296.jpg": {
+        "blancos": 5119,
+        "total_pixeles": 9900,
+        "porcentaje_blancos": 0.5171,
+        "salud": 1
+    },
+    "image_0297.jpg": {
+        "blancos": 8145,
+        "total_pixeles": 11288,
+        "porcentaje_blancos": 0.7216,
+        "salud": 1
+    },
+    "image_0298.jpg": {
+        "blancos": 9300,
+        "total_pixeles": 12672,
+        "porcentaje_blancos": 0.7339,
+        "salud": 1
+    },
+    "image_0299.jpg": {
+        "blancos": 5782,
+        "total_pixeles": 7100,
+        "porcentaje_blancos": 0.8144,
+        "salud": 1
+    },
+    "image_0300.jpg": {
+        "blancos": 575,
+        "total_pixeles": 5546,
+        "porcentaje_blancos": 0.1037,
+        "salud": 0
+    },
+    "image_0301.jpg": {
+        "blancos": 1303,
+        "total_pixeles": 5704,
+        "porcentaje_blancos": 0.2284,
+        "salud": 0
+    },
+    "image_0302.jpg": {
+        "blancos": 2414,
+        "total_pixeles": 7437,
+        "porcentaje_blancos": 0.3246,
+        "salud": 1
+    },
+    "image_0303.jpg": {
+        "blancos": 2893,
+        "total_pixeles": 9842,
+        "porcentaje_blancos": 0.2939,
+        "salud": 0
+    },
+    "image_0304.jpg": {
+        "blancos": 2189,
+        "total_pixeles": 8908,
+        "porcentaje_blancos": 0.2457,
+        "salud": 0
+    },
+    "image_0305.jpg": {
+        "blancos": 1707,
+        "total_pixeles": 11360,
+        "porcentaje_blancos": 0.1503,
+        "salud": 0
+    },
+    "image_0306.jpg": {
+        "blancos": 3600,
+        "total_pixeles": 14039,
+        "porcentaje_blancos": 0.2564,
+        "salud": 0
+    },
+    "image_0307.jpg": {
+        "blancos": 5897,
+        "total_pixeles": 12544,
+        "porcentaje_blancos": 0.4701,
+        "salud": 1
+    },
+    "image_0308.jpg": {
+        "blancos": 5201,
+        "total_pixeles": 10540,
+        "porcentaje_blancos": 0.4935,
+        "salud": 1
+    },
+    "image_0309.jpg": {
+        "blancos": 434,
+        "total_pixeles": 6014,
+        "porcentaje_blancos": 0.0722,
+        "salud": 0
+    },
+    "image_0310.jpg": {
+        "blancos": 1234,
+        "total_pixeles": 7616,
+        "porcentaje_blancos": 0.162,
+        "salud": 0
+    },
+    "image_0311.jpg": {
+        "blancos": 1561,
+        "total_pixeles": 10425,
+        "porcentaje_blancos": 0.1497,
+        "salud": 0
+    },
+    "image_0312.jpg": {
+        "blancos": 2006,
+        "total_pixeles": 10043,
+        "porcentaje_blancos": 0.1997,
+        "salud": 0
+    },
+    "image_0313.jpg": {
+        "blancos": 1748,
+        "total_pixeles": 11676,
+        "porcentaje_blancos": 0.1497,
+        "salud": 0
+    },
+    "image_0314.jpg": {
+        "blancos": 4276,
+        "total_pixeles": 14008,
+        "porcentaje_blancos": 0.3053,
+        "salud": 1
+    },
+    "image_0315.jpg": {
+        "blancos": 1949,
+        "total_pixeles": 11502,
+        "porcentaje_blancos": 0.1694,
+        "salud": 0
+    },
+    "image_0316.jpg": {
+        "blancos": 6614,
+        "total_pixeles": 12852,
+        "porcentaje_blancos": 0.5146,
+        "salud": 1
+    },
+    "image_0317.jpg": {
+        "blancos": 4830,
+        "total_pixeles": 8586,
+        "porcentaje_blancos": 0.5625,
+        "salud": 1
+    },
+    "image_0318.jpg": {
+        "blancos": 3790,
+        "total_pixeles": 9936,
+        "porcentaje_blancos": 0.3814,
+        "salud": 1
+    },
+    "image_0319.jpg": {
+        "blancos": 4728,
+        "total_pixeles": 9313,
+        "porcentaje_blancos": 0.5077,
+        "salud": 1
+    },
+    "image_0320.jpg": {
+        "blancos": 7751,
+        "total_pixeles": 10332,
+        "porcentaje_blancos": 0.7502,
+        "salud": 1
+    },
+    "image_0321.jpg": {
+        "blancos": 6818,
+        "total_pixeles": 10370,
+        "porcentaje_blancos": 0.6575,
+        "salud": 1
+    },
+    "image_0322.jpg": {
+        "blancos": 5398,
+        "total_pixeles": 7100,
+        "porcentaje_blancos": 0.7603,
+        "salud": 1
+    },
+    "image_0323.jpg": {
+        "blancos": 1311,
+        "total_pixeles": 10875,
+        "porcentaje_blancos": 0.1206,
+        "salud": 0
+    },
+    "image_0324.jpg": {
+        "blancos": 1283,
+        "total_pixeles": 9174,
+        "porcentaje_blancos": 0.1399,
+        "salud": 0
+    },
+    "image_0325.jpg": {
+        "blancos": 3994,
+        "total_pixeles": 11712,
+        "porcentaje_blancos": 0.341,
+        "salud": 1
+    },
+    "image_0326.jpg": {
+        "blancos": 2478,
+        "total_pixeles": 9536,
+        "porcentaje_blancos": 0.2599,
+        "salud": 0
+    },
+    "image_0327.jpg": {
+        "blancos": 4536,
+        "total_pixeles": 10419,
+        "porcentaje_blancos": 0.4354,
+        "salud": 1
+    },
+    "image_0328.jpg": {
+        "blancos": 5717,
+        "total_pixeles": 9983,
+        "porcentaje_blancos": 0.5727,
+        "salud": 1
+    },
+    "image_0329.jpg": {
+        "blancos": 7498,
+        "total_pixeles": 10010,
+        "porcentaje_blancos": 0.7491,
+        "salud": 1
+    },
+    "image_0330.jpg": {
+        "blancos": 7669,
+        "total_pixeles": 9900,
+        "porcentaje_blancos": 0.7746,
+        "salud": 1
+    },
+    "image_0331.jpg": {
+        "blancos": 6147,
+        "total_pixeles": 10332,
+        "porcentaje_blancos": 0.5949,
+        "salud": 1
+    },
+    "image_0332.jpg": {
+        "blancos": 2789,
+        "total_pixeles": 6148,
+        "porcentaje_blancos": 0.4536,
+        "salud": 1
+    },
+    "image_0333.jpg": {
+        "blancos": 2282,
+        "total_pixeles": 7260,
+        "porcentaje_blancos": 0.3143,
+        "salud": 1
+    },
+    "image_0334.jpg": {
+        "blancos": 2445,
+        "total_pixeles": 11937,
+        "porcentaje_blancos": 0.2048,
+        "salud": 0
+    },
+    "image_0335.jpg": {
+        "blancos": 2232,
+        "total_pixeles": 9867,
+        "porcentaje_blancos": 0.2262,
+        "salud": 0
+    },
+    "image_0336.jpg": {
+        "blancos": 3046,
+        "total_pixeles": 9548,
+        "porcentaje_blancos": 0.319,
+        "salud": 1
+    },
+    "image_0337.jpg": {
+        "blancos": 3032,
+        "total_pixeles": 11319,
+        "porcentaje_blancos": 0.2679,
+        "salud": 0
+    },
+    "image_0338.jpg": {
+        "blancos": 4850,
+        "total_pixeles": 14948,
+        "porcentaje_blancos": 0.3245,
+        "salud": 1
+    },
+    "image_0339.jpg": {
+        "blancos": 7381,
+        "total_pixeles": 13668,
+        "porcentaje_blancos": 0.54,
+        "salud": 1
+    },
+    "image_0340.jpg": {
+        "blancos": 5701,
+        "total_pixeles": 10824,
+        "porcentaje_blancos": 0.5267,
+        "salud": 1
+    },
+    "image_0341.jpg": {
+        "blancos": 3602,
+        "total_pixeles": 6786,
+        "porcentaje_blancos": 0.5308,
+        "salud": 1
+    },
+    "image_0342.jpg": {
+        "blancos": 3143,
+        "total_pixeles": 7360,
+        "porcentaje_blancos": 0.427,
+        "salud": 1
+    },
+    "image_0343.jpg": {
+        "blancos": 2879,
+        "total_pixeles": 9522,
+        "porcentaje_blancos": 0.3024,
+        "salud": 1
+    },
+    "image_0344.jpg": {
+        "blancos": 2227,
+        "total_pixeles": 10500,
+        "porcentaje_blancos": 0.2121,
+        "salud": 0
+    },
+    "image_0345.jpg": {
+        "blancos": 2959,
+        "total_pixeles": 11778,
+        "porcentaje_blancos": 0.2512,
+        "salud": 0
+    },
+    "image_0346.jpg": {
+        "blancos": 4522,
+        "total_pixeles": 15622,
+        "porcentaje_blancos": 0.2895,
+        "salud": 0
+    },
+    "image_0347.jpg": {
+        "blancos": 2620,
+        "total_pixeles": 10758,
+        "porcentaje_blancos": 0.2435,
+        "salud": 0
+    },
+    "image_0348.jpg": {
+        "blancos": 5948,
+        "total_pixeles": 14751,
+        "porcentaje_blancos": 0.4032,
+        "salud": 1
+    },
+    "image_0349.jpg": {
+        "blancos": 5016,
+        "total_pixeles": 11500,
+        "porcentaje_blancos": 0.4362,
+        "salud": 1
+    },
+    "image_0350.jpg": {
+        "blancos": 3064,
+        "total_pixeles": 10318,
+        "porcentaje_blancos": 0.297,
+        "salud": 0
+    },
+    "image_0351.jpg": {
+        "blancos": 4087,
+        "total_pixeles": 9867,
+        "porcentaje_blancos": 0.4142,
+        "salud": 1
+    },
+    "image_0352.jpg": {
+        "blancos": 6708,
+        "total_pixeles": 10296,
+        "porcentaje_blancos": 0.6515,
+        "salud": 1
+    },
+    "image_0353.jpg": {
+        "blancos": 7183,
+        "total_pixeles": 9163,
+        "porcentaje_blancos": 0.7839,
+        "salud": 1
+    },
+    "image_0354.jpg": {
+        "blancos": 4477,
+        "total_pixeles": 7462,
+        "porcentaje_blancos": 0.6,
+        "salud": 1
+    },
+    "image_0355.jpg": {
+        "blancos": 2617,
+        "total_pixeles": 10720,
+        "porcentaje_blancos": 0.2441,
+        "salud": 0
+    },
+    "image_0356.jpg": {
+        "blancos": 1945,
+        "total_pixeles": 8540,
+        "porcentaje_blancos": 0.2278,
+        "salud": 0
+    },
+    "image_0357.jpg": {
+        "blancos": 1519,
+        "total_pixeles": 10626,
+        "porcentaje_blancos": 0.143,
+        "salud": 0
+    },
+    "image_0358.jpg": {
+        "blancos": 3270,
+        "total_pixeles": 9656,
+        "porcentaje_blancos": 0.3386,
+        "salud": 1
+    },
+    "image_0359.jpg": {
+        "blancos": 3557,
+        "total_pixeles": 10082,
+        "porcentaje_blancos": 0.3528,
+        "salud": 1
+    },
+    "image_0360.jpg": {
+        "blancos": 4649,
+        "total_pixeles": 9398,
+        "porcentaje_blancos": 0.4947,
+        "salud": 1
+    },
+    "image_0361.jpg": {
+        "blancos": 7153,
+        "total_pixeles": 12035,
+        "porcentaje_blancos": 0.5943,
+        "salud": 1
+    },
+    "image_0362.jpg": {
+        "blancos": 6553,
+        "total_pixeles": 8820,
+        "porcentaje_blancos": 0.743,
+        "salud": 1
+    },
+    "image_0363.jpg": {
+        "blancos": 5297,
+        "total_pixeles": 9639,
+        "porcentaje_blancos": 0.5495,
+        "salud": 1
+    },
+    "image_0364.jpg": {
+        "blancos": 5232,
+        "total_pixeles": 9243,
+        "porcentaje_blancos": 0.566,
+        "salud": 1
+    },
+    "image_0365.jpg": {
+        "blancos": 787,
+        "total_pixeles": 5510,
+        "porcentaje_blancos": 0.1428,
+        "salud": 0
+    },
+    "image_0366.jpg": {
+        "blancos": 1897,
+        "total_pixeles": 8576,
+        "porcentaje_blancos": 0.2212,
+        "salud": 0
+    },
+    "image_0367.jpg": {
+        "blancos": 2667,
+        "total_pixeles": 10366,
+        "porcentaje_blancos": 0.2573,
+        "salud": 0
+    },
+    "image_0368.jpg": {
+        "blancos": 2891,
+        "total_pixeles": 9936,
+        "porcentaje_blancos": 0.291,
+        "salud": 0
+    },
+    "image_0369.jpg": {
+        "blancos": 2144,
+        "total_pixeles": 10270,
+        "porcentaje_blancos": 0.2088,
+        "salud": 0
+    },
+    "image_0370.jpg": {
+        "blancos": 2949,
+        "total_pixeles": 10492,
+        "porcentaje_blancos": 0.2811,
+        "salud": 0
+    },
+    "image_0371.jpg": {
+        "blancos": 5256,
+        "total_pixeles": 14560,
+        "porcentaje_blancos": 0.361,
+        "salud": 1
+    },
+    "image_0372.jpg": {
+        "blancos": 6081,
+        "total_pixeles": 13680,
+        "porcentaje_blancos": 0.4445,
+        "salud": 1
+    },
+    "image_0373.jpg": {
+        "blancos": 4707,
+        "total_pixeles": 9922,
+        "porcentaje_blancos": 0.4744,
+        "salud": 1
+    },
+    "image_0374.jpg": {
+        "blancos": 1143,
+        "total_pixeles": 6600,
+        "porcentaje_blancos": 0.1732,
+        "salud": 0
+    },
+    "image_0375.jpg": {
+        "blancos": 1351,
+        "total_pixeles": 6100,
+        "porcentaje_blancos": 0.2215,
+        "salud": 0
+    },
+    "image_0376.jpg": {
+        "blancos": 2484,
+        "total_pixeles": 12320,
+        "porcentaje_blancos": 0.2016,
+        "salud": 0
+    },
+    "image_0377.jpg": {
+        "blancos": 2364,
+        "total_pixeles": 9798,
+        "porcentaje_blancos": 0.2413,
+        "salud": 0
+    },
+    "image_0378.jpg": {
+        "blancos": 3462,
+        "total_pixeles": 11205,
+        "porcentaje_blancos": 0.309,
+        "salud": 1
+    },
+    "image_0379.jpg": {
+        "blancos": 5340,
+        "total_pixeles": 14317,
+        "porcentaje_blancos": 0.373,
+        "salud": 1
+    },
+    "image_0380.jpg": {
+        "blancos": 2013,
+        "total_pixeles": 10205,
+        "porcentaje_blancos": 0.1973,
+        "salud": 0
+    },
+    "image_0381.jpg": {
+        "blancos": 6055,
+        "total_pixeles": 14065,
+        "porcentaje_blancos": 0.4305,
+        "salud": 1
+    },
+    "image_0382.jpg": {
+        "blancos": 6043,
+        "total_pixeles": 13536,
+        "porcentaje_blancos": 0.4464,
+        "salud": 1
+    },
+    "image_0383.jpg": {
+        "blancos": 3504,
+        "total_pixeles": 6723,
+        "porcentaje_blancos": 0.5212,
+        "salud": 1
+    },
+    "image_0384.jpg": {
+        "blancos": 4662,
+        "total_pixeles": 9801,
+        "porcentaje_blancos": 0.4757,
+        "salud": 1
+    },
+    "image_0385.jpg": {
+        "blancos": 4068,
+        "total_pixeles": 8976,
+        "porcentaje_blancos": 0.4532,
+        "salud": 1
+    },
+    "image_0386.jpg": {
+        "blancos": 5284,
+        "total_pixeles": 8820,
+        "porcentaje_blancos": 0.5991,
+        "salud": 1
+    },
+    "image_0387.jpg": {
+        "blancos": 8089,
+        "total_pixeles": 11583,
+        "porcentaje_blancos": 0.6984,
+        "salud": 1
+    },
+    "image_0388.jpg": {
+        "blancos": 7013,
+        "total_pixeles": 8820,
+        "porcentaje_blancos": 0.7951,
+        "salud": 1
+    },
+    "image_0389.jpg": {
+        "blancos": 3797,
+        "total_pixeles": 6241,
+        "porcentaje_blancos": 0.6084,
+        "salud": 1
+    },
+    "image_0390.jpg": {
+        "blancos": 5252,
+        "total_pixeles": 9164,
+        "porcentaje_blancos": 0.5731,
+        "salud": 1
+    },
+    "image_0391.jpg": {
+        "blancos": 2367,
+        "total_pixeles": 11454,
+        "porcentaje_blancos": 0.2067,
+        "salud": 0
+    },
+    "image_0392.jpg": {
+        "blancos": 2413,
+        "total_pixeles": 9730,
+        "porcentaje_blancos": 0.248,
+        "salud": 0
+    },
+    "image_0393.jpg": {
+        "blancos": 410,
+        "total_pixeles": 8908,
+        "porcentaje_blancos": 0.046,
+        "salud": 0
+    },
+    "image_0394.jpg": {
+        "blancos": 2399,
+        "total_pixeles": 8832,
+        "porcentaje_blancos": 0.2716,
+        "salud": 0
+    },
+    "image_0395.jpg": {
+        "blancos": 3771,
+        "total_pixeles": 9522,
+        "porcentaje_blancos": 0.396,
+        "salud": 1
+    },
+    "image_0396.jpg": {
+        "blancos": 3421,
+        "total_pixeles": 6324,
+        "porcentaje_blancos": 0.541,
+        "salud": 1
+    },
+    "image_0397.jpg": {
+        "blancos": 6270,
+        "total_pixeles": 9720,
+        "porcentaje_blancos": 0.6451,
+        "salud": 1
+    },
+    "image_0398.jpg": {
+        "blancos": 4919,
+        "total_pixeles": 7800,
+        "porcentaje_blancos": 0.6306,
+        "salud": 1
+    },
+    "image_0399.jpg": {
+        "blancos": 5643,
+        "total_pixeles": 6786,
+        "porcentaje_blancos": 0.8316,
+        "salud": 1
+    },
+    "image_0400.jpg": {
+        "blancos": 5236,
+        "total_pixeles": 7840,
+        "porcentaje_blancos": 0.6679,
+        "salud": 1
+    },
+    "image_0401.jpg": {
+        "blancos": 619,
+        "total_pixeles": 5586,
+        "porcentaje_blancos": 0.1108,
+        "salud": 0
+    },
+    "image_0402.jpg": {
+        "blancos": 1196,
+        "total_pixeles": 7080,
+        "porcentaje_blancos": 0.1689,
+        "salud": 0
+    },
+    "image_0403.jpg": {
+        "blancos": 2042,
+        "total_pixeles": 8505,
+        "porcentaje_blancos": 0.2401,
+        "salud": 0
+    },
+    "image_0404.jpg": {
+        "blancos": 2411,
+        "total_pixeles": 7260,
+        "porcentaje_blancos": 0.3321,
+        "salud": 1
+    },
+    "image_0405.jpg": {
+        "blancos": 630,
+        "total_pixeles": 9052,
+        "porcentaje_blancos": 0.0696,
+        "salud": 0
+    },
+    "image_0406.jpg": {
+        "blancos": 2507,
+        "total_pixeles": 7050,
+        "porcentaje_blancos": 0.3556,
+        "salud": 1
+    },
+    "image_0407.jpg": {
+        "blancos": 4915,
+        "total_pixeles": 12500,
+        "porcentaje_blancos": 0.3932,
+        "salud": 1
+    },
+    "image_0408.jpg": {
+        "blancos": 3966,
+        "total_pixeles": 8352,
+        "porcentaje_blancos": 0.4749,
+        "salud": 1
+    },
+    "image_0409.jpg": {
+        "blancos": 3362,
+        "total_pixeles": 8175,
+        "porcentaje_blancos": 0.4113,
+        "salud": 1
+    },
+    "image_0410.jpg": {
+        "blancos": 648,
+        "total_pixeles": 5586,
+        "porcentaje_blancos": 0.116,
+        "salud": 0
+    },
+    "image_0411.jpg": {
+        "blancos": 578,
+        "total_pixeles": 6039,
+        "porcentaje_blancos": 0.0957,
+        "salud": 0
+    },
+    "image_0412.jpg": {
+        "blancos": 1063,
+        "total_pixeles": 7865,
+        "porcentaje_blancos": 0.1352,
+        "salud": 0
+    },
+    "image_0413.jpg": {
+        "blancos": 1853,
+        "total_pixeles": 7370,
+        "porcentaje_blancos": 0.2514,
+        "salud": 0
+    },
+    "image_0414.jpg": {
+        "blancos": 3141,
+        "total_pixeles": 7700,
+        "porcentaje_blancos": 0.4079,
+        "salud": 1
+    },
+    "image_0415.jpg": {
+        "blancos": 5347,
+        "total_pixeles": 13390,
+        "porcentaje_blancos": 0.3993,
+        "salud": 1
+    },
+    "image_0416.jpg": {
+        "blancos": 1806,
+        "total_pixeles": 10872,
+        "porcentaje_blancos": 0.1661,
+        "salud": 0
+    },
+    "image_0417.jpg": {
+        "blancos": 4671,
+        "total_pixeles": 11094,
+        "porcentaje_blancos": 0.421,
+        "salud": 1
+    },
+    "image_0418.jpg": {
+        "blancos": 4048,
+        "total_pixeles": 7029,
+        "porcentaje_blancos": 0.5759,
+        "salud": 1
+    },
+    "image_0419.jpg": {
+        "blancos": 3050,
+        "total_pixeles": 8470,
+        "porcentaje_blancos": 0.3601,
+        "salud": 1
+    },
+    "image_0420.jpg": {
+        "blancos": 4539,
+        "total_pixeles": 8400,
+        "porcentaje_blancos": 0.5404,
+        "salud": 1
+    },
+    "image_0421.jpg": {
+        "blancos": 6319,
+        "total_pixeles": 9840,
+        "porcentaje_blancos": 0.6422,
+        "salud": 1
+    },
+    "image_0422.jpg": {
+        "blancos": 5988,
+        "total_pixeles": 7440,
+        "porcentaje_blancos": 0.8048,
+        "salud": 1
+    },
+    "image_0423.jpg": {
+        "blancos": 5304,
+        "total_pixeles": 7920,
+        "porcentaje_blancos": 0.6697,
+        "salud": 1
+    },
+    "image_0424.jpg": {
+        "blancos": 409,
+        "total_pixeles": 10032,
+        "porcentaje_blancos": 0.0408,
+        "salud": 0
+    },
+    "image_0425.jpg": {
+        "blancos": 1878,
+        "total_pixeles": 8976,
+        "porcentaje_blancos": 0.2092,
+        "salud": 0
+    },
+    "image_0426.jpg": {
+        "blancos": 1018,
+        "total_pixeles": 8448,
+        "porcentaje_blancos": 0.1205,
+        "salud": 0
+    },
+    "image_0427.jpg": {
+        "blancos": 869,
+        "total_pixeles": 9344,
+        "porcentaje_blancos": 0.093,
+        "salud": 0
+    },
+    "image_0428.jpg": {
+        "blancos": 1420,
+        "total_pixeles": 9536,
+        "porcentaje_blancos": 0.1489,
+        "salud": 0
+    },
+    "image_0429.jpg": {
+        "blancos": 2241,
+        "total_pixeles": 9520,
+        "porcentaje_blancos": 0.2354,
+        "salud": 0
+    },
+    "image_0430.jpg": {
+        "blancos": 3071,
+        "total_pixeles": 8442,
+        "porcentaje_blancos": 0.3638,
+        "salud": 1
+    },
+    "image_0431.jpg": {
+        "blancos": 3838,
+        "total_pixeles": 8775,
+        "porcentaje_blancos": 0.4374,
+        "salud": 1
+    },
+    "image_0432.jpg": {
+        "blancos": 4478,
+        "total_pixeles": 8255,
+        "porcentaje_blancos": 0.5425,
+        "salud": 1
+    },
+    "image_0433.jpg": {
+        "blancos": 6362,
+        "total_pixeles": 8658,
+        "porcentaje_blancos": 0.7348,
+        "salud": 1
+    },
+    "image_0434.jpg": {
+        "blancos": 5135,
+        "total_pixeles": 5928,
+        "porcentaje_blancos": 0.8662,
+        "salud": 1
+    },
+    "image_0435.jpg": {
+        "blancos": 739,
+        "total_pixeles": 5251,
+        "porcentaje_blancos": 0.1407,
+        "salud": 0
+    },
+    "image_0436.jpg": {
+        "blancos": 481,
+        "total_pixeles": 5192,
+        "porcentaje_blancos": 0.0926,
+        "salud": 0
+    },
+    "image_0437.jpg": {
+        "blancos": 1476,
+        "total_pixeles": 9240,
+        "porcentaje_blancos": 0.1597,
+        "salud": 0
+    },
+    "image_0438.jpg": {
+        "blancos": 2827,
+        "total_pixeles": 7314,
+        "porcentaje_blancos": 0.3865,
+        "salud": 1
+    },
+    "image_0439.jpg": {
+        "blancos": 403,
+        "total_pixeles": 7500,
+        "porcentaje_blancos": 0.0537,
+        "salud": 0
+    },
+    "image_0440.jpg": {
+        "blancos": 4183,
+        "total_pixeles": 9017,
+        "porcentaje_blancos": 0.4639,
+        "salud": 1
+    },
+    "image_0441.jpg": {
+        "blancos": 6385,
+        "total_pixeles": 11468,
+        "porcentaje_blancos": 0.5568,
+        "salud": 1
+    },
+    "image_0442.jpg": {
+        "blancos": 878,
+        "total_pixeles": 4920,
+        "porcentaje_blancos": 0.1785,
+        "salud": 0
+    },
+    "image_0443.jpg": {
+        "blancos": 1267,
+        "total_pixeles": 5978,
+        "porcentaje_blancos": 0.2119,
+        "salud": 0
+    },
+    "image_0444.jpg": {
+        "blancos": 1392,
+        "total_pixeles": 7488,
+        "porcentaje_blancos": 0.1859,
+        "salud": 0
+    },
+    "image_0445.jpg": {
+        "blancos": 1878,
+        "total_pixeles": 8024,
+        "porcentaje_blancos": 0.234,
+        "salud": 0
+    },
+    "image_0446.jpg": {
+        "blancos": 2313,
+        "total_pixeles": 9271,
+        "porcentaje_blancos": 0.2495,
+        "salud": 0
+    },
+    "image_0447.jpg": {
+        "blancos": 3434,
+        "total_pixeles": 12276,
+        "porcentaje_blancos": 0.2797,
+        "salud": 0
+    },
+    "image_0448.jpg": {
+        "blancos": 6369,
+        "total_pixeles": 11374,
+        "porcentaje_blancos": 0.56,
+        "salud": 1
+    },
+    "image_0449.jpg": {
+        "blancos": 1429,
+        "total_pixeles": 9472,
+        "porcentaje_blancos": 0.1509,
+        "salud": 0
+    },
+    "image_0450.jpg": {
+        "blancos": 864,
+        "total_pixeles": 9216,
+        "porcentaje_blancos": 0.0938,
+        "salud": 0
+    },
+    "image_0451.jpg": {
+        "blancos": 4614,
+        "total_pixeles": 11520,
+        "porcentaje_blancos": 0.4005,
+        "salud": 1
+    },
+    "image_0452.jpg": {
+        "blancos": 6090,
+        "total_pixeles": 10208,
+        "porcentaje_blancos": 0.5966,
+        "salud": 1
+    },
+    "image_0453.jpg": {
+        "blancos": 5563,
+        "total_pixeles": 12126,
+        "porcentaje_blancos": 0.4588,
+        "salud": 1
+    },
+    "image_0454.jpg": {
+        "blancos": 5042,
+        "total_pixeles": 10500,
+        "porcentaje_blancos": 0.4802,
+        "salud": 1
+    },
+    "image_0455.jpg": {
+        "blancos": 3071,
+        "total_pixeles": 8442,
+        "porcentaje_blancos": 0.3638,
+        "salud": 1
+    },
+    "image_0456.jpg": {
+        "blancos": 3844,
+        "total_pixeles": 8710,
+        "porcentaje_blancos": 0.4413,
+        "salud": 1
+    },
+    "image_0457.jpg": {
+        "blancos": 4478,
+        "total_pixeles": 8320,
+        "porcentaje_blancos": 0.5382,
+        "salud": 1
+    },
+    "image_0458.jpg": {
+        "blancos": 6362,
+        "total_pixeles": 8658,
+        "porcentaje_blancos": 0.7348,
+        "salud": 1
+    },
+    "image_0459.jpg": {
+        "blancos": 5825,
+        "total_pixeles": 8775,
+        "porcentaje_blancos": 0.6638,
+        "salud": 1
+    },
+    "image_0460.jpg": {
+        "blancos": 5535,
+        "total_pixeles": 8701,
+        "porcentaje_blancos": 0.6361,
+        "salud": 1
+    },
+    "image_0461.jpg": {
+        "blancos": 5514,
+        "total_pixeles": 9620,
+        "porcentaje_blancos": 0.5732,
+        "salud": 1
+    },
+    "image_0462.jpg": {
+        "blancos": 4989,
+        "total_pixeles": 5700,
+        "porcentaje_blancos": 0.8753,
+        "salud": 1
+    },
+    "image_0463.jpg": {
+        "blancos": 4036,
+        "total_pixeles": 5329,
+        "porcentaje_blancos": 0.7574,
+        "salud": 1
+    },
+    "image_0464.jpg": {
+        "blancos": 1041,
+        "total_pixeles": 8576,
+        "porcentaje_blancos": 0.1214,
+        "salud": 0
+    },
+    "image_0465.jpg": {
+        "blancos": 938,
+        "total_pixeles": 8646,
+        "porcentaje_blancos": 0.1085,
+        "salud": 0
+    },
+    "image_0466.jpg": {
+        "blancos": 1063,
+        "total_pixeles": 7688,
+        "porcentaje_blancos": 0.1383,
+        "salud": 0
+    },
+    "image_0467.jpg": {
+        "blancos": 403,
+        "total_pixeles": 7500,
+        "porcentaje_blancos": 0.0537,
+        "salud": 0
+    },
+    "image_0468.jpg": {
+        "blancos": 2744,
+        "total_pixeles": 10465,
+        "porcentaje_blancos": 0.2622,
+        "salud": 0
+    },
+    "image_0469.jpg": {
+        "blancos": 2659,
+        "total_pixeles": 9798,
+        "porcentaje_blancos": 0.2714,
+        "salud": 0
+    },
+    "image_0470.jpg": {
+        "blancos": 2414,
+        "total_pixeles": 8694,
+        "porcentaje_blancos": 0.2777,
+        "salud": 0
+    },
+    "image_0471.jpg": {
+        "blancos": 3789,
+        "total_pixeles": 9864,
+        "porcentaje_blancos": 0.3841,
+        "salud": 1
+    },
+    "image_0472.jpg": {
+        "blancos": 4845,
+        "total_pixeles": 9656,
+        "porcentaje_blancos": 0.5018,
+        "salud": 1
+    },
+    "image_0473.jpg": {
+        "blancos": 6678,
+        "total_pixeles": 9280,
+        "porcentaje_blancos": 0.7196,
+        "salud": 1
+    },
+    "image_0474.jpg": {
+        "blancos": 6138,
+        "total_pixeles": 8910,
+        "porcentaje_blancos": 0.6889,
+        "salud": 1
+    },
+    "image_0475.jpg": {
+        "blancos": 7623,
+        "total_pixeles": 10962,
+        "porcentaje_blancos": 0.6954,
+        "salud": 1
+    },
+    "image_0476.jpg": {
+        "blancos": 4966,
+        "total_pixeles": 7566,
+        "porcentaje_blancos": 0.6564,
+        "salud": 1
+    },
+    "image_0477.jpg": {
+        "blancos": 3134,
+        "total_pixeles": 6254,
+        "porcentaje_blancos": 0.5011,
+        "salud": 1
+    },
+    "image_0478.jpg": {
+        "blancos": 2839,
+        "total_pixeles": 7020,
+        "porcentaje_blancos": 0.4044,
+        "salud": 1
+    },
+    "image_0479.jpg": {
+        "blancos": 2741,
+        "total_pixeles": 6720,
+        "porcentaje_blancos": 0.4079,
+        "salud": 1
+    },
+    "image_0480.jpg": {
+        "blancos": 2396,
+        "total_pixeles": 9246,
+        "porcentaje_blancos": 0.2591,
+        "salud": 0
+    },
+    "image_0481.jpg": {
+        "blancos": 1995,
+        "total_pixeles": 9108,
+        "porcentaje_blancos": 0.219,
+        "salud": 0
+    },
+    "image_0482.jpg": {
+        "blancos": 3134,
+        "total_pixeles": 9452,
+        "porcentaje_blancos": 0.3316,
+        "salud": 1
+    },
+    "image_0483.jpg": {
+        "blancos": 2563,
+        "total_pixeles": 10336,
+        "porcentaje_blancos": 0.248,
+        "salud": 0
+    },
+    "image_0484.jpg": {
+        "blancos": 4109,
+        "total_pixeles": 13230,
+        "porcentaje_blancos": 0.3106,
+        "salud": 1
+    },
+    "image_0485.jpg": {
+        "blancos": 6289,
+        "total_pixeles": 11349,
+        "porcentaje_blancos": 0.5541,
+        "salud": 1
+    },
+    "image_0486.jpg": {
+        "blancos": 5735,
+        "total_pixeles": 11610,
+        "porcentaje_blancos": 0.494,
+        "salud": 1
+    },
+    "image_0487.jpg": {
+        "blancos": 3300,
+        "total_pixeles": 6592,
+        "porcentaje_blancos": 0.5006,
+        "salud": 1
+    },
+    "image_0488.jpg": {
+        "blancos": 2994,
+        "total_pixeles": 7605,
+        "porcentaje_blancos": 0.3937,
+        "salud": 1
+    },
+    "image_0489.jpg": {
+        "blancos": 2622,
+        "total_pixeles": 9860,
+        "porcentaje_blancos": 0.2659,
+        "salud": 0
+    },
+    "image_0490.jpg": {
+        "blancos": 2629,
+        "total_pixeles": 8911,
+        "porcentaje_blancos": 0.295,
+        "salud": 0
+    },
+    "image_0491.jpg": {
+        "blancos": 2407,
+        "total_pixeles": 9956,
+        "porcentaje_blancos": 0.2418,
+        "salud": 0
+    },
+    "image_0492.jpg": {
+        "blancos": 4367,
+        "total_pixeles": 12771,
+        "porcentaje_blancos": 0.3419,
+        "salud": 1
+    },
+    "image_0493.jpg": {
+        "blancos": 2407,
+        "total_pixeles": 8631,
+        "porcentaje_blancos": 0.2789,
+        "salud": 0
+    },
+    "image_0494.jpg": {
+        "blancos": 5558,
+        "total_pixeles": 10502,
+        "porcentaje_blancos": 0.5292,
+        "salud": 1
+    },
+    "image_0495.jpg": {
+        "blancos": 5735,
+        "total_pixeles": 11610,
+        "porcentaje_blancos": 0.494,
+        "salud": 1
+    },
+    "image_0496.jpg": {
+        "blancos": 5087,
+        "total_pixeles": 10296,
+        "porcentaje_blancos": 0.4941,
+        "salud": 1
+    },
+    "image_0497.jpg": {
+        "blancos": 3209,
+        "total_pixeles": 9864,
+        "porcentaje_blancos": 0.3253,
+        "salud": 1
+    },
+    "image_0498.jpg": {
+        "blancos": 3776,
+        "total_pixeles": 9240,
+        "porcentaje_blancos": 0.4087,
+        "salud": 1
+    },
+    "image_0499.jpg": {
+        "blancos": 6187,
+        "total_pixeles": 9702,
+        "porcentaje_blancos": 0.6377,
+        "salud": 1
+    },
+    "image_0500.jpg": {
+        "blancos": 6271,
+        "total_pixeles": 9632,
+        "porcentaje_blancos": 0.6511,
+        "salud": 1
+    },
+    "image_0501.jpg": {
+        "blancos": 4737,
+        "total_pixeles": 7220,
+        "porcentaje_blancos": 0.6561,
+        "salud": 1
+    },
+    "image_0502.jpg": {
+        "blancos": 3053,
+        "total_pixeles": 11448,
+        "porcentaje_blancos": 0.2667,
+        "salud": 0
+    },
+    "image_0503.jpg": {
+        "blancos": 2744,
+        "total_pixeles": 10362,
+        "porcentaje_blancos": 0.2648,
+        "salud": 0
+    },
+    "image_0504.jpg": {
+        "blancos": 3112,
+        "total_pixeles": 9316,
+        "porcentaje_blancos": 0.334,
+        "salud": 1
+    },
+    "image_0505.jpg": {
+        "blancos": 4082,
+        "total_pixeles": 11088,
+        "porcentaje_blancos": 0.3681,
+        "salud": 1
+    },
+    "image_0506.jpg": {
+        "blancos": 1450,
+        "total_pixeles": 9555,
+        "porcentaje_blancos": 0.1518,
+        "salud": 0
+    },
+    "image_0507.jpg": {
+        "blancos": 982,
+        "total_pixeles": 10205,
+        "porcentaje_blancos": 0.0962,
+        "salud": 0
+    },
+    "image_0508.jpg": {
+        "blancos": 1991,
+        "total_pixeles": 11130,
+        "porcentaje_blancos": 0.1789,
+        "salud": 0
+    },
+    "image_0509.jpg": {
+        "blancos": 1582,
+        "total_pixeles": 8192,
+        "porcentaje_blancos": 0.1931,
+        "salud": 0
+    },
+    "image_0510.jpg": {
+        "blancos": 2319,
+        "total_pixeles": 8775,
+        "porcentaje_blancos": 0.2643,
+        "salud": 0
+    },
+    "image_0511.jpg": {
+        "blancos": 2897,
+        "total_pixeles": 9514,
+        "porcentaje_blancos": 0.3045,
+        "salud": 1
+    },
+    "image_0512.jpg": {
+        "blancos": 3942,
+        "total_pixeles": 7424,
+        "porcentaje_blancos": 0.531,
+        "salud": 1
+    },
+    "image_0513.jpg": {
+        "blancos": 5858,
+        "total_pixeles": 9750,
+        "porcentaje_blancos": 0.6008,
+        "salud": 1
+    },
+    "image_0514.jpg": {
+        "blancos": 6355,
+        "total_pixeles": 8393,
+        "porcentaje_blancos": 0.7572,
+        "salud": 1
+    },
+    "image_0515.jpg": {
+        "blancos": 6625,
+        "total_pixeles": 9801,
+        "porcentaje_blancos": 0.676,
+        "salud": 1
+    },
+    "image_0516.jpg": {
+        "blancos": 5936,
+        "total_pixeles": 9360,
+        "porcentaje_blancos": 0.6342,
+        "salud": 1
+    },
+    "image_0517.jpg": {
+        "blancos": 4655,
+        "total_pixeles": 7500,
+        "porcentaje_blancos": 0.6207,
+        "salud": 1
+    },
+    "image_0518.jpg": {
+        "blancos": 4525,
+        "total_pixeles": 6825,
+        "porcentaje_blancos": 0.663,
+        "salud": 1
+    },
+    "image_0519.jpg": {
+        "blancos": 1370,
+        "total_pixeles": 4332,
+        "porcentaje_blancos": 0.3163,
+        "salud": 1
+    },
+    "image_0520.jpg": {
+        "blancos": 1111,
+        "total_pixeles": 4845,
+        "porcentaje_blancos": 0.2293,
+        "salud": 0
+    },
+    "image_0521.jpg": {
+        "blancos": 1472,
+        "total_pixeles": 4500,
+        "porcentaje_blancos": 0.3271,
+        "salud": 1
+    },
+    "image_0522.jpg": {
+        "blancos": 1849,
+        "total_pixeles": 5124,
+        "porcentaje_blancos": 0.3609,
+        "salud": 1
+    },
+    "image_0523.jpg": {
+        "blancos": 2140,
+        "total_pixeles": 8118,
+        "porcentaje_blancos": 0.2636,
+        "salud": 0
+    },
+    "image_0524.jpg": {
+        "blancos": 1751,
+        "total_pixeles": 8280,
+        "porcentaje_blancos": 0.2115,
+        "salud": 0
+    },
+    "image_0525.jpg": {
+        "blancos": 1660,
+        "total_pixeles": 7548,
+        "porcentaje_blancos": 0.2199,
+        "salud": 0
+    },
+    "image_0526.jpg": {
+        "blancos": 1897,
+        "total_pixeles": 8580,
+        "porcentaje_blancos": 0.2211,
+        "salud": 0
+    },
+    "image_0527.jpg": {
+        "blancos": 1703,
+        "total_pixeles": 8880,
+        "porcentaje_blancos": 0.1918,
+        "salud": 0
+    },
+    "image_0528.jpg": {
+        "blancos": 4511,
+        "total_pixeles": 11997,
+        "porcentaje_blancos": 0.376,
+        "salud": 1
+    },
+    "image_0529.jpg": {
+        "blancos": 5884,
+        "total_pixeles": 10680,
+        "porcentaje_blancos": 0.5509,
+        "salud": 1
+    },
+    "image_0530.jpg": {
+        "blancos": 5073,
+        "total_pixeles": 10028,
+        "porcentaje_blancos": 0.5059,
+        "salud": 1
+    },
+    "image_0531.jpg": {
+        "blancos": 1110,
+        "total_pixeles": 4731,
+        "porcentaje_blancos": 0.2346,
+        "salud": 0
+    },
+    "image_0532.jpg": {
+        "blancos": 1362,
+        "total_pixeles": 4503,
+        "porcentaje_blancos": 0.3025,
+        "salud": 1
+    },
+    "image_0533.jpg": {
+        "blancos": 1478,
+        "total_pixeles": 4560,
+        "porcentaje_blancos": 0.3241,
+        "salud": 1
+    },
+    "image_0534.jpg": {
+        "blancos": 1838,
+        "total_pixeles": 5063,
+        "porcentaje_blancos": 0.363,
+        "salud": 1
+    },
+    "image_0535.jpg": {
+        "blancos": 2129,
+        "total_pixeles": 8118,
+        "porcentaje_blancos": 0.2623,
+        "salud": 0
+    },
+    "image_0536.jpg": {
+        "blancos": 1751,
+        "total_pixeles": 8349,
+        "porcentaje_blancos": 0.2097,
+        "salud": 0
+    },
+    "image_0537.jpg": {
+        "blancos": 1950,
+        "total_pixeles": 8712,
+        "porcentaje_blancos": 0.2238,
+        "salud": 0
+    },
+    "image_0538.jpg": {
+        "blancos": 1660,
+        "total_pixeles": 7548,
+        "porcentaje_blancos": 0.2199,
+        "salud": 0
+    },
+    "image_0539.jpg": {
+        "blancos": 1836,
+        "total_pixeles": 9525,
+        "porcentaje_blancos": 0.1928,
+        "salud": 0
+    },
+    "image_0540.jpg": {
+        "blancos": 4035,
+        "total_pixeles": 11011,
+        "porcentaje_blancos": 0.3665,
+        "salud": 1
+    },
+    "image_0541.jpg": {
+        "blancos": 1994,
+        "total_pixeles": 10990,
+        "porcentaje_blancos": 0.1814,
+        "salud": 0
+    },
+    "image_0542.jpg": {
+        "blancos": 6141,
+        "total_pixeles": 10413,
+        "porcentaje_blancos": 0.5897,
+        "salud": 1
+    },
+    "image_0543.jpg": {
+        "blancos": 5599,
+        "total_pixeles": 9996,
+        "porcentaje_blancos": 0.5601,
+        "salud": 1
+    },
+    "image_0544.jpg": {
+        "blancos": 1572,
+        "total_pixeles": 7936,
+        "porcentaje_blancos": 0.1981,
+        "salud": 0
+    },
+    "image_0545.jpg": {
+        "blancos": 3008,
+        "total_pixeles": 9588,
+        "porcentaje_blancos": 0.3137,
+        "salud": 1
+    },
+    "image_0546.jpg": {
+        "blancos": 4595,
+        "total_pixeles": 7300,
+        "porcentaje_blancos": 0.6295,
+        "salud": 1
+    },
+    "image_0547.jpg": {
+        "blancos": 726,
+        "total_pixeles": 10212,
+        "porcentaje_blancos": 0.0711,
+        "salud": 0
+    },
+    "image_0548.jpg": {
+        "blancos": 1897,
+        "total_pixeles": 8580,
+        "porcentaje_blancos": 0.2211,
+        "salud": 0
+    },
+    "image_0549.jpg": {
+        "blancos": 991,
+        "total_pixeles": 9072,
+        "porcentaje_blancos": 0.1092,
+        "salud": 0
+    },
+    "image_0550.jpg": {
+        "blancos": 3581,
+        "total_pixeles": 11152,
+        "porcentaje_blancos": 0.3211,
+        "salud": 1
+    },
+    "image_0551.jpg": {
+        "blancos": 3011,
+        "total_pixeles": 10787,
+        "porcentaje_blancos": 0.2791,
+        "salud": 0
+    },
+    "image_0552.jpg": {
+        "blancos": 2562,
+        "total_pixeles": 10117,
+        "porcentaje_blancos": 0.2532,
+        "salud": 0
+    },
+    "image_0553.jpg": {
+        "blancos": 4016,
+        "total_pixeles": 9729,
+        "porcentaje_blancos": 0.4128,
+        "salud": 1
+    },
+    "image_0554.jpg": {
+        "blancos": 4252,
+        "total_pixeles": 10010,
+        "porcentaje_blancos": 0.4248,
+        "salud": 1
+    },
+    "image_0555.jpg": {
+        "blancos": 4635,
+        "total_pixeles": 8908,
+        "porcentaje_blancos": 0.5203,
+        "salud": 1
+    },
+    "image_0556.jpg": {
+        "blancos": 4696,
+        "total_pixeles": 10584,
+        "porcentaje_blancos": 0.4437,
+        "salud": 1
+    },
+    "image_0557.jpg": {
+        "blancos": 6411,
+        "total_pixeles": 9322,
+        "porcentaje_blancos": 0.6877,
+        "salud": 1
+    },
+    "image_0558.jpg": {
+        "blancos": 6997,
+        "total_pixeles": 10935,
+        "porcentaje_blancos": 0.6399,
+        "salud": 1
+    },
+    "image_0559.jpg": {
+        "blancos": 5867,
+        "total_pixeles": 9594,
+        "porcentaje_blancos": 0.6115,
+        "salud": 1
+    },
+    "image_0560.jpg": {
+        "blancos": 6273,
+        "total_pixeles": 11060,
+        "porcentaje_blancos": 0.5672,
+        "salud": 1
+    },
+    "image_0561.jpg": {
+        "blancos": 6909,
+        "total_pixeles": 11223,
+        "porcentaje_blancos": 0.6156,
+        "salud": 1
+    },
+    "image_0562.jpg": {
+        "blancos": 4508,
+        "total_pixeles": 6474,
+        "porcentaje_blancos": 0.6963,
+        "salud": 1
+    },
+    "image_0563.jpg": {
+        "blancos": 3437,
+        "total_pixeles": 5432,
+        "porcentaje_blancos": 0.6327,
+        "salud": 1
+    },
+    "image_0564.jpg": {
+        "blancos": 4073,
+        "total_pixeles": 6954,
+        "porcentaje_blancos": 0.5857,
+        "salud": 1
+    },
+    "image_0565.jpg": {
+        "blancos": 3671,
+        "total_pixeles": 8125,
+        "porcentaje_blancos": 0.4518,
+        "salud": 1
+    },
+    "image_0566.jpg": {
+        "blancos": 2875,
+        "total_pixeles": 8625,
+        "porcentaje_blancos": 0.3333,
+        "salud": 1
+    },
+    "image_0567.jpg": {
+        "blancos": 3601,
+        "total_pixeles": 9660,
+        "porcentaje_blancos": 0.3728,
+        "salud": 1
+    },
+    "image_0568.jpg": {
+        "blancos": 1957,
+        "total_pixeles": 7590,
+        "porcentaje_blancos": 0.2578,
+        "salud": 0
+    },
+    "image_0569.jpg": {
+        "blancos": 4442,
+        "total_pixeles": 12922,
+        "porcentaje_blancos": 0.3438,
+        "salud": 1
+    },
+    "image_0570.jpg": {
+        "blancos": 5720,
+        "total_pixeles": 11316,
+        "porcentaje_blancos": 0.5055,
+        "salud": 1
+    },
+    "image_0571.jpg": {
+        "blancos": 3907,
+        "total_pixeles": 6400,
+        "porcentaje_blancos": 0.6105,
+        "salud": 1
+    },
+    "image_0572.jpg": {
+        "blancos": 4885,
+        "total_pixeles": 10750,
+        "porcentaje_blancos": 0.4544,
+        "salud": 1
+    },
+    "image_0573.jpg": {
+        "blancos": 3070,
+        "total_pixeles": 5974,
+        "porcentaje_blancos": 0.5139,
+        "salud": 1
+    },
+    "image_0574.jpg": {
+        "blancos": 3475,
+        "total_pixeles": 6272,
+        "porcentaje_blancos": 0.554,
+        "salud": 1
+    },
+    "image_0575.jpg": {
+        "blancos": 3758,
+        "total_pixeles": 7540,
+        "porcentaje_blancos": 0.4984,
+        "salud": 1
+    },
+    "image_0576.jpg": {
+        "blancos": 3596,
+        "total_pixeles": 9039,
+        "porcentaje_blancos": 0.3978,
+        "salud": 1
+    },
+    "image_0577.jpg": {
+        "blancos": 3859,
+        "total_pixeles": 12730,
+        "porcentaje_blancos": 0.3031,
+        "salud": 1
+    },
+    "image_0578.jpg": {
+        "blancos": 3014,
+        "total_pixeles": 10676,
+        "porcentaje_blancos": 0.2823,
+        "salud": 0
+    },
+    "image_0579.jpg": {
+        "blancos": 5168,
+        "total_pixeles": 11346,
+        "porcentaje_blancos": 0.4555,
+        "salud": 1
+    },
+    "image_0580.jpg": {
+        "blancos": 4908,
+        "total_pixeles": 10788,
+        "porcentaje_blancos": 0.4549,
+        "salud": 1
+    },
+    "image_0581.jpg": {
+        "blancos": 4336,
+        "total_pixeles": 9940,
+        "porcentaje_blancos": 0.4362,
+        "salud": 1
+    },
+    "image_0582.jpg": {
+        "blancos": 4495,
+        "total_pixeles": 6552,
+        "porcentaje_blancos": 0.6861,
+        "salud": 1
+    },
+    "image_0583.jpg": {
+        "blancos": 3875,
+        "total_pixeles": 10586,
+        "porcentaje_blancos": 0.366,
+        "salud": 1
+    },
+    "image_0584.jpg": {
+        "blancos": 3605,
+        "total_pixeles": 9729,
+        "porcentaje_blancos": 0.3705,
+        "salud": 1
+    },
+    "image_0585.jpg": {
+        "blancos": 3650,
+        "total_pixeles": 8970,
+        "porcentaje_blancos": 0.4069,
+        "salud": 1
+    },
+    "image_0586.jpg": {
+        "blancos": 1718,
+        "total_pixeles": 9313,
+        "porcentaje_blancos": 0.1845,
+        "salud": 0
+    },
+    "image_0587.jpg": {
+        "blancos": 1767,
+        "total_pixeles": 9664,
+        "porcentaje_blancos": 0.1828,
+        "salud": 0
+    },
+    "image_0588.jpg": {
+        "blancos": 1818,
+        "total_pixeles": 10117,
+        "porcentaje_blancos": 0.1797,
+        "salud": 0
+    },
+    "image_0589.jpg": {
+        "blancos": 3446,
+        "total_pixeles": 9520,
+        "porcentaje_blancos": 0.362,
+        "salud": 1
+    },
+    "image_0590.jpg": {
+        "blancos": 3387,
+        "total_pixeles": 8712,
+        "porcentaje_blancos": 0.3888,
+        "salud": 1
+    },
+    "image_0591.jpg": {
+        "blancos": 4734,
+        "total_pixeles": 9522,
+        "porcentaje_blancos": 0.4972,
+        "salud": 1
+    },
+    "image_0592.jpg": {
+        "blancos": 4658,
+        "total_pixeles": 9159,
+        "porcentaje_blancos": 0.5086,
+        "salud": 1
+    },
+    "image_0593.jpg": {
+        "blancos": 6455,
+        "total_pixeles": 8800,
+        "porcentaje_blancos": 0.7335,
+        "salud": 1
+    },
+    "image_0594.jpg": {
+        "blancos": 6557,
+        "total_pixeles": 9317,
+        "porcentaje_blancos": 0.7038,
+        "salud": 1
+    },
+    "image_0595.jpg": {
+        "blancos": 5190,
+        "total_pixeles": 8610,
+        "porcentaje_blancos": 0.6028,
+        "salud": 1
+    },
+    "image_0596.jpg": {
+        "blancos": 4999,
+        "total_pixeles": 8586,
+        "porcentaje_blancos": 0.5822,
+        "salud": 1
+    },
+    "image_0597.jpg": {
+        "blancos": 5311,
+        "total_pixeles": 8208,
+        "porcentaje_blancos": 0.6471,
+        "salud": 1
+    },
+    "image_0598.jpg": {
+        "blancos": 5464,
+        "total_pixeles": 8624,
+        "porcentaje_blancos": 0.6336,
+        "salud": 1
+    },
+    "image_0599.jpg": {
+        "blancos": 1730,
+        "total_pixeles": 4161,
+        "porcentaje_blancos": 0.4158,
+        "salud": 1
+    },
+    "image_0600.jpg": {
+        "blancos": 2033,
+        "total_pixeles": 4256,
+        "porcentaje_blancos": 0.4777,
+        "salud": 1
+    },
+    "image_0601.jpg": {
+        "blancos": 1932,
+        "total_pixeles": 4740,
+        "porcentaje_blancos": 0.4076,
+        "salud": 1
+    },
+    "image_0602.jpg": {
+        "blancos": 2336,
+        "total_pixeles": 7906,
+        "porcentaje_blancos": 0.2955,
+        "salud": 0
+    },
+    "image_0603.jpg": {
+        "blancos": 2586,
+        "total_pixeles": 8040,
+        "porcentaje_blancos": 0.3216,
+        "salud": 1
+    },
+    "image_0604.jpg": {
+        "blancos": 1940,
+        "total_pixeles": 7497,
+        "porcentaje_blancos": 0.2588,
+        "salud": 0
+    },
+    "image_0605.jpg": {
+        "blancos": 2179,
+        "total_pixeles": 8979,
+        "porcentaje_blancos": 0.2427,
+        "salud": 0
+    },
+    "image_0606.jpg": {
+        "blancos": 4463,
+        "total_pixeles": 12707,
+        "porcentaje_blancos": 0.3512,
+        "salud": 1
+    },
+    "image_0607.jpg": {
+        "blancos": 5593,
+        "total_pixeles": 10948,
+        "porcentaje_blancos": 0.5109,
+        "salud": 1
+    },
+    "image_0608.jpg": {
+        "blancos": 3574,
+        "total_pixeles": 5776,
+        "porcentaje_blancos": 0.6188,
+        "salud": 1
+    },
+    "image_0609.jpg": {
+        "blancos": 2045,
+        "total_pixeles": 4446,
+        "porcentaje_blancos": 0.46,
+        "salud": 1
+    },
+    "image_0610.jpg": {
+        "blancos": 2151,
+        "total_pixeles": 4819,
+        "porcentaje_blancos": 0.4464,
+        "salud": 1
+    },
+    "image_0611.jpg": {
+        "blancos": 2522,
+        "total_pixeles": 7839,
+        "porcentaje_blancos": 0.3217,
+        "salud": 1
+    },
+    "image_0612.jpg": {
+        "blancos": 2453,
+        "total_pixeles": 7772,
+        "porcentaje_blancos": 0.3156,
+        "salud": 1
+    },
+    "image_0613.jpg": {
+        "blancos": 2438,
+        "total_pixeles": 9563,
+        "porcentaje_blancos": 0.2549,
+        "salud": 0
+    },
+    "image_0614.jpg": {
+        "blancos": 4429,
+        "total_pixeles": 12065,
+        "porcentaje_blancos": 0.3671,
+        "salud": 1
+    },
+    "image_0615.jpg": {
+        "blancos": 1818,
+        "total_pixeles": 10117,
+        "porcentaje_blancos": 0.1797,
+        "salud": 0
+    },
+    "image_0616.jpg": {
+        "blancos": 6042,
+        "total_pixeles": 10764,
+        "porcentaje_blancos": 0.5613,
+        "salud": 1
+    },
+    "image_0617.jpg": {
+        "blancos": 4552,
+        "total_pixeles": 6320,
+        "porcentaje_blancos": 0.7203,
+        "salud": 1
+    },
+    "image_0618.jpg": {
+        "blancos": 5430,
+        "total_pixeles": 8624,
+        "porcentaje_blancos": 0.6296,
+        "salud": 1
+    },
+    "image_0619.jpg": {
+        "blancos": 1752,
+        "total_pixeles": 9452,
+        "porcentaje_blancos": 0.1854,
+        "salud": 0
+    },
+    "image_0620.jpg": {
+        "blancos": 1552,
+        "total_pixeles": 9452,
+        "porcentaje_blancos": 0.1642,
+        "salud": 0
+    },
+    "image_0621.jpg": {
+        "blancos": 1990,
+        "total_pixeles": 7616,
+        "porcentaje_blancos": 0.2613,
+        "salud": 0
+    },
+    "image_0622.jpg": {
+        "blancos": 1495,
+        "total_pixeles": 7874,
+        "porcentaje_blancos": 0.1899,
+        "salud": 0
+    },
+    "image_0623.jpg": {
+        "blancos": 1305,
+        "total_pixeles": 10971,
+        "porcentaje_blancos": 0.1189,
+        "salud": 0
+    },
+    "image_0624.jpg": {
+        "blancos": 3917,
+        "total_pixeles": 10624,
+        "porcentaje_blancos": 0.3687,
+        "salud": 1
+    },
+    "image_0625.jpg": {
+        "blancos": 6041,
+        "total_pixeles": 9936,
+        "porcentaje_blancos": 0.608,
+        "salud": 1
+    },
+    "image_0626.jpg": {
+        "blancos": 6726,
+        "total_pixeles": 9380,
+        "porcentaje_blancos": 0.7171,
+        "salud": 1
+    },
+    "image_0627.jpg": {
+        "blancos": 8447,
+        "total_pixeles": 11782,
+        "porcentaje_blancos": 0.7169,
+        "salud": 1
+    },
+    "image_0628.jpg": {
+        "blancos": 4906,
+        "total_pixeles": 8000,
+        "porcentaje_blancos": 0.6132,
+        "salud": 1
+    },
+    "image_0629.jpg": {
+        "blancos": 5363,
+        "total_pixeles": 8720,
+        "porcentaje_blancos": 0.615,
+        "salud": 1
+    },
+    "image_0630.jpg": {
+        "blancos": 2098,
+        "total_pixeles": 4876,
+        "porcentaje_blancos": 0.4303,
+        "salud": 1
+    },
+    "image_0631.jpg": {
+        "blancos": 2576,
+        "total_pixeles": 6944,
+        "porcentaje_blancos": 0.371,
+        "salud": 1
+    },
+    "image_0632.jpg": {
+        "blancos": 1873,
+        "total_pixeles": 6710,
+        "porcentaje_blancos": 0.2791,
+        "salud": 0
+    },
+    "image_0633.jpg": {
+        "blancos": 2345,
+        "total_pixeles": 9472,
+        "porcentaje_blancos": 0.2476,
+        "salud": 0
+    },
+    "image_0634.jpg": {
+        "blancos": 3688,
+        "total_pixeles": 8901,
+        "porcentaje_blancos": 0.4143,
+        "salud": 1
+    },
+    "image_0635.jpg": {
+        "blancos": 3480,
+        "total_pixeles": 7488,
+        "porcentaje_blancos": 0.4647,
+        "salud": 1
+    },
+    "image_0636.jpg": {
+        "blancos": 1789,
+        "total_pixeles": 9900,
+        "porcentaje_blancos": 0.1807,
+        "salud": 0
+    },
+    "image_0637.jpg": {
+        "blancos": 3177,
+        "total_pixeles": 8174,
+        "porcentaje_blancos": 0.3887,
+        "salud": 1
+    },
+    "image_0638.jpg": {
+        "blancos": 4410,
+        "total_pixeles": 12635,
+        "porcentaje_blancos": 0.349,
+        "salud": 1
+    },
+    "image_0639.jpg": {
+        "blancos": 5656,
+        "total_pixeles": 12288,
+        "porcentaje_blancos": 0.4603,
+        "salud": 1
+    },
+    "image_0640.jpg": {
+        "blancos": 4364,
+        "total_pixeles": 9440,
+        "porcentaje_blancos": 0.4623,
+        "salud": 1
+    },
+    "image_0641.jpg": {
+        "blancos": 1699,
+        "total_pixeles": 5832,
+        "porcentaje_blancos": 0.2913,
+        "salud": 0
+    },
+    "image_0642.jpg": {
+        "blancos": 1805,
+        "total_pixeles": 6780,
+        "porcentaje_blancos": 0.2662,
+        "salud": 0
+    },
+    "image_0643.jpg": {
+        "blancos": 2348,
+        "total_pixeles": 9675,
+        "porcentaje_blancos": 0.2427,
+        "salud": 0
+    },
+    "image_0644.jpg": {
+        "blancos": 2354,
+        "total_pixeles": 7865,
+        "porcentaje_blancos": 0.2993,
+        "salud": 0
+    },
+    "image_0645.jpg": {
+        "blancos": 2222,
+        "total_pixeles": 8330,
+        "porcentaje_blancos": 0.2667,
+        "salud": 0
+    },
+    "image_0646.jpg": {
+        "blancos": 3919,
+        "total_pixeles": 12610,
+        "porcentaje_blancos": 0.3108,
+        "salud": 1
+    },
+    "image_0647.jpg": {
+        "blancos": 3371,
+        "total_pixeles": 11840,
+        "porcentaje_blancos": 0.2847,
+        "salud": 0
+    },
+    "image_0648.jpg": {
+        "blancos": 5777,
+        "total_pixeles": 11956,
+        "porcentaje_blancos": 0.4832,
+        "salud": 1
+    },
+    "image_0649.jpg": {
+        "blancos": 3548,
+        "total_pixeles": 6480,
+        "porcentaje_blancos": 0.5475,
+        "salud": 1
+    },
+    "image_0650.jpg": {
+        "blancos": 4502,
+        "total_pixeles": 11025,
+        "porcentaje_blancos": 0.4083,
+        "salud": 1
+    },
+    "image_0651.jpg": {
+        "blancos": 5687,
+        "total_pixeles": 10320,
+        "porcentaje_blancos": 0.5511,
+        "salud": 1
+    },
+    "image_0652.jpg": {
+        "blancos": 6138,
+        "total_pixeles": 9322,
+        "porcentaje_blancos": 0.6584,
+        "salud": 1
+    },
+    "image_0653.jpg": {
+        "blancos": 4580,
+        "total_pixeles": 7584,
+        "porcentaje_blancos": 0.6039,
+        "salud": 1
+    },
+    "image_0654.jpg": {
+        "blancos": 5156,
+        "total_pixeles": 9047,
+        "porcentaje_blancos": 0.5699,
+        "salud": 1
+    },
+    "image_0655.jpg": {
+        "blancos": 1888,
+        "total_pixeles": 11178,
+        "porcentaje_blancos": 0.1689,
+        "salud": 0
+    },
+    "image_0656.jpg": {
+        "blancos": 2705,
+        "total_pixeles": 9238,
+        "porcentaje_blancos": 0.2928,
+        "salud": 0
+    },
+    "image_0657.jpg": {
+        "blancos": 1513,
+        "total_pixeles": 9639,
+        "porcentaje_blancos": 0.157,
+        "salud": 0
+    },
+    "image_0658.jpg": {
+        "blancos": 2049,
+        "total_pixeles": 9672,
+        "porcentaje_blancos": 0.2118,
+        "salud": 0
+    },
+    "image_0659.jpg": {
+        "blancos": 3174,
+        "total_pixeles": 8820,
+        "porcentaje_blancos": 0.3599,
+        "salud": 1
+    },
+    "image_0660.jpg": {
+        "blancos": 3775,
+        "total_pixeles": 8640,
+        "porcentaje_blancos": 0.4369,
+        "salud": 1
+    },
+    "image_0661.jpg": {
+        "blancos": 5859,
+        "total_pixeles": 8510,
+        "porcentaje_blancos": 0.6885,
+        "salud": 1
+    },
+    "image_0662.jpg": {
+        "blancos": 6975,
+        "total_pixeles": 9563,
+        "porcentaje_blancos": 0.7294,
+        "salud": 1
+    },
+    "image_0663.jpg": {
+        "blancos": 6465,
+        "total_pixeles": 8470,
+        "porcentaje_blancos": 0.7633,
+        "salud": 1
+    },
+    "image_0664.jpg": {
+        "blancos": 1049,
+        "total_pixeles": 4732,
+        "porcentaje_blancos": 0.2217,
+        "salud": 0
+    },
+    "image_0665.jpg": {
+        "blancos": 1478,
+        "total_pixeles": 4806,
+        "porcentaje_blancos": 0.3075,
+        "salud": 1
+    },
+    "image_0666.jpg": {
+        "blancos": 1888,
+        "total_pixeles": 7137,
+        "porcentaje_blancos": 0.2645,
+        "salud": 0
+    },
+    "image_0667.jpg": {
+        "blancos": 2069,
+        "total_pixeles": 8316,
+        "porcentaje_blancos": 0.2488,
+        "salud": 0
+    },
+    "image_0668.jpg": {
+        "blancos": 1372,
+        "total_pixeles": 8970,
+        "porcentaje_blancos": 0.153,
+        "salud": 0
+    },
+    "image_0669.jpg": {
+        "blancos": 2404,
+        "total_pixeles": 11218,
+        "porcentaje_blancos": 0.2143,
+        "salud": 0
+    },
+    "image_0670.jpg": {
+        "blancos": 3913,
+        "total_pixeles": 12285,
+        "porcentaje_blancos": 0.3185,
+        "salud": 1
+    },
+    "image_0671.jpg": {
+        "blancos": 5554,
+        "total_pixeles": 10795,
+        "porcentaje_blancos": 0.5145,
+        "salud": 1
+    },
+    "image_0672.jpg": {
+        "blancos": 6407,
+        "total_pixeles": 8686,
+        "porcentaje_blancos": 0.7376,
+        "salud": 1
+    },
+    "image_0673.jpg": {
+        "blancos": 1129,
+        "total_pixeles": 4982,
+        "porcentaje_blancos": 0.2266,
+        "salud": 0
+    },
+    "image_0674.jpg": {
+        "blancos": 1817,
+        "total_pixeles": 4930,
+        "porcentaje_blancos": 0.3686,
+        "salud": 1
+    },
+    "image_0675.jpg": {
+        "blancos": 2524,
+        "total_pixeles": 7182,
+        "porcentaje_blancos": 0.3514,
+        "salud": 1
+    },
+    "image_0676.jpg": {
+        "blancos": 3735,
+        "total_pixeles": 9240,
+        "porcentaje_blancos": 0.4042,
+        "salud": 1
+    },
+    "image_0677.jpg": {
+        "blancos": 4015,
+        "total_pixeles": 11475,
+        "porcentaje_blancos": 0.3499,
+        "salud": 1
+    },
+    "image_0678.jpg": {
+        "blancos": 3501,
+        "total_pixeles": 12730,
+        "porcentaje_blancos": 0.275,
+        "salud": 0
+    },
+    "image_0679.jpg": {
+        "blancos": 1715,
+        "total_pixeles": 8978,
+        "porcentaje_blancos": 0.191,
+        "salud": 0
+    },
+    "image_0680.jpg": {
+        "blancos": 3882,
+        "total_pixeles": 11904,
+        "porcentaje_blancos": 0.3261,
+        "salud": 1
+    },
+    "image_0681.jpg": {
+        "blancos": 5856,
+        "total_pixeles": 14798,
+        "porcentaje_blancos": 0.3957,
+        "salud": 1
+    },
+    "image_0682.jpg": {
+        "blancos": 3156,
+        "total_pixeles": 9280,
+        "porcentaje_blancos": 0.3401,
+        "salud": 1
+    },
+    "image_0683.jpg": {
+        "blancos": 4089,
+        "total_pixeles": 9514,
+        "porcentaje_blancos": 0.4298,
+        "salud": 1
+    },
+    "image_0684.jpg": {
+        "blancos": 6076,
+        "total_pixeles": 10080,
+        "porcentaje_blancos": 0.6028,
+        "salud": 1
+    },
+    "image_0685.jpg": {
+        "blancos": 6207,
+        "total_pixeles": 8395,
+        "porcentaje_blancos": 0.7394,
+        "salud": 1
+    },
+    "image_0686.jpg": {
+        "blancos": 5904,
+        "total_pixeles": 8667,
+        "porcentaje_blancos": 0.6812,
+        "salud": 1
+    },
+    "image_0687.jpg": {
+        "blancos": 1419,
+        "total_pixeles": 9699,
+        "porcentaje_blancos": 0.1463,
+        "salud": 0
+    },
+    "image_0688.jpg": {
+        "blancos": 1837,
+        "total_pixeles": 8526,
+        "porcentaje_blancos": 0.2155,
+        "salud": 0
+    },
+    "image_0689.jpg": {
+        "blancos": 2418,
+        "total_pixeles": 9570,
+        "porcentaje_blancos": 0.2527,
+        "salud": 0
+    },
+    "image_0690.jpg": {
+        "blancos": 1941,
+        "total_pixeles": 6204,
+        "porcentaje_blancos": 0.3129,
+        "salud": 1
+    },
+    "image_0691.jpg": {
+        "blancos": 4315,
+        "total_pixeles": 8349,
+        "porcentaje_blancos": 0.5168,
+        "salud": 1
+    },
+    "image_0692.jpg": {
+        "blancos": 5206,
+        "total_pixeles": 8470,
+        "porcentaje_blancos": 0.6146,
+        "salud": 1
+    },
+    "image_0693.jpg": {
+        "blancos": 6254,
+        "total_pixeles": 9322,
+        "porcentaje_blancos": 0.6709,
+        "salud": 1
+    },
+    "image_0694.jpg": {
+        "blancos": 5700,
+        "total_pixeles": 8586,
+        "porcentaje_blancos": 0.6639,
+        "salud": 1
+    },
+    "image_0695.jpg": {
+        "blancos": 4649,
+        "total_pixeles": 8769,
+        "porcentaje_blancos": 0.5302,
+        "salud": 1
+    },
+    "image_0696.jpg": {
+        "blancos": 3446,
+        "total_pixeles": 6642,
+        "porcentaje_blancos": 0.5188,
+        "salud": 1
+    },
+    "image_0697.jpg": {
+        "blancos": 1758,
+        "total_pixeles": 5871,
+        "porcentaje_blancos": 0.2994,
+        "salud": 0
+    },
+    "image_0698.jpg": {
+        "blancos": 399,
+        "total_pixeles": 3844,
+        "porcentaje_blancos": 0.1038,
+        "salud": 0
+    },
+    "image_0699.jpg": {
+        "blancos": 1913,
+        "total_pixeles": 6313,
+        "porcentaje_blancos": 0.303,
+        "salud": 1
+    },
+    "image_0700.jpg": {
+        "blancos": 2331,
+        "total_pixeles": 7137,
+        "porcentaje_blancos": 0.3266,
+        "salud": 1
+    },
+    "image_0701.jpg": {
+        "blancos": 2783,
+        "total_pixeles": 7616,
+        "porcentaje_blancos": 0.3654,
+        "salud": 1
+    },
+    "image_0702.jpg": {
+        "blancos": 2349,
+        "total_pixeles": 8905,
+        "porcentaje_blancos": 0.2638,
+        "salud": 0
+    },
+    "image_0703.jpg": {
+        "blancos": 4007,
+        "total_pixeles": 8833,
+        "porcentaje_blancos": 0.4536,
+        "salud": 1
+    },
+    "image_0704.jpg": {
+        "blancos": 5934,
+        "total_pixeles": 13110,
+        "porcentaje_blancos": 0.4526,
+        "salud": 1
+    },
+    "image_0705.jpg": {
+        "blancos": 5644,
+        "total_pixeles": 10080,
+        "porcentaje_blancos": 0.5599,
+        "salud": 1
+    },
+    "image_0706.jpg": {
+        "blancos": 3745,
+        "total_pixeles": 6375,
+        "porcentaje_blancos": 0.5875,
+        "salud": 1
+    },
+    "image_0707.jpg": {
+        "blancos": 1805,
+        "total_pixeles": 6160,
+        "porcentaje_blancos": 0.293,
+        "salud": 0
+    },
+    "image_0708.jpg": {
+        "blancos": 1544,
+        "total_pixeles": 6438,
+        "porcentaje_blancos": 0.2398,
+        "salud": 0
+    },
+    "image_0709.jpg": {
+        "blancos": 1881,
+        "total_pixeles": 6360,
+        "porcentaje_blancos": 0.2958,
+        "salud": 0
+    },
+    "image_0710.jpg": {
+        "blancos": 2521,
+        "total_pixeles": 7875,
+        "porcentaje_blancos": 0.3201,
+        "salud": 1
+    },
+    "image_0711.jpg": {
+        "blancos": 3437,
+        "total_pixeles": 8349,
+        "porcentaje_blancos": 0.4117,
+        "salud": 1
+    },
+    "image_0712.jpg": {
+        "blancos": 5840,
+        "total_pixeles": 13837,
+        "porcentaje_blancos": 0.4221,
+        "salud": 1
+    },
+    "image_0713.jpg": {
+        "blancos": 2839,
+        "total_pixeles": 7688,
+        "porcentaje_blancos": 0.3693,
+        "salud": 1
+    },
+    "image_0714.jpg": {
+        "blancos": 5224,
+        "total_pixeles": 10370,
+        "porcentaje_blancos": 0.5038,
+        "salud": 1
+    },
+    "image_0715.jpg": {
+        "blancos": 3410,
+        "total_pixeles": 6474,
+        "porcentaje_blancos": 0.5267,
+        "salud": 1
+    },
+    "image_0716.jpg": {
+        "blancos": 4528,
+        "total_pixeles": 5145,
+        "porcentaje_blancos": 0.8801,
+        "salud": 1
+    },
+    "image_0717.jpg": {
+        "blancos": 4202,
+        "total_pixeles": 8432,
+        "porcentaje_blancos": 0.4983,
+        "salud": 1
+    },
+    "image_0718.jpg": {
+        "blancos": 4828,
+        "total_pixeles": 7906,
+        "porcentaje_blancos": 0.6107,
+        "salud": 1
+    },
+    "image_0719.jpg": {
+        "blancos": 5790,
+        "total_pixeles": 8446,
+        "porcentaje_blancos": 0.6855,
+        "salud": 1
+    },
+    "image_0720.jpg": {
+        "blancos": 5720,
+        "total_pixeles": 9435,
+        "porcentaje_blancos": 0.6063,
+        "salud": 1
+    },
+    "image_0721.jpg": {
+        "blancos": 3395,
+        "total_pixeles": 6400,
+        "porcentaje_blancos": 0.5305,
+        "salud": 1
+    },
+    "image_0722.jpg": {
+        "blancos": 2297,
+        "total_pixeles": 9983,
+        "porcentaje_blancos": 0.2301,
+        "salud": 0
+    },
+    "image_0723.jpg": {
+        "blancos": 2696,
+        "total_pixeles": 8978,
+        "porcentaje_blancos": 0.3003,
+        "salud": 1
+    },
+    "image_0724.jpg": {
+        "blancos": 2876,
+        "total_pixeles": 11440,
+        "porcentaje_blancos": 0.2514,
+        "salud": 0
+    },
+    "image_0725.jpg": {
+        "blancos": 1893,
+        "total_pixeles": 9734,
+        "porcentaje_blancos": 0.1945,
+        "salud": 0
+    },
+    "image_0726.jpg": {
+        "blancos": 3733,
+        "total_pixeles": 9849,
+        "porcentaje_blancos": 0.379,
+        "salud": 1
+    },
+    "image_0727.jpg": {
+        "blancos": 5801,
+        "total_pixeles": 9306,
+        "porcentaje_blancos": 0.6234,
+        "salud": 1
+    },
+    "image_0728.jpg": {
+        "blancos": 7072,
+        "total_pixeles": 9546,
+        "porcentaje_blancos": 0.7408,
+        "salud": 1
+    },
+    "image_0729.jpg": {
+        "blancos": 5957,
+        "total_pixeles": 9120,
+        "porcentaje_blancos": 0.6532,
+        "salud": 1
+    },
+    "image_0730.jpg": {
+        "blancos": 4012,
+        "total_pixeles": 4824,
+        "porcentaje_blancos": 0.8317,
+        "salud": 1
+    },
+    "image_0731.jpg": {
+        "blancos": 3468,
+        "total_pixeles": 7875,
+        "porcentaje_blancos": 0.4404,
+        "salud": 1
+    },
+    "image_0732.jpg": {
+        "blancos": 3459,
+        "total_pixeles": 7257,
+        "porcentaje_blancos": 0.4766,
+        "salud": 1
+    },
+    "image_0733.jpg": {
+        "blancos": 1928,
+        "total_pixeles": 7906,
+        "porcentaje_blancos": 0.2439,
+        "salud": 0
+    },
+    "image_0734.jpg": {
+        "blancos": 1915,
+        "total_pixeles": 11109,
+        "porcentaje_blancos": 0.1724,
+        "salud": 0
+    },
+    "image_0735.jpg": {
+        "blancos": 941,
+        "total_pixeles": 9295,
+        "porcentaje_blancos": 0.1012,
+        "salud": 0
+    },
+    "image_0736.jpg": {
+        "blancos": 3257,
+        "total_pixeles": 13179,
+        "porcentaje_blancos": 0.2471,
+        "salud": 0
+    },
+    "image_0737.jpg": {
+        "blancos": 2589,
+        "total_pixeles": 10725,
+        "porcentaje_blancos": 0.2414,
+        "salud": 0
+    },
+    "image_0738.jpg": {
+        "blancos": 5154,
+        "total_pixeles": 14800,
+        "porcentaje_blancos": 0.3482,
+        "salud": 1
+    },
+    "image_0739.jpg": {
+        "blancos": 5574,
+        "total_pixeles": 12096,
+        "porcentaje_blancos": 0.4608,
+        "salud": 1
+    },
+    "image_0740.jpg": {
+        "blancos": 3580,
+        "total_pixeles": 9164,
+        "porcentaje_blancos": 0.3907,
+        "salud": 1
+    },
+    "image_0741.jpg": {
+        "blancos": 3587,
+        "total_pixeles": 7740,
+        "porcentaje_blancos": 0.4634,
+        "salud": 1
+    },
+    "image_0742.jpg": {
+        "blancos": 4629,
+        "total_pixeles": 7808,
+        "porcentaje_blancos": 0.5929,
+        "salud": 1
+    },
+    "image_0743.jpg": {
+        "blancos": 4908,
+        "total_pixeles": 8928,
+        "porcentaje_blancos": 0.5497,
+        "salud": 1
+    },
+    "image_0744.jpg": {
+        "blancos": 5496,
+        "total_pixeles": 10074,
+        "porcentaje_blancos": 0.5456,
+        "salud": 1
+    },
+    "image_0745.jpg": {
+        "blancos": 5141,
+        "total_pixeles": 12231,
+        "porcentaje_blancos": 0.4203,
+        "salud": 1
+    },
+    "image_0746.jpg": {
+        "blancos": 5156,
+        "total_pixeles": 17176,
+        "porcentaje_blancos": 0.3002,
+        "salud": 1
+    },
+    "image_0747.jpg": {
+        "blancos": 3225,
+        "total_pixeles": 9699,
+        "porcentaje_blancos": 0.3325,
+        "salud": 1
+    },
+    "image_0748.jpg": {
+        "blancos": 3112,
+        "total_pixeles": 8007,
+        "porcentaje_blancos": 0.3887,
+        "salud": 1
+    },
+    "image_0749.jpg": {
+        "blancos": 6251,
+        "total_pixeles": 19293,
+        "porcentaje_blancos": 0.324,
+        "salud": 1
+    },
+    "image_0750.jpg": {
+        "blancos": 2814,
+        "total_pixeles": 9828,
+        "porcentaje_blancos": 0.2863,
+        "salud": 0
+    },
+    "image_0751.jpg": {
+        "blancos": 5241,
+        "total_pixeles": 9316,
+        "porcentaje_blancos": 0.5626,
+        "salud": 1
+    },
+    "image_0752.jpg": {
+        "blancos": 6230,
+        "total_pixeles": 11169,
+        "porcentaje_blancos": 0.5578,
+        "salud": 1
+    },
+    "image_0753.jpg": {
+        "blancos": 6437,
+        "total_pixeles": 10480,
+        "porcentaje_blancos": 0.6142,
+        "salud": 1
+    },
+    "image_0754.jpg": {
+        "blancos": 6186,
+        "total_pixeles": 10660,
+        "porcentaje_blancos": 0.5803,
+        "salud": 1
+    },
+    "image_0755.jpg": {
+        "blancos": 5283,
+        "total_pixeles": 8058,
+        "porcentaje_blancos": 0.6556,
+        "salud": 1
+    },
+    "image_0756.jpg": {
+        "blancos": 2118,
+        "total_pixeles": 10899,
+        "porcentaje_blancos": 0.1943,
+        "salud": 0
+    },
+    "image_0757.jpg": {
+        "blancos": 1008,
+        "total_pixeles": 9455,
+        "porcentaje_blancos": 0.1066,
+        "salud": 0
+    },
+    "image_0758.jpg": {
+        "blancos": 2707,
+        "total_pixeles": 10624,
+        "porcentaje_blancos": 0.2548,
+        "salud": 0
+    },
+    "image_0759.jpg": {
+        "blancos": 2768,
+        "total_pixeles": 9576,
+        "porcentaje_blancos": 0.2891,
+        "salud": 0
+    },
+    "image_0760.jpg": {
+        "blancos": 4050,
+        "total_pixeles": 8976,
+        "porcentaje_blancos": 0.4512,
+        "salud": 1
+    },
+    "image_0761.jpg": {
+        "blancos": 4585,
+        "total_pixeles": 8385,
+        "porcentaje_blancos": 0.5468,
+        "salud": 1
+    },
+    "image_0762.jpg": {
+        "blancos": 6804,
+        "total_pixeles": 9396,
+        "porcentaje_blancos": 0.7241,
+        "salud": 1
+    },
+    "image_0763.jpg": {
+        "blancos": 5704,
+        "total_pixeles": 8814,
+        "porcentaje_blancos": 0.6472,
+        "salud": 1
+    },
+    "image_0764.jpg": {
+        "blancos": 5199,
+        "total_pixeles": 6882,
+        "porcentaje_blancos": 0.7554,
+        "salud": 1
+    },
+    "image_0765.jpg": {
+        "blancos": 1672,
+        "total_pixeles": 5225,
+        "porcentaje_blancos": 0.32,
+        "salud": 1
+    },
+    "image_0766.jpg": {
+        "blancos": 2135,
+        "total_pixeles": 6785,
+        "porcentaje_blancos": 0.3147,
+        "salud": 1
+    },
+    "image_0767.jpg": {
+        "blancos": 2547,
+        "total_pixeles": 7750,
+        "porcentaje_blancos": 0.3286,
+        "salud": 1
+    },
+    "image_0768.jpg": {
+        "blancos": 3105,
+        "total_pixeles": 8576,
+        "porcentaje_blancos": 0.3621,
+        "salud": 1
+    },
+    "image_0769.jpg": {
+        "blancos": 2844,
+        "total_pixeles": 8704,
+        "porcentaje_blancos": 0.3267,
+        "salud": 1
+    },
+    "image_0770.jpg": {
+        "blancos": 3410,
+        "total_pixeles": 8856,
+        "porcentaje_blancos": 0.385,
+        "salud": 1
+    },
+    "image_0771.jpg": {
+        "blancos": 4635,
+        "total_pixeles": 12544,
+        "porcentaje_blancos": 0.3695,
+        "salud": 1
+    },
+    "image_0772.jpg": {
+        "blancos": 5701,
+        "total_pixeles": 10944,
+        "porcentaje_blancos": 0.5209,
+        "salud": 1
+    },
+    "image_0773.jpg": {
+        "blancos": 4689,
+        "total_pixeles": 10043,
+        "porcentaje_blancos": 0.4669,
+        "salud": 1
+    },
+    "image_0774.jpg": {
+        "blancos": 1630,
+        "total_pixeles": 5508,
+        "porcentaje_blancos": 0.2959,
+        "salud": 0
+    },
+    "image_0775.jpg": {
+        "blancos": 2161,
+        "total_pixeles": 6660,
+        "porcentaje_blancos": 0.3245,
+        "salud": 1
+    },
+    "image_0776.jpg": {
+        "blancos": 2931,
+        "total_pixeles": 6882,
+        "porcentaje_blancos": 0.4259,
+        "salud": 1
+    },
+    "image_0777.jpg": {
+        "blancos": 3562,
+        "total_pixeles": 8540,
+        "porcentaje_blancos": 0.4171,
+        "salud": 1
+    },
+    "image_0778.jpg": {
+        "blancos": 3502,
+        "total_pixeles": 9000,
+        "porcentaje_blancos": 0.3891,
+        "salud": 1
+    },
+    "image_0779.jpg": {
+        "blancos": 4539,
+        "total_pixeles": 12348,
+        "porcentaje_blancos": 0.3676,
+        "salud": 1
+    },
+    "image_0780.jpg": {
+        "blancos": 3514,
+        "total_pixeles": 9815,
+        "porcentaje_blancos": 0.358,
+        "salud": 1
+    },
+    "image_0781.jpg": {
+        "blancos": 6617,
+        "total_pixeles": 15048,
+        "porcentaje_blancos": 0.4397,
+        "salud": 1
+    },
+    "image_0782.jpg": {
+        "blancos": 3994,
+        "total_pixeles": 9711,
+        "porcentaje_blancos": 0.4113,
+        "salud": 1
+    },
+    "image_0783.jpg": {
+        "blancos": 4668,
+        "total_pixeles": 8976,
+        "porcentaje_blancos": 0.5201,
+        "salud": 1
+    },
+    "image_0784.jpg": {
+        "blancos": 4857,
+        "total_pixeles": 8442,
+        "porcentaje_blancos": 0.5753,
+        "salud": 1
+    },
+    "image_0785.jpg": {
+        "blancos": 5760,
+        "total_pixeles": 8690,
+        "porcentaje_blancos": 0.6628,
+        "salud": 1
+    },
+    "image_0786.jpg": {
+        "blancos": 5716,
+        "total_pixeles": 9828,
+        "porcentaje_blancos": 0.5816,
+        "salud": 1
+    },
+    "image_0787.jpg": {
+        "blancos": 4930,
+        "total_pixeles": 7200,
+        "porcentaje_blancos": 0.6847,
+        "salud": 1
+    },
+    "image_0788.jpg": {
+        "blancos": 2663,
+        "total_pixeles": 10676,
+        "porcentaje_blancos": 0.2494,
+        "salud": 0
+    },
+    "image_0789.jpg": {
+        "blancos": 2741,
+        "total_pixeles": 9856,
+        "porcentaje_blancos": 0.2781,
+        "salud": 0
+    },
+    "image_0790.jpg": {
+        "blancos": 2384,
+        "total_pixeles": 8768,
+        "porcentaje_blancos": 0.2719,
+        "salud": 0
+    },
+    "image_0791.jpg": {
+        "blancos": 3249,
+        "total_pixeles": 10880,
+        "porcentaje_blancos": 0.2986,
+        "salud": 0
+    },
+    "image_0792.jpg": {
+        "blancos": 4697,
+        "total_pixeles": 8375,
+        "porcentaje_blancos": 0.5608,
+        "salud": 1
+    },
+    "image_0793.jpg": {
+        "blancos": 4740,
+        "total_pixeles": 8316,
+        "porcentaje_blancos": 0.57,
+        "salud": 1
+    },
+    "image_0794.jpg": {
+        "blancos": 5442,
+        "total_pixeles": 9828,
+        "porcentaje_blancos": 0.5537,
+        "salud": 1
+    },
+    "image_0795.jpg": {
+        "blancos": 4389,
+        "total_pixeles": 9120,
+        "porcentaje_blancos": 0.4813,
+        "salud": 1
+    },
+    "image_0796.jpg": {
+        "blancos": 5404,
+        "total_pixeles": 8658,
+        "porcentaje_blancos": 0.6242,
+        "salud": 1
+    },
+    "image_0797.jpg": {
+        "blancos": 2705,
+        "total_pixeles": 6048,
+        "porcentaje_blancos": 0.4473,
+        "salud": 1
+    },
+    "image_0798.jpg": {
+        "blancos": 2769,
+        "total_pixeles": 5885,
+        "porcentaje_blancos": 0.4705,
+        "salud": 1
+    },
+    "image_0799.jpg": {
+        "blancos": 3492,
+        "total_pixeles": 9447,
+        "porcentaje_blancos": 0.3696,
+        "salud": 1
+    },
+    "image_0800.jpg": {
+        "blancos": 3297,
+        "total_pixeles": 8450,
+        "porcentaje_blancos": 0.3902,
+        "salud": 1
+    },
+    "image_0801.jpg": {
+        "blancos": 2888,
+        "total_pixeles": 7747,
+        "porcentaje_blancos": 0.3728,
+        "salud": 1
+    },
+    "image_0802.jpg": {
+        "blancos": 3062,
+        "total_pixeles": 8875,
+        "porcentaje_blancos": 0.345,
+        "salud": 1
+    },
+    "image_0803.jpg": {
+        "blancos": 5469,
+        "total_pixeles": 12960,
+        "porcentaje_blancos": 0.422,
+        "salud": 1
+    },
+    "image_0804.jpg": {
+        "blancos": 7181,
+        "total_pixeles": 11656,
+        "porcentaje_blancos": 0.6161,
+        "salud": 1
+    },
+    "image_0805.jpg": {
+        "blancos": 5745,
+        "total_pixeles": 9594,
+        "porcentaje_blancos": 0.5988,
+        "salud": 1
+    },
+    "image_0806.jpg": {
+        "blancos": 2625,
+        "total_pixeles": 5768,
+        "porcentaje_blancos": 0.4551,
+        "salud": 1
+    },
+    "image_0807.jpg": {
+        "blancos": 3720,
+        "total_pixeles": 7752,
+        "porcentaje_blancos": 0.4799,
+        "salud": 1
+    },
+    "image_0808.jpg": {
+        "blancos": 4397,
+        "total_pixeles": 9248,
+        "porcentaje_blancos": 0.4755,
+        "salud": 1
+    },
+    "image_0809.jpg": {
+        "blancos": 4441,
+        "total_pixeles": 8643,
+        "porcentaje_blancos": 0.5138,
+        "salud": 1
+    },
+    "image_0810.jpg": {
+        "blancos": 5337,
+        "total_pixeles": 9728,
+        "porcentaje_blancos": 0.5486,
+        "salud": 1
+    },
+    "image_0811.jpg": {
+        "blancos": 6923,
+        "total_pixeles": 14214,
+        "porcentaje_blancos": 0.4871,
+        "salud": 1
+    },
+    "image_0812.jpg": {
+        "blancos": 4465,
+        "total_pixeles": 11424,
+        "porcentaje_blancos": 0.3908,
+        "salud": 1
+    },
+    "image_0813.jpg": {
+        "blancos": 6662,
+        "total_pixeles": 12524,
+        "porcentaje_blancos": 0.5319,
+        "salud": 1
+    },
+    "image_0814.jpg": {
+        "blancos": 3913,
+        "total_pixeles": 10292,
+        "porcentaje_blancos": 0.3802,
+        "salud": 1
+    },
+    "image_0815.jpg": {
+        "blancos": 4411,
+        "total_pixeles": 9387,
+        "porcentaje_blancos": 0.4699,
+        "salud": 1
+    },
+    "image_0816.jpg": {
+        "blancos": 4407,
+        "total_pixeles": 8910,
+        "porcentaje_blancos": 0.4946,
+        "salud": 1
+    },
+    "image_0817.jpg": {
+        "blancos": 5369,
+        "total_pixeles": 9676,
+        "porcentaje_blancos": 0.5549,
+        "salud": 1
+    },
+    "image_0818.jpg": {
+        "blancos": 5174,
+        "total_pixeles": 9401,
+        "porcentaje_blancos": 0.5504,
+        "salud": 1
+    },
+    "image_0819.jpg": {
+        "blancos": 6009,
+        "total_pixeles": 8505,
+        "porcentaje_blancos": 0.7065,
+        "salud": 1
+    },
+    "image_0820.jpg": {
+        "blancos": 2172,
+        "total_pixeles": 8820,
+        "porcentaje_blancos": 0.2463,
+        "salud": 0
+    },
+    "image_0821.jpg": {
+        "blancos": 2948,
+        "total_pixeles": 8370,
+        "porcentaje_blancos": 0.3522,
+        "salud": 1
+    },
+    "image_0822.jpg": {
+        "blancos": 2830,
+        "total_pixeles": 13860,
+        "porcentaje_blancos": 0.2042,
+        "salud": 0
+    },
+    "image_0823.jpg": {
+        "blancos": 2158,
+        "total_pixeles": 11792,
+        "porcentaje_blancos": 0.183,
+        "salud": 0
+    },
+    "image_0824.jpg": {
+        "blancos": 3470,
+        "total_pixeles": 10626,
+        "porcentaje_blancos": 0.3266,
+        "salud": 1
+    },
+    "image_0825.jpg": {
+        "blancos": 4875,
+        "total_pixeles": 9664,
+        "porcentaje_blancos": 0.5044,
+        "salud": 1
+    },
+    "image_0826.jpg": {
+        "blancos": 6640,
+        "total_pixeles": 10286,
+        "porcentaje_blancos": 0.6455,
+        "salud": 1
+    },
+    "image_0827.jpg": {
+        "blancos": 5601,
+        "total_pixeles": 8829,
+        "porcentaje_blancos": 0.6344,
+        "salud": 1
+    },
+    "image_0828.jpg": {
+        "blancos": 6021,
+        "total_pixeles": 10080,
+        "porcentaje_blancos": 0.5973,
+        "salud": 1
+    },
+    "image_0829.jpg": {
+        "blancos": 1666,
+        "total_pixeles": 5487,
+        "porcentaje_blancos": 0.3036,
+        "salud": 1
+    },
+    "image_0830.jpg": {
+        "blancos": 2279,
+        "total_pixeles": 7192,
+        "porcentaje_blancos": 0.3169,
+        "salud": 1
+    },
+    "image_0831.jpg": {
+        "blancos": 2244,
+        "total_pixeles": 11174,
+        "porcentaje_blancos": 0.2008,
+        "salud": 0
+    },
+    "image_0832.jpg": {
+        "blancos": 2692,
+        "total_pixeles": 11315,
+        "porcentaje_blancos": 0.2379,
+        "salud": 0
+    },
+    "image_0833.jpg": {
+        "blancos": 4030,
+        "total_pixeles": 15725,
+        "porcentaje_blancos": 0.2563,
+        "salud": 0
+    },
+    "image_0834.jpg": {
+        "blancos": 3045,
+        "total_pixeles": 13530,
+        "porcentaje_blancos": 0.2251,
+        "salud": 0
+    },
+    "image_0835.jpg": {
+        "blancos": 4284,
+        "total_pixeles": 12512,
+        "porcentaje_blancos": 0.3424,
+        "salud": 1
+    },
+    "image_0836.jpg": {
+        "blancos": 5452,
+        "total_pixeles": 11160,
+        "porcentaje_blancos": 0.4885,
+        "salud": 1
+    },
+    "image_0837.jpg": {
+        "blancos": 3827,
+        "total_pixeles": 6162,
+        "porcentaje_blancos": 0.6211,
+        "salud": 1
+    },
+    "image_0838.jpg": {
+        "blancos": 1771,
+        "total_pixeles": 5959,
+        "porcentaje_blancos": 0.2972,
+        "salud": 0
+    },
+    "image_0839.jpg": {
+        "blancos": 2115,
+        "total_pixeles": 7020,
+        "porcentaje_blancos": 0.3013,
+        "salud": 1
+    },
+    "image_0840.jpg": {
+        "blancos": 2792,
+        "total_pixeles": 10686,
+        "porcentaje_blancos": 0.2613,
+        "salud": 0
+    },
+    "image_0841.jpg": {
+        "blancos": 3276,
+        "total_pixeles": 9525,
+        "porcentaje_blancos": 0.3439,
+        "salud": 1
+    },
+    "image_0842.jpg": {
+        "blancos": 4251,
+        "total_pixeles": 12136,
+        "porcentaje_blancos": 0.3503,
+        "salud": 1
+    },
+    "image_0843.jpg": {
+        "blancos": 4660,
+        "total_pixeles": 13622,
+        "porcentaje_blancos": 0.3421,
+        "salud": 1
+    },
+    "image_0844.jpg": {
+        "blancos": 2889,
+        "total_pixeles": 11076,
+        "porcentaje_blancos": 0.2608,
+        "salud": 0
+    },
+    "image_0845.jpg": {
+        "blancos": 5055,
+        "total_pixeles": 11808,
+        "porcentaje_blancos": 0.4281,
+        "salud": 1
+    },
+    "image_0846.jpg": {
+        "blancos": 4195,
+        "total_pixeles": 10440,
+        "porcentaje_blancos": 0.4018,
+        "salud": 1
+    },
+    "image_0847.jpg": {
+        "blancos": 4132,
+        "total_pixeles": 10824,
+        "porcentaje_blancos": 0.3817,
+        "salud": 1
+    },
+    "image_0848.jpg": {
+        "blancos": 4813,
+        "total_pixeles": 10695,
+        "porcentaje_blancos": 0.45,
+        "salud": 1
+    },
+    "image_0849.jpg": {
+        "blancos": 6724,
+        "total_pixeles": 11520,
+        "porcentaje_blancos": 0.5837,
+        "salud": 1
+    },
+    "image_0850.jpg": {
+        "blancos": 7299,
+        "total_pixeles": 12314,
+        "porcentaje_blancos": 0.5927,
+        "salud": 1
+    },
+    "image_0851.jpg": {
+        "blancos": 5640,
+        "total_pixeles": 9164,
+        "porcentaje_blancos": 0.6155,
+        "salud": 1
+    },
+    "image_0852.jpg": {
+        "blancos": 2569,
+        "total_pixeles": 10010,
+        "porcentaje_blancos": 0.2566,
+        "salud": 0
+    },
+    "image_0853.jpg": {
+        "blancos": 1607,
+        "total_pixeles": 9344,
+        "porcentaje_blancos": 0.172,
+        "salud": 0
+    },
+    "image_0854.jpg": {
+        "blancos": 1548,
+        "total_pixeles": 9174,
+        "porcentaje_blancos": 0.1687,
+        "salud": 0
+    },
+    "image_0855.jpg": {
+        "blancos": 1650,
+        "total_pixeles": 9728,
+        "porcentaje_blancos": 0.1696,
+        "salud": 0
+    },
+    "image_0856.jpg": {
+        "blancos": 3328,
+        "total_pixeles": 8844,
+        "porcentaje_blancos": 0.3763,
+        "salud": 1
+    },
+    "image_0857.jpg": {
+        "blancos": 4662,
+        "total_pixeles": 9324,
+        "porcentaje_blancos": 0.5,
+        "salud": 1
+    },
+    "image_0858.jpg": {
+        "blancos": 5951,
+        "total_pixeles": 9200,
+        "porcentaje_blancos": 0.6468,
+        "salud": 1
+    },
+    "image_0859.jpg": {
+        "blancos": 4576,
+        "total_pixeles": 9350,
+        "porcentaje_blancos": 0.4894,
+        "salud": 1
+    },
+    "image_0860.jpg": {
+        "blancos": 5193,
+        "total_pixeles": 9200,
+        "porcentaje_blancos": 0.5645,
+        "salud": 1
+    },
+    "image_0861.jpg": {
+        "blancos": 4825,
+        "total_pixeles": 8058,
+        "porcentaje_blancos": 0.5988,
+        "salud": 1
+    },
+    "image_0862.jpg": {
+        "blancos": 2030,
+        "total_pixeles": 5760,
+        "porcentaje_blancos": 0.3524,
+        "salud": 1
+    },
+    "image_0863.jpg": {
+        "blancos": 2557,
+        "total_pixeles": 5428,
+        "porcentaje_blancos": 0.4711,
+        "salud": 1
+    },
+    "image_0864.jpg": {
+        "blancos": 2202,
+        "total_pixeles": 6499,
+        "porcentaje_blancos": 0.3388,
+        "salud": 1
+    },
+    "image_0865.jpg": {
+        "blancos": 1854,
+        "total_pixeles": 9144,
+        "porcentaje_blancos": 0.2028,
+        "salud": 0
+    },
+    "image_0866.jpg": {
+        "blancos": 1664,
+        "total_pixeles": 7521,
+        "porcentaje_blancos": 0.2212,
+        "salud": 0
+    },
+    "image_0867.jpg": {
+        "blancos": 1922,
+        "total_pixeles": 10160,
+        "porcentaje_blancos": 0.1892,
+        "salud": 0
+    },
+    "image_0868.jpg": {
+        "blancos": 3871,
+        "total_pixeles": 11468,
+        "porcentaje_blancos": 0.3375,
+        "salud": 1
+    },
+    "image_0869.jpg": {
+        "blancos": 6284,
+        "total_pixeles": 11115,
+        "porcentaje_blancos": 0.5654,
+        "salud": 1
+    },
+    "image_0870.jpg": {
+        "blancos": 3583,
+        "total_pixeles": 5928,
+        "porcentaje_blancos": 0.6044,
+        "salud": 1
+    },
+    "image_0871.jpg": {
+        "blancos": 2527,
+        "total_pixeles": 5278,
+        "porcentaje_blancos": 0.4788,
+        "salud": 1
+    },
+    "image_0872.jpg": {
+        "blancos": 2644,
+        "total_pixeles": 5841,
+        "porcentaje_blancos": 0.4527,
+        "salud": 1
+    },
+    "image_0873.jpg": {
+        "blancos": 2527,
+        "total_pixeles": 7119,
+        "porcentaje_blancos": 0.355,
+        "salud": 1
+    },
+    "image_0874.jpg": {
+        "blancos": 2028,
+        "total_pixeles": 7571,
+        "porcentaje_blancos": 0.2679,
+        "salud": 0
+    },
+    "image_0875.jpg": {
+        "blancos": 2177,
+        "total_pixeles": 9750,
+        "porcentaje_blancos": 0.2233,
+        "salud": 0
+    },
+    "image_0876.jpg": {
+        "blancos": 2949,
+        "total_pixeles": 11956,
+        "porcentaje_blancos": 0.2467,
+        "salud": 0
+    },
+    "image_0877.jpg": {
+        "blancos": 1900,
+        "total_pixeles": 9639,
+        "porcentaje_blancos": 0.1971,
+        "salud": 0
+    },
+    "image_0878.jpg": {
+        "blancos": 4960,
+        "total_pixeles": 11252,
+        "porcentaje_blancos": 0.4408,
+        "salud": 1
+    },
+    "image_0879.jpg": {
+        "blancos": 2752,
+        "total_pixeles": 6006,
+        "porcentaje_blancos": 0.4582,
+        "salud": 1
+    },
+    "image_0880.jpg": {
+        "blancos": 3707,
+        "total_pixeles": 9316,
+        "porcentaje_blancos": 0.3979,
+        "salud": 1
+    },
+    "image_0881.jpg": {
+        "blancos": 4764,
+        "total_pixeles": 9044,
+        "porcentaje_blancos": 0.5268,
+        "salud": 1
+    },
+    "image_0882.jpg": {
+        "blancos": 6531,
+        "total_pixeles": 8968,
+        "porcentaje_blancos": 0.7283,
+        "salud": 1
+    },
+    "image_0883.jpg": {
+        "blancos": 4457,
+        "total_pixeles": 7560,
+        "porcentaje_blancos": 0.5896,
+        "salud": 1
+    },
+    "image_0884.jpg": {
+        "blancos": 5087,
+        "total_pixeles": 8892,
+        "porcentaje_blancos": 0.5721,
+        "salud": 1
+    },
+    "image_0885.jpg": {
+        "blancos": 1494,
+        "total_pixeles": 10296,
+        "porcentaje_blancos": 0.1451,
+        "salud": 0
+    },
+    "image_0886.jpg": {
+        "blancos": 1796,
+        "total_pixeles": 9028,
+        "porcentaje_blancos": 0.1989,
+        "salud": 0
+    },
+    "image_0887.jpg": {
+        "blancos": 1584,
+        "total_pixeles": 8778,
+        "porcentaje_blancos": 0.1805,
+        "salud": 0
+    },
+    "image_0888.jpg": {
+        "blancos": 1090,
+        "total_pixeles": 10212,
+        "porcentaje_blancos": 0.1067,
+        "salud": 0
+    },
+    "image_0889.jpg": {
+        "blancos": 2631,
+        "total_pixeles": 10350,
+        "porcentaje_blancos": 0.2542,
+        "salud": 0
+    },
+    "image_0890.jpg": {
+        "blancos": 3058,
+        "total_pixeles": 9916,
+        "porcentaje_blancos": 0.3084,
+        "salud": 1
+    },
+    "image_0891.jpg": {
+        "blancos": 4223,
+        "total_pixeles": 9702,
+        "porcentaje_blancos": 0.4353,
+        "salud": 1
+    },
+    "image_0892.jpg": {
+        "blancos": 4744,
+        "total_pixeles": 9100,
+        "porcentaje_blancos": 0.5213,
+        "salud": 1
+    },
+    "image_0893.jpg": {
+        "blancos": 5452,
+        "total_pixeles": 9452,
+        "porcentaje_blancos": 0.5768,
+        "salud": 1
+    },
+    "image_0894.jpg": {
+        "blancos": 5629,
+        "total_pixeles": 9798,
+        "porcentaje_blancos": 0.5745,
+        "salud": 1
+    },
+    "image_0895.jpg": {
+        "blancos": 7640,
+        "total_pixeles": 10270,
+        "porcentaje_blancos": 0.7439,
+        "salud": 1
+    },
+    "image_0896.jpg": {
+        "blancos": 7561,
+        "total_pixeles": 9875,
+        "porcentaje_blancos": 0.7657,
+        "salud": 1
+    },
+    "image_0897.jpg": {
+        "blancos": 6789,
+        "total_pixeles": 10800,
+        "porcentaje_blancos": 0.6286,
+        "salud": 1
+    },
+    "image_0898.jpg": {
+        "blancos": 6865,
+        "total_pixeles": 10349,
+        "porcentaje_blancos": 0.6633,
+        "salud": 1
+    },
+    "image_0899.jpg": {
+        "blancos": 5509,
+        "total_pixeles": 7209,
+        "porcentaje_blancos": 0.7642,
+        "salud": 1
+    },
+    "image_0900.jpg": {
+        "blancos": 4318,
+        "total_pixeles": 6150,
+        "porcentaje_blancos": 0.7021,
+        "salud": 1
+    },
+    "image_0901.jpg": {
+        "blancos": 1843,
+        "total_pixeles": 6783,
+        "porcentaje_blancos": 0.2717,
+        "salud": 0
+    },
+    "image_0902.jpg": {
+        "blancos": 1769,
+        "total_pixeles": 6893,
+        "porcentaje_blancos": 0.2566,
+        "salud": 0
+    },
+    "image_0903.jpg": {
+        "blancos": 2170,
+        "total_pixeles": 6634,
+        "porcentaje_blancos": 0.3271,
+        "salud": 1
+    },
+    "image_0904.jpg": {
+        "blancos": 2358,
+        "total_pixeles": 6840,
+        "porcentaje_blancos": 0.3447,
+        "salud": 1
+    },
+    "image_0905.jpg": {
+        "blancos": 2735,
+        "total_pixeles": 9996,
+        "porcentaje_blancos": 0.2736,
+        "salud": 0
+    },
+    "image_0906.jpg": {
+        "blancos": 2632,
+        "total_pixeles": 9620,
+        "porcentaje_blancos": 0.2736,
+        "salud": 0
+    },
+    "image_0907.jpg": {
+        "blancos": 2447,
+        "total_pixeles": 9715,
+        "porcentaje_blancos": 0.2519,
+        "salud": 0
+    },
+    "image_0908.jpg": {
+        "blancos": 2968,
+        "total_pixeles": 10582,
+        "porcentaje_blancos": 0.2805,
+        "salud": 0
+    },
+    "image_0909.jpg": {
+        "blancos": 5423,
+        "total_pixeles": 14652,
+        "porcentaje_blancos": 0.3701,
+        "salud": 1
+    },
+    "image_0910.jpg": {
+        "blancos": 7593,
+        "total_pixeles": 13362,
+        "porcentaje_blancos": 0.5683,
+        "salud": 1
+    },
+    "image_0911.jpg": {
+        "blancos": 6674,
+        "total_pixeles": 9504,
+        "porcentaje_blancos": 0.7022,
+        "salud": 1
+    },
+    "image_0912.jpg": {
+        "blancos": 1776,
+        "total_pixeles": 7198,
+        "porcentaje_blancos": 0.2467,
+        "salud": 0
+    },
+    "image_0913.jpg": {
+        "blancos": 2192,
+        "total_pixeles": 6820,
+        "porcentaje_blancos": 0.3214,
+        "salud": 1
+    },
+    "image_0914.jpg": {
+        "blancos": 2636,
+        "total_pixeles": 9834,
+        "porcentaje_blancos": 0.268,
+        "salud": 0
+    },
+    "image_0915.jpg": {
+        "blancos": 2980,
+        "total_pixeles": 9100,
+        "porcentaje_blancos": 0.3275,
+        "salud": 1
+    },
+    "image_0916.jpg": {
+        "blancos": 4011,
+        "total_pixeles": 9720,
+        "porcentaje_blancos": 0.4127,
+        "salud": 1
+    },
+    "image_0917.jpg": {
+        "blancos": 6859,
+        "total_pixeles": 13860,
+        "porcentaje_blancos": 0.4949,
+        "salud": 1
+    },
+    "image_0918.jpg": {
+        "blancos": 7449,
+        "total_pixeles": 12555,
+        "porcentaje_blancos": 0.5933,
+        "salud": 1
+    },
+    "image_0919.jpg": {
+        "blancos": 8481,
+        "total_pixeles": 12740,
+        "porcentaje_blancos": 0.6657,
+        "salud": 1
+    },
+    "image_0920.jpg": {
+        "blancos": 6674,
+        "total_pixeles": 9504,
+        "porcentaje_blancos": 0.7022,
+        "salud": 1
+    },
+    "image_0921.jpg": {
+        "blancos": 4275,
+        "total_pixeles": 6075,
+        "porcentaje_blancos": 0.7037,
+        "salud": 1
+    },
+    "image_0922.jpg": {
+        "blancos": 908,
+        "total_pixeles": 9179,
+        "porcentaje_blancos": 0.0989,
+        "salud": 0
+    },
+    "image_0923.jpg": {
+        "blancos": 1074,
+        "total_pixeles": 10143,
+        "porcentaje_blancos": 0.1059,
+        "salud": 0
+    },
+    "image_0924.jpg": {
+        "blancos": 1698,
+        "total_pixeles": 9490,
+        "porcentaje_blancos": 0.1789,
+        "salud": 0
+    },
+    "image_0925.jpg": {
+        "blancos": 1789,
+        "total_pixeles": 8768,
+        "porcentaje_blancos": 0.204,
+        "salud": 0
+    },
+    "image_0926.jpg": {
+        "blancos": 920,
+        "total_pixeles": 9792,
+        "porcentaje_blancos": 0.094,
+        "salud": 0
+    },
+    "image_0927.jpg": {
+        "blancos": 2157,
+        "total_pixeles": 9100,
+        "porcentaje_blancos": 0.237,
+        "salud": 0
+    },
+    "image_0928.jpg": {
+        "blancos": 3027,
+        "total_pixeles": 9384,
+        "porcentaje_blancos": 0.3226,
+        "salud": 1
+    },
+    "image_0929.jpg": {
+        "blancos": 3323,
+        "total_pixeles": 8976,
+        "porcentaje_blancos": 0.3702,
+        "salud": 1
+    },
+    "image_0930.jpg": {
+        "blancos": 5559,
+        "total_pixeles": 8848,
+        "porcentaje_blancos": 0.6283,
+        "salud": 1
+    },
+    "image_0931.jpg": {
+        "blancos": 4193,
+        "total_pixeles": 8034,
+        "porcentaje_blancos": 0.5219,
+        "salud": 1
+    },
+    "image_0932.jpg": {
+        "blancos": 5021,
+        "total_pixeles": 8216,
+        "porcentaje_blancos": 0.6111,
+        "salud": 1
+    },
+    "image_0933.jpg": {
+        "blancos": 1747,
+        "total_pixeles": 6785,
+        "porcentaje_blancos": 0.2575,
+        "salud": 0
+    },
+    "image_0934.jpg": {
+        "blancos": 2282,
+        "total_pixeles": 6930,
+        "porcentaje_blancos": 0.3293,
+        "salud": 1
+    },
+    "image_0935.jpg": {
+        "blancos": 2443,
+        "total_pixeles": 7192,
+        "porcentaje_blancos": 0.3397,
+        "salud": 1
+    },
+    "image_0936.jpg": {
+        "blancos": 2626,
+        "total_pixeles": 8442,
+        "porcentaje_blancos": 0.3111,
+        "salud": 1
+    },
+    "image_0937.jpg": {
+        "blancos": 1478,
+        "total_pixeles": 8772,
+        "porcentaje_blancos": 0.1685,
+        "salud": 0
+    },
+    "image_0938.jpg": {
+        "blancos": 1779,
+        "total_pixeles": 10087,
+        "porcentaje_blancos": 0.1764,
+        "salud": 0
+    },
+    "image_0939.jpg": {
+        "blancos": 3160,
+        "total_pixeles": 13248,
+        "porcentaje_blancos": 0.2385,
+        "salud": 0
+    },
+    "image_0940.jpg": {
+        "blancos": 4714,
+        "total_pixeles": 10246,
+        "porcentaje_blancos": 0.4601,
+        "salud": 1
+    },
+    "image_0941.jpg": {
+        "blancos": 3091,
+        "total_pixeles": 6240,
+        "porcentaje_blancos": 0.4954,
+        "salud": 1
+    },
+    "image_0942.jpg": {
+        "blancos": 2083,
+        "total_pixeles": 6903,
+        "porcentaje_blancos": 0.3018,
+        "salud": 1
+    },
+    "image_0943.jpg": {
+        "blancos": 2047,
+        "total_pixeles": 6912,
+        "porcentaje_blancos": 0.2962,
+        "salud": 0
+    },
+    "image_0944.jpg": {
+        "blancos": 2421,
+        "total_pixeles": 7906,
+        "porcentaje_blancos": 0.3062,
+        "salud": 1
+    },
+    "image_0945.jpg": {
+        "blancos": 2425,
+        "total_pixeles": 8840,
+        "porcentaje_blancos": 0.2743,
+        "salud": 0
+    },
+    "image_0946.jpg": {
+        "blancos": 3107,
+        "total_pixeles": 10033,
+        "porcentaje_blancos": 0.3097,
+        "salud": 1
+    },
+    "image_0947.jpg": {
+        "blancos": 4288,
+        "total_pixeles": 13152,
+        "porcentaje_blancos": 0.326,
+        "salud": 1
+    },
+    "image_0948.jpg": {
+        "blancos": 1809,
+        "total_pixeles": 9447,
+        "porcentaje_blancos": 0.1915,
+        "salud": 0
+    },
+    "image_0949.jpg": {
+        "blancos": 6223,
+        "total_pixeles": 11252,
+        "porcentaje_blancos": 0.5531,
+        "salud": 1
+    },
+    "image_0950.jpg": {
+        "blancos": 4178,
+        "total_pixeles": 9396,
+        "porcentaje_blancos": 0.4447,
+        "salud": 1
+    },
+    "image_0951.jpg": {
+        "blancos": 3025,
+        "total_pixeles": 7888,
+        "porcentaje_blancos": 0.3835,
+        "salud": 1
+    },
+    "image_0952.jpg": {
+        "blancos": 3573,
+        "total_pixeles": 8960,
+        "porcentaje_blancos": 0.3988,
+        "salud": 1
+    },
+    "image_0953.jpg": {
+        "blancos": 5488,
+        "total_pixeles": 9126,
+        "porcentaje_blancos": 0.6014,
+        "salud": 1
+    },
+    "image_0954.jpg": {
+        "blancos": 4831,
+        "total_pixeles": 8549,
+        "porcentaje_blancos": 0.5651,
+        "salud": 1
+    },
+    "image_0955.jpg": {
+        "blancos": 4831,
+        "total_pixeles": 7524,
+        "porcentaje_blancos": 0.6421,
+        "salud": 1
+    },
+    "image_0956.jpg": {
+        "blancos": 4917,
+        "total_pixeles": 8112,
+        "porcentaje_blancos": 0.6061,
+        "salud": 1
+    },
+    "image_0957.jpg": {
+        "blancos": 1138,
+        "total_pixeles": 9724,
+        "porcentaje_blancos": 0.117,
+        "salud": 0
+    },
+    "image_0958.jpg": {
+        "blancos": 1804,
+        "total_pixeles": 8255,
+        "porcentaje_blancos": 0.2185,
+        "salud": 0
+    },
+    "image_0959.jpg": {
+        "blancos": 2170,
+        "total_pixeles": 9288,
+        "porcentaje_blancos": 0.2336,
+        "salud": 0
+    },
+    "image_0960.jpg": {
+        "blancos": 2967,
+        "total_pixeles": 11023,
+        "porcentaje_blancos": 0.2692,
+        "salud": 0
+    },
+    "image_0961.jpg": {
+        "blancos": 3039,
+        "total_pixeles": 9315,
+        "porcentaje_blancos": 0.3262,
+        "salud": 1
+    },
+    "image_0962.jpg": {
+        "blancos": 3331,
+        "total_pixeles": 8184,
+        "porcentaje_blancos": 0.407,
+        "salud": 1
+    },
+    "image_0963.jpg": {
+        "blancos": 5574,
+        "total_pixeles": 11266,
+        "porcentaje_blancos": 0.4948,
+        "salud": 1
+    },
+    "image_0964.jpg": {
+        "blancos": 4995,
+        "total_pixeles": 7990,
+        "porcentaje_blancos": 0.6252,
+        "salud": 1
+    },
+    "image_0965.jpg": {
+        "blancos": 4414,
+        "total_pixeles": 7553,
+        "porcentaje_blancos": 0.5844,
+        "salud": 1
+    },
+    "image_0966.jpg": {
+        "blancos": 5620,
+        "total_pixeles": 11484,
+        "porcentaje_blancos": 0.4894,
+        "salud": 1
+    },
+    "image_0967.jpg": {
+        "blancos": 3739,
+        "total_pixeles": 6992,
+        "porcentaje_blancos": 0.5348,
+        "salud": 1
+    },
+    "image_0968.jpg": {
+        "blancos": 5122,
+        "total_pixeles": 7350,
+        "porcentaje_blancos": 0.6969,
+        "salud": 1
+    },
+    "image_0969.jpg": {
+        "blancos": 1472,
+        "total_pixeles": 7424,
+        "porcentaje_blancos": 0.1983,
+        "salud": 0
+    },
+    "image_0970.jpg": {
+        "blancos": 1368,
+        "total_pixeles": 7434,
+        "porcentaje_blancos": 0.184,
+        "salud": 0
+    },
+    "image_0971.jpg": {
+        "blancos": 2869,
+        "total_pixeles": 8680,
+        "porcentaje_blancos": 0.3305,
+        "salud": 1
+    },
+    "image_0972.jpg": {
+        "blancos": 2575,
+        "total_pixeles": 9035,
+        "porcentaje_blancos": 0.285,
+        "salud": 0
+    },
+    "image_0973.jpg": {
+        "blancos": 4231,
+        "total_pixeles": 10720,
+        "porcentaje_blancos": 0.3947,
+        "salud": 1
+    },
+    "image_0974.jpg": {
+        "blancos": 3746,
+        "total_pixeles": 9216,
+        "porcentaje_blancos": 0.4065,
+        "salud": 1
+    },
+    "image_0975.jpg": {
+        "blancos": 2627,
+        "total_pixeles": 8833,
+        "porcentaje_blancos": 0.2974,
+        "salud": 0
+    },
+    "image_0976.jpg": {
+        "blancos": 3069,
+        "total_pixeles": 9204,
+        "porcentaje_blancos": 0.3334,
+        "salud": 1
+    },
+    "image_0977.jpg": {
+        "blancos": 5325,
+        "total_pixeles": 13938,
+        "porcentaje_blancos": 0.382,
+        "salud": 1
+    },
+    "image_0978.jpg": {
+        "blancos": 6352,
+        "total_pixeles": 11305,
+        "porcentaje_blancos": 0.5619,
+        "salud": 1
+    },
+    "image_0979.jpg": {
+        "blancos": 3742,
+        "total_pixeles": 5472,
+        "porcentaje_blancos": 0.6838,
+        "salud": 1
+    },
+    "image_0980.jpg": {
+        "blancos": 1380,
+        "total_pixeles": 7965,
+        "porcentaje_blancos": 0.1733,
+        "salud": 0
+    },
+    "image_0981.jpg": {
+        "blancos": 2476,
+        "total_pixeles": 9408,
+        "porcentaje_blancos": 0.2632,
+        "salud": 0
+    },
+    "image_0982.jpg": {
+        "blancos": 4351,
+        "total_pixeles": 10640,
+        "porcentaje_blancos": 0.4089,
+        "salud": 1
+    },
+    "image_0983.jpg": {
+        "blancos": 4214,
+        "total_pixeles": 9652,
+        "porcentaje_blancos": 0.4366,
+        "salud": 1
+    },
+    "image_0984.jpg": {
+        "blancos": 3420,
+        "total_pixeles": 9559,
+        "porcentaje_blancos": 0.3578,
+        "salud": 1
+    },
+    "image_0985.jpg": {
+        "blancos": 4762,
+        "total_pixeles": 13974,
+        "porcentaje_blancos": 0.3408,
+        "salud": 1
+    },
+    "image_0986.jpg": {
+        "blancos": 2628,
+        "total_pixeles": 11461,
+        "porcentaje_blancos": 0.2293,
+        "salud": 0
+    },
+    "image_0987.jpg": {
+        "blancos": 7045,
+        "total_pixeles": 14744,
+        "porcentaje_blancos": 0.4778,
+        "salud": 1
+    },
+    "image_0988.jpg": {
+        "blancos": 3202,
+        "total_pixeles": 5624,
+        "porcentaje_blancos": 0.5693,
+        "salud": 1
+    },
+    "image_0989.jpg": {
+        "blancos": 3313,
+        "total_pixeles": 9443,
+        "porcentaje_blancos": 0.3508,
+        "salud": 1
+    },
+    "image_0990.jpg": {
+        "blancos": 3565,
+        "total_pixeles": 9042,
+        "porcentaje_blancos": 0.3943,
+        "salud": 1
+    },
+    "image_0991.jpg": {
+        "blancos": 5959,
+        "total_pixeles": 12638,
+        "porcentaje_blancos": 0.4715,
+        "salud": 1
+    },
+    "image_0992.jpg": {
+        "blancos": 4482,
+        "total_pixeles": 7636,
+        "porcentaje_blancos": 0.587,
+        "salud": 1
+    },
+    "image_0993.jpg": {
+        "blancos": 3723,
+        "total_pixeles": 7007,
+        "porcentaje_blancos": 0.5313,
+        "salud": 1
+    },
+    "image_0994.jpg": {
+        "blancos": 2808,
+        "total_pixeles": 8610,
+        "porcentaje_blancos": 0.3261,
+        "salud": 1
+    },
+    "image_0995.jpg": {
+        "blancos": 3323,
+        "total_pixeles": 8142,
+        "porcentaje_blancos": 0.4081,
+        "salud": 1
+    },
+    "image_0996.jpg": {
+        "blancos": 1928,
+        "total_pixeles": 11055,
+        "porcentaje_blancos": 0.1744,
+        "salud": 0
+    },
+    "image_0997.jpg": {
+        "blancos": 1573,
+        "total_pixeles": 10494,
+        "porcentaje_blancos": 0.1499,
+        "salud": 0
+    },
+    "image_0998.jpg": {
+        "blancos": 822,
+        "total_pixeles": 10752,
+        "porcentaje_blancos": 0.0765,
+        "salud": 0
+    },
+    "image_0999.jpg": {
+        "blancos": 634,
+        "total_pixeles": 11591,
+        "porcentaje_blancos": 0.0547,
+        "salud": 0
+    },
+    "image_1000.jpg": {
+        "blancos": 1495,
+        "total_pixeles": 9108,
+        "porcentaje_blancos": 0.1641,
+        "salud": 0
+    },
+    "image_1001.jpg": {
+        "blancos": 1881,
+        "total_pixeles": 9636,
+        "porcentaje_blancos": 0.1952,
+        "salud": 0
+    },
+    "image_1002.jpg": {
+        "blancos": 3420,
+        "total_pixeles": 9585,
+        "porcentaje_blancos": 0.3568,
+        "salud": 1
+    },
+    "image_1003.jpg": {
+        "blancos": 3053,
+        "total_pixeles": 8976,
+        "porcentaje_blancos": 0.3401,
+        "salud": 1
+    },
+    "image_1004.jpg": {
+        "blancos": 5156,
+        "total_pixeles": 8056,
+        "porcentaje_blancos": 0.64,
+        "salud": 1
+    },
+    "image_1005.jpg": {
+        "blancos": 6693,
+        "total_pixeles": 11016,
+        "porcentaje_blancos": 0.6076,
+        "salud": 1
+    },
+    "image_1006.jpg": {
+        "blancos": 5766,
+        "total_pixeles": 8162,
+        "porcentaje_blancos": 0.7064,
+        "salud": 1
+    },
+    "image_1007.jpg": {
+        "blancos": 6450,
+        "total_pixeles": 9234,
+        "porcentaje_blancos": 0.6985,
+        "salud": 1
+    },
+    "image_1008.jpg": {
+        "blancos": 7960,
+        "total_pixeles": 10370,
+        "porcentaje_blancos": 0.7676,
+        "salud": 1
+    },
+    "image_1009.jpg": {
+        "blancos": 1437,
+        "total_pixeles": 4988,
+        "porcentaje_blancos": 0.2881,
+        "salud": 0
+    },
+    "image_1010.jpg": {
+        "blancos": 1099,
+        "total_pixeles": 7308,
+        "porcentaje_blancos": 0.1504,
+        "salud": 0
+    },
+    "image_1011.jpg": {
+        "blancos": 678,
+        "total_pixeles": 9240,
+        "porcentaje_blancos": 0.0734,
+        "salud": 0
+    },
+    "image_1012.jpg": {
+        "blancos": 770,
+        "total_pixeles": 8784,
+        "porcentaje_blancos": 0.0877,
+        "salud": 0
+    },
+    "image_1013.jpg": {
+        "blancos": 1195,
+        "total_pixeles": 9179,
+        "porcentaje_blancos": 0.1302,
+        "salud": 0
+    },
+    "image_1014.jpg": {
+        "blancos": 995,
+        "total_pixeles": 9240,
+        "porcentaje_blancos": 0.1077,
+        "salud": 0
+    },
+    "image_1015.jpg": {
+        "blancos": 1100,
+        "total_pixeles": 10530,
+        "porcentaje_blancos": 0.1045,
+        "salud": 0
+    },
+    "image_1016.jpg": {
+        "blancos": 4220,
+        "total_pixeles": 15478,
+        "porcentaje_blancos": 0.2726,
+        "salud": 0
+    },
+    "image_1017.jpg": {
+        "blancos": 6623,
+        "total_pixeles": 12348,
+        "porcentaje_blancos": 0.5364,
+        "salud": 1
+    },
+    "image_1018.jpg": {
+        "blancos": 2287,
+        "total_pixeles": 6077,
+        "porcentaje_blancos": 0.3763,
+        "salud": 1
+    },
+    "image_1019.jpg": {
+        "blancos": 2312,
+        "total_pixeles": 6018,
+        "porcentaje_blancos": 0.3842,
+        "salud": 1
+    },
+    "image_1020.jpg": {
+        "blancos": 1999,
+        "total_pixeles": 8509,
+        "porcentaje_blancos": 0.2349,
+        "salud": 0
+    },
+    "image_1021.jpg": {
+        "blancos": 1353,
+        "total_pixeles": 8875,
+        "porcentaje_blancos": 0.1525,
+        "salud": 0
+    },
+    "image_1022.jpg": {
+        "blancos": 1571,
+        "total_pixeles": 10773,
+        "porcentaje_blancos": 0.1458,
+        "salud": 0
+    },
+    "image_1023.jpg": {
+        "blancos": 3088,
+        "total_pixeles": 15158,
+        "porcentaje_blancos": 0.2037,
+        "salud": 0
+    },
+    "image_1024.jpg": {
+        "blancos": 634,
+        "total_pixeles": 11591,
+        "porcentaje_blancos": 0.0547,
+        "salud": 0
+    },
+    "image_1025.jpg": {
+        "blancos": 819,
+        "total_pixeles": 10458,
+        "porcentaje_blancos": 0.0783,
+        "salud": 0
+    },
+    "image_1026.jpg": {
+        "blancos": 5609,
+        "total_pixeles": 12513,
+        "porcentaje_blancos": 0.4483,
+        "salud": 1
+    },
+    "image_1027.jpg": {
+        "blancos": 6763,
+        "total_pixeles": 12573,
+        "porcentaje_blancos": 0.5379,
+        "salud": 1
+    },
+    "image_1028.jpg": {
+        "blancos": 6221,
+        "total_pixeles": 10080,
+        "porcentaje_blancos": 0.6172,
+        "salud": 1
+    },
+    "image_1029.jpg": {
+        "blancos": 6316,
+        "total_pixeles": 10148,
+        "porcentaje_blancos": 0.6224,
+        "salud": 1
+    },
+    "image_1030.jpg": {
+        "blancos": 1905,
+        "total_pixeles": 9849,
+        "porcentaje_blancos": 0.1934,
+        "salud": 0
+    },
+    "image_1031.jpg": {
+        "blancos": 7634,
+        "total_pixeles": 10092,
+        "porcentaje_blancos": 0.7564,
+        "salud": 1
+    },
+    "image_1032.jpg": {
+        "blancos": 8273,
+        "total_pixeles": 11000,
+        "porcentaje_blancos": 0.7521,
+        "salud": 1
+    },
+    "image_1033.jpg": {
+        "blancos": 1938,
+        "total_pixeles": 11189,
+        "porcentaje_blancos": 0.1732,
+        "salud": 0
+    },
+    "image_1034.jpg": {
+        "blancos": 995,
+        "total_pixeles": 9372,
+        "porcentaje_blancos": 0.1062,
+        "salud": 0
+    },
+    "image_1035.jpg": {
+        "blancos": 2356,
+        "total_pixeles": 9408,
+        "porcentaje_blancos": 0.2504,
+        "salud": 0
+    },
+    "image_1036.jpg": {
+        "blancos": 3330,
+        "total_pixeles": 11690,
+        "porcentaje_blancos": 0.2849,
+        "salud": 0
+    },
+    "image_1037.jpg": {
+        "blancos": 4017,
+        "total_pixeles": 9834,
+        "porcentaje_blancos": 0.4085,
+        "salud": 1
+    },
+    "image_1038.jpg": {
+        "blancos": 4043,
+        "total_pixeles": 9916,
+        "porcentaje_blancos": 0.4077,
+        "salud": 1
+    },
+    "image_1039.jpg": {
+        "blancos": 6788,
+        "total_pixeles": 10349,
+        "porcentaje_blancos": 0.6559,
+        "salud": 1
+    },
+    "image_1040.jpg": {
+        "blancos": 6204,
+        "total_pixeles": 9324,
+        "porcentaje_blancos": 0.6654,
+        "salud": 1
+    },
+    "image_1041.jpg": {
+        "blancos": 6798,
+        "total_pixeles": 9960,
+        "porcentaje_blancos": 0.6825,
+        "salud": 1
+    },
+    "image_1042.jpg": {
+        "blancos": 1761,
+        "total_pixeles": 6962,
+        "porcentaje_blancos": 0.2529,
+        "salud": 0
+    },
+    "image_1043.jpg": {
+        "blancos": 1498,
+        "total_pixeles": 7080,
+        "porcentaje_blancos": 0.2116,
+        "salud": 0
+    },
+    "image_1044.jpg": {
+        "blancos": 2706,
+        "total_pixeles": 10500,
+        "porcentaje_blancos": 0.2577,
+        "salud": 0
+    },
+    "image_1045.jpg": {
+        "blancos": 3002,
+        "total_pixeles": 9581,
+        "porcentaje_blancos": 0.3133,
+        "salud": 1
+    },
+    "image_1046.jpg": {
+        "blancos": 2932,
+        "total_pixeles": 10335,
+        "porcentaje_blancos": 0.2837,
+        "salud": 0
+    },
+    "image_1047.jpg": {
+        "blancos": 3739,
+        "total_pixeles": 11858,
+        "porcentaje_blancos": 0.3153,
+        "salud": 1
+    },
+    "image_1048.jpg": {
+        "blancos": 4852,
+        "total_pixeles": 14140,
+        "porcentaje_blancos": 0.3431,
+        "salud": 1
+    },
+    "image_1049.jpg": {
+        "blancos": 6311,
+        "total_pixeles": 12750,
+        "porcentaje_blancos": 0.495,
+        "salud": 1
+    },
+    "image_1050.jpg": {
+        "blancos": 5078,
+        "total_pixeles": 9512,
+        "porcentaje_blancos": 0.5339,
+        "salud": 1
+    },
+    "image_1051.jpg": {
+        "blancos": 2818,
+        "total_pixeles": 6555,
+        "porcentaje_blancos": 0.4299,
+        "salud": 1
+    },
+    "image_1052.jpg": {
+        "blancos": 2797,
+        "total_pixeles": 6554,
+        "porcentaje_blancos": 0.4268,
+        "salud": 1
+    },
+    "image_1053.jpg": {
+        "blancos": 3285,
+        "total_pixeles": 9176,
+        "porcentaje_blancos": 0.358,
+        "salud": 1
+    },
+    "image_1054.jpg": {
+        "blancos": 3237,
+        "total_pixeles": 9344,
+        "porcentaje_blancos": 0.3464,
+        "salud": 1
+    },
+    "image_1055.jpg": {
+        "blancos": 3274,
+        "total_pixeles": 11160,
+        "porcentaje_blancos": 0.2934,
+        "salud": 0
+    },
+    "image_1056.jpg": {
+        "blancos": 4623,
+        "total_pixeles": 13662,
+        "porcentaje_blancos": 0.3384,
+        "salud": 1
+    },
+    "image_1057.jpg": {
+        "blancos": 3512,
+        "total_pixeles": 11523,
+        "porcentaje_blancos": 0.3048,
+        "salud": 1
+    },
+    "image_1058.jpg": {
+        "blancos": 5541,
+        "total_pixeles": 12642,
+        "porcentaje_blancos": 0.4383,
+        "salud": 1
+    },
+    "image_1059.jpg": {
+        "blancos": 4124,
+        "total_pixeles": 9945,
+        "porcentaje_blancos": 0.4147,
+        "salud": 1
+    },
+    "image_1060.jpg": {
+        "blancos": 3776,
+        "total_pixeles": 10200,
+        "porcentaje_blancos": 0.3702,
+        "salud": 1
+    },
+    "image_1061.jpg": {
+        "blancos": 3564,
+        "total_pixeles": 9313,
+        "porcentaje_blancos": 0.3827,
+        "salud": 1
+    },
+    "image_1062.jpg": {
+        "blancos": 5642,
+        "total_pixeles": 9548,
+        "porcentaje_blancos": 0.5909,
+        "salud": 1
+    },
+    "image_1063.jpg": {
+        "blancos": 6729,
+        "total_pixeles": 10080,
+        "porcentaje_blancos": 0.6676,
+        "salud": 1
+    },
+    "image_1064.jpg": {
+        "blancos": 6668,
+        "total_pixeles": 9477,
+        "porcentaje_blancos": 0.7036,
+        "salud": 1
+    },
+    "image_1065.jpg": {
+        "blancos": 1578,
+        "total_pixeles": 10335,
+        "porcentaje_blancos": 0.1527,
+        "salud": 0
+    },
+    "image_1066.jpg": {
+        "blancos": 3346,
+        "total_pixeles": 9052,
+        "porcentaje_blancos": 0.3696,
+        "salud": 1
+    },
+    "image_1067.jpg": {
+        "blancos": 3924,
+        "total_pixeles": 8844,
+        "porcentaje_blancos": 0.4437,
+        "salud": 1
+    },
+    "image_1068.jpg": {
+        "blancos": 3007,
+        "total_pixeles": 9600,
+        "porcentaje_blancos": 0.3132,
+        "salud": 1
+    },
+    "image_1069.jpg": {
+        "blancos": 4920,
+        "total_pixeles": 10082,
+        "porcentaje_blancos": 0.488,
+        "salud": 1
+    },
+    "image_1070.jpg": {
+        "blancos": 5170,
+        "total_pixeles": 8610,
+        "porcentaje_blancos": 0.6005,
+        "salud": 1
+    },
+    "image_1071.jpg": {
+        "blancos": 5477,
+        "total_pixeles": 8296,
+        "porcentaje_blancos": 0.6602,
+        "salud": 1
+    },
+    "image_1072.jpg": {
+        "blancos": 4787,
+        "total_pixeles": 6596,
+        "porcentaje_blancos": 0.7257,
+        "salud": 1
+    },
+    "image_1073.jpg": {
+        "blancos": 2122,
+        "total_pixeles": 6783,
+        "porcentaje_blancos": 0.3128,
+        "salud": 1
+    },
+    "image_1074.jpg": {
+        "blancos": 2202,
+        "total_pixeles": 8280,
+        "porcentaje_blancos": 0.2659,
+        "salud": 0
+    },
+    "image_1075.jpg": {
+        "blancos": 2977,
+        "total_pixeles": 9472,
+        "porcentaje_blancos": 0.3143,
+        "salud": 1
+    },
+    "image_1076.jpg": {
+        "blancos": 3174,
+        "total_pixeles": 8646,
+        "porcentaje_blancos": 0.3671,
+        "salud": 1
+    },
+    "image_1077.jpg": {
+        "blancos": 4493,
+        "total_pixeles": 8107,
+        "porcentaje_blancos": 0.5542,
+        "salud": 1
+    },
+    "image_1078.jpg": {
+        "blancos": 2241,
+        "total_pixeles": 7540,
+        "porcentaje_blancos": 0.2972,
+        "salud": 0
+    },
+    "image_1079.jpg": {
+        "blancos": 2095,
+        "total_pixeles": 7316,
+        "porcentaje_blancos": 0.2864,
+        "salud": 0
+    },
+    "image_1080.jpg": {
+        "blancos": 2195,
+        "total_pixeles": 8910,
+        "porcentaje_blancos": 0.2464,
+        "salud": 0
+    },
+    "image_1081.jpg": {
+        "blancos": 3409,
+        "total_pixeles": 8840,
+        "porcentaje_blancos": 0.3856,
+        "salud": 1
+    },
+    "image_1082.jpg": {
+        "blancos": 3761,
+        "total_pixeles": 8625,
+        "porcentaje_blancos": 0.4361,
+        "salud": 1
+    },
+    "image_1083.jpg": {
+        "blancos": 6022,
+        "total_pixeles": 11440,
+        "porcentaje_blancos": 0.5264,
+        "salud": 1
+    },
+    "image_1084.jpg": {
+        "blancos": 5170,
+        "total_pixeles": 8610,
+        "porcentaje_blancos": 0.6005,
+        "salud": 1
+    },
+    "image_1085.jpg": {
+        "blancos": 3721,
+        "total_pixeles": 7128,
+        "porcentaje_blancos": 0.522,
+        "salud": 1
+    },
+    "image_1086.jpg": {
+        "blancos": 3017,
+        "total_pixeles": 9240,
+        "porcentaje_blancos": 0.3265,
+        "salud": 1
+    },
+    "image_1087.jpg": {
+        "blancos": 4524,
+        "total_pixeles": 8241,
+        "porcentaje_blancos": 0.549,
+        "salud": 1
+    },
+    "image_1088.jpg": {
+        "blancos": 2511,
+        "total_pixeles": 8896,
+        "porcentaje_blancos": 0.2823,
+        "salud": 0
+    },
+    "image_1089.jpg": {
+        "blancos": 396,
+        "total_pixeles": 11084,
+        "porcentaje_blancos": 0.0357,
+        "salud": 0
+    },
+    "image_1090.jpg": {
+        "blancos": 2955,
+        "total_pixeles": 11214,
+        "porcentaje_blancos": 0.2635,
+        "salud": 0
+    },
+    "image_1091.jpg": {
+        "blancos": 3317,
+        "total_pixeles": 9306,
+        "porcentaje_blancos": 0.3564,
+        "salud": 1
+    },
+    "image_1092.jpg": {
+        "blancos": 4166,
+        "total_pixeles": 8763,
+        "porcentaje_blancos": 0.4754,
+        "salud": 1
+    },
+    "image_1093.jpg": {
+        "blancos": 6052,
+        "total_pixeles": 9120,
+        "porcentaje_blancos": 0.6636,
+        "salud": 1
+    },
+    "image_1094.jpg": {
+        "blancos": 5462,
+        "total_pixeles": 8778,
+        "porcentaje_blancos": 0.6222,
+        "salud": 1
+    },
+    "image_1095.jpg": {
+        "blancos": 4319,
+        "total_pixeles": 5106,
+        "porcentaje_blancos": 0.8459,
+        "salud": 1
+    },
+    "image_1096.jpg": {
+        "blancos": 1380,
+        "total_pixeles": 6136,
+        "porcentaje_blancos": 0.2249,
+        "salud": 0
+    },
+    "image_1097.jpg": {
+        "blancos": 1847,
+        "total_pixeles": 6464,
+        "porcentaje_blancos": 0.2857,
+        "salud": 0
+    },
+    "image_1098.jpg": {
+        "blancos": 2134,
+        "total_pixeles": 11174,
+        "porcentaje_blancos": 0.191,
+        "salud": 0
+    },
+    "image_1099.jpg": {
+        "blancos": 2311,
+        "total_pixeles": 6930,
+        "porcentaje_blancos": 0.3335,
+        "salud": 1
+    },
+    "image_1100.jpg": {
+        "blancos": 1533,
+        "total_pixeles": 10787,
+        "porcentaje_blancos": 0.1421,
+        "salud": 0
+    },
+    "image_1101.jpg": {
+        "blancos": 3008,
+        "total_pixeles": 9570,
+        "porcentaje_blancos": 0.3143,
+        "salud": 1
+    },
+    "image_1102.jpg": {
+        "blancos": 5389,
+        "total_pixeles": 13802,
+        "porcentaje_blancos": 0.3905,
+        "salud": 1
+    },
+    "image_1103.jpg": {
+        "blancos": 5389,
+        "total_pixeles": 13802,
+        "porcentaje_blancos": 0.3905,
+        "salud": 1
+    },
+    "image_1104.jpg": {
+        "blancos": 6142,
+        "total_pixeles": 11520,
+        "porcentaje_blancos": 0.5332,
+        "salud": 1
+    },
+    "image_1105.jpg": {
+        "blancos": 3705,
+        "total_pixeles": 6000,
+        "porcentaje_blancos": 0.6175,
+        "salud": 1
+    },
+    "image_1106.jpg": {
+        "blancos": 1750,
+        "total_pixeles": 7440,
+        "porcentaje_blancos": 0.2352,
+        "salud": 0
+    },
+    "image_1107.jpg": {
+        "blancos": 1691,
+        "total_pixeles": 7440,
+        "porcentaje_blancos": 0.2273,
+        "salud": 0
+    },
+    "image_1108.jpg": {
+        "blancos": 2586,
+        "total_pixeles": 8908,
+        "porcentaje_blancos": 0.2903,
+        "salud": 0
+    },
+    "image_1109.jpg": {
+        "blancos": 3158,
+        "total_pixeles": 9384,
+        "porcentaje_blancos": 0.3365,
+        "salud": 1
+    },
+    "image_1110.jpg": {
+        "blancos": 4280,
+        "total_pixeles": 11039,
+        "porcentaje_blancos": 0.3877,
+        "salud": 1
+    },
+    "image_1111.jpg": {
+        "blancos": 6392,
+        "total_pixeles": 19184,
+        "porcentaje_blancos": 0.3332,
+        "salud": 1
+    },
+    "image_1112.jpg": {
+        "blancos": 3305,
+        "total_pixeles": 9636,
+        "porcentaje_blancos": 0.343,
+        "salud": 1
+    },
+    "image_1113.jpg": {
+        "blancos": 6230,
+        "total_pixeles": 12500,
+        "porcentaje_blancos": 0.4984,
+        "salud": 1
+    },
+    "image_1114.jpg": {
+        "blancos": 3865,
+        "total_pixeles": 10086,
+        "porcentaje_blancos": 0.3832,
+        "salud": 1
+    },
+    "image_1115.jpg": {
+        "blancos": 3857,
+        "total_pixeles": 8568,
+        "porcentaje_blancos": 0.4502,
+        "salud": 1
+    },
+    "image_1116.jpg": {
+        "blancos": 5193,
+        "total_pixeles": 9585,
+        "porcentaje_blancos": 0.5418,
+        "salud": 1
+    },
+    "image_1117.jpg": {
+        "blancos": 6116,
+        "total_pixeles": 9758,
+        "porcentaje_blancos": 0.6268,
+        "salud": 1
+    },
+    "image_1118.jpg": {
+        "blancos": 5260,
+        "total_pixeles": 8690,
+        "porcentaje_blancos": 0.6053,
+        "salud": 1
+    },
+    "image_1119.jpg": {
+        "blancos": 6035,
+        "total_pixeles": 9085,
+        "porcentaje_blancos": 0.6643,
+        "salud": 1
+    },
+    "image_1120.jpg": {
+        "blancos": 364,
+        "total_pixeles": 9966,
+        "porcentaje_blancos": 0.0365,
+        "salud": 0
+    },
+    "image_1121.jpg": {
+        "blancos": 1586,
+        "total_pixeles": 9577,
+        "porcentaje_blancos": 0.1656,
+        "salud": 0
+    },
+    "image_1122.jpg": {
+        "blancos": 281,
+        "total_pixeles": 9750,
+        "porcentaje_blancos": 0.0288,
+        "salud": 0
+    },
+    "image_1123.jpg": {
+        "blancos": 1584,
+        "total_pixeles": 9656,
+        "porcentaje_blancos": 0.164,
+        "salud": 0
+    },
+    "image_1124.jpg": {
+        "blancos": 3485,
+        "total_pixeles": 8976,
+        "porcentaje_blancos": 0.3883,
+        "salud": 1
+    },
+    "image_1125.jpg": {
+        "blancos": 2606,
+        "total_pixeles": 5822,
+        "porcentaje_blancos": 0.4476,
+        "salud": 1
+    },
+    "image_1126.jpg": {
+        "blancos": 5941,
+        "total_pixeles": 8720,
+        "porcentaje_blancos": 0.6813,
+        "salud": 1
+    },
+    "image_1127.jpg": {
+        "blancos": 5619,
+        "total_pixeles": 8568,
+        "porcentaje_blancos": 0.6558,
+        "salud": 1
+    },
+    "image_1128.jpg": {
+        "blancos": 5886,
+        "total_pixeles": 8690,
+        "porcentaje_blancos": 0.6773,
+        "salud": 1
+    },
+    "image_1129.jpg": {
+        "blancos": 1871,
+        "total_pixeles": 6213,
+        "porcentaje_blancos": 0.3011,
+        "salud": 1
+    },
+    "image_1130.jpg": {
+        "blancos": 2086,
+        "total_pixeles": 6670,
+        "porcentaje_blancos": 0.3127,
+        "salud": 1
+    },
+    "image_1131.jpg": {
+        "blancos": 1969,
+        "total_pixeles": 8970,
+        "porcentaje_blancos": 0.2195,
+        "salud": 0
+    },
+    "image_1132.jpg": {
+        "blancos": 2304,
+        "total_pixeles": 8064,
+        "porcentaje_blancos": 0.2857,
+        "salud": 0
+    },
+    "image_1133.jpg": {
+        "blancos": 699,
+        "total_pixeles": 9815,
+        "porcentaje_blancos": 0.0712,
+        "salud": 0
+    },
+    "image_1134.jpg": {
+        "blancos": 2256,
+        "total_pixeles": 8732,
+        "porcentaje_blancos": 0.2584,
+        "salud": 0
+    },
+    "image_1135.jpg": {
+        "blancos": 6413,
+        "total_pixeles": 13596,
+        "porcentaje_blancos": 0.4717,
+        "salud": 1
+    },
+    "image_1136.jpg": {
+        "blancos": 7424,
+        "total_pixeles": 12700,
+        "porcentaje_blancos": 0.5846,
+        "salud": 1
+    },
+    "image_1137.jpg": {
+        "blancos": 1737,
+        "total_pixeles": 4270,
+        "porcentaje_blancos": 0.4068,
+        "salud": 1
+    },
+    "image_1138.jpg": {
+        "blancos": 1939,
+        "total_pixeles": 5992,
+        "porcentaje_blancos": 0.3236,
+        "salud": 1
+    },
+    "image_1139.jpg": {
+        "blancos": 1745,
+        "total_pixeles": 6804,
+        "porcentaje_blancos": 0.2565,
+        "salud": 0
+    },
+    "image_1140.jpg": {
+        "blancos": 2715,
+        "total_pixeles": 9782,
+        "porcentaje_blancos": 0.2776,
+        "salud": 0
+    },
+    "image_1141.jpg": {
+        "blancos": 2337,
+        "total_pixeles": 8576,
+        "porcentaje_blancos": 0.2725,
+        "salud": 0
+    },
+    "image_1142.jpg": {
+        "blancos": 2635,
+        "total_pixeles": 8778,
+        "porcentaje_blancos": 0.3002,
+        "salud": 1
+    },
+    "image_1143.jpg": {
+        "blancos": 4882,
+        "total_pixeles": 14098,
+        "porcentaje_blancos": 0.3463,
+        "salud": 1
+    },
+    "image_1144.jpg": {
+        "blancos": 2077,
+        "total_pixeles": 10010,
+        "porcentaje_blancos": 0.2075,
+        "salud": 0
+    },
+    "image_1145.jpg": {
+        "blancos": 5693,
+        "total_pixeles": 12500,
+        "porcentaje_blancos": 0.4554,
+        "salud": 1
+    },
+    "image_1146.jpg": {
+        "blancos": 3521,
+        "total_pixeles": 8580,
+        "porcentaje_blancos": 0.4104,
+        "salud": 1
+    },
+    "image_1147.jpg": {
+        "blancos": 1380,
+        "total_pixeles": 3717,
+        "porcentaje_blancos": 0.3713,
+        "salud": 1
+    },
+    "image_1148.jpg": {
+        "blancos": 2832,
+        "total_pixeles": 5632,
+        "porcentaje_blancos": 0.5028,
+        "salud": 1
+    },
+    "image_1149.jpg": {
+        "blancos": 6379,
+        "total_pixeles": 9882,
+        "porcentaje_blancos": 0.6455,
+        "salud": 1
+    },
+    "image_1150.jpg": {
+        "blancos": 5246,
+        "total_pixeles": 8820,
+        "porcentaje_blancos": 0.5948,
+        "salud": 1
+    },
+    "image_1151.jpg": {
+        "blancos": 176,
+        "total_pixeles": 10824,
+        "porcentaje_blancos": 0.0163,
+        "salud": 0
+    },
+    "image_1152.jpg": {
+        "blancos": 785,
+        "total_pixeles": 8978,
+        "porcentaje_blancos": 0.0874,
+        "salud": 0
+    }
+}
