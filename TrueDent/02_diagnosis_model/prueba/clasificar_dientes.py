@@ -15,7 +15,7 @@ def es_diente_sano(imagen_path, umbral_blanco=200, porcentaje_sano=0.3):
         "blancos": blancos,
         "total_pixeles": total_pixeles,
         "porcentaje_blancos": round(porcentaje_blancos, 4),
-        "salud": "sano" if porcentaje_blancos >= porcentaje_sano else "no sano"
+        "salud": 1 if porcentaje_blancos >= porcentaje_sano else 0
     }
 
 def analizar_dataset(ruta_carpeta):
