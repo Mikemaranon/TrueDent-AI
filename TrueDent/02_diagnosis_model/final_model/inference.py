@@ -45,7 +45,7 @@ if __name__ == "__main__":
     img_preparada = preparar_imagen(img_path, target_size)
     prediccion = predecir(modelo, img_preparada)
 
-        # Después de obtener la predicción:
+    # Después de obtener la predicción:
     probabilidad = prediccion[0][0]  # Valor entre 0 y 1
     clase_predicha = 1 if probabilidad >= 0.5 else 0
 
