@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>TrueDent AI - Detección de Caries</title>
+    <link rel="stylesheet" href="/static/CSS/index.css">
+</head>
+<body>
+
+    <header>
+        <img src="/static/IMG/logo.png" alt="TrueDent AI Logo" class="logo">
+    </header>
+
+    <main>
+        <form id="formulario" enctype="multipart/form-data">
+            <input type="file" name="imagen" id="imagen" accept="image/*" required>
+            <button type="submit">Analizar Imagen</button>
+        </form>
+
+        <div id="resultado" style="display: none;"></div>
+    </main>
+
+    <footer>
+        &copy; 2025 TrueDent AI. Proyecto para diagnóstico dental asistido por inteligencia artificial.
+    </footer>
+
+    <script src="/static/JS/SERVER_CONN/token-handler.js" defer></script>
+    <script src="/static/JS/index.js" defer></script>
+</body>
+</html>

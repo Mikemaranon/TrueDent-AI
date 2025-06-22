@@ -1,0 +1,8 @@
+{
+    "admin": {
+        "password": "$2b$12$KIX/YZQZ8EoX3fF5JVoObeOjQ5m.Y2wbU7bQgV16Phv1MIV0RTvO6"
+    },
+    "mike": {
+        "password": "scrypt:32768:8:1$xapZWRfkwJjeksqa$17bcda1329f8dbf8f71e8bd2a0c595ec832a88757c9646aca5c4acfabb849fff1d08dfe0638b7483ff164f19d522bbe69caaf8aeb631b9e51518a7a276cb8fa8"
+    }
+}

@@ -1,0 +1,137 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\usepackage{enumitem}
+\geometry{margin=2.5cm}
+
+\title{Documentación Técnica de TrueDent AI}
+\author{
+  Mike Marañón \\ 
+  Javier Pérez \\ 
+  Proyecto de Inteligencia Artificial en Odontología
+}
+
+\date{\today}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+
+\section*{I. Contexto del Proyecto}
+
+El dentista Ángel Cidad se puso en contacto con nosotros a través de Jose Antonio Ureta Santacreu (JAUS) para poder realizar este proyecto. Su objetivo era desarrollar un producto basado en Inteligencia Artificial que ayudara a los dentistas de su clínica a detectar patologías a través del análisis de pantomografías dentales.
+
+A pesar de que los dentistas son profesionales altamente capacitados, el mundo de la salud es delicado: no detectar una patología a tiempo puede derivar en una intervención quirúrgica. La existencia de TrueDent busca acelerar y facilitar ese proceso de detección, sobre todo en los casos donde los síntomas no son fácilmente visibles.
+
+Las tecnologías de convolución de imágenes son especialmente útiles en este campo, ya que el análisis de unos pocos píxeles puede marcar la diferencia entre un diagnóstico certero y un falso negativo.
+
+\section*{II. Introducción}
+
+TrueDent pretende ser una solución orientada a profesionales del ámbito odontológico. Con la ayuda de Ángel Cidad y el apoyo institucional de Tajamar, hemos desarrollado este MVP que reconoce caries en una pantomografía dental, evaluando cada diente de manera independiente.
+
+El desarrollo se estructura en cuatro fases, cada una enfocada en un modelo distinto, lo que permite modular el sistema y adaptarlo a diferentes contextos clínicos.
+
+\subsection*{II-1. Fases del Proyecto}
+
+\subsection*{Fase 0: Preparación previa y arquitectura}
+Antes de entrenar cualquier modelo, diseñamos la arquitectura general y establecimos el entorno de trabajo. Esta fase incluye la organización del código, herramientas, estructura de carpetas y pipeline general.
+
+\subsection*{Fase 1: Detección de dientes}
+Entrenamos un modelo basado en YOLOv8m para detectar y extraer imágenes individuales de cada diente desde la pantomografía.
+
+\subsection*{Fase 2: Clasificación y segmentación}
+Incluye dos modelos:
+
+\begin{itemize}
+    \item \textbf{Clasificador CNN:} determina si un diente es sano o no.
+    \item \textbf{Segmentador CNN (futuro):} detectará visualmente las áreas dañadas (por ahora no implementado en el MVP).
+\end{itemize}
+
+\subsection*{Fase 3: Generación de diagnóstico}
+Un modelo generativo produce un informe textual que explica las patologías detectadas y los motivos detrás de su clasificación.
+
+\subsection*{Resultado esperado}
+
+El producto final es una aplicación web donde el usuario sube una pantomografía y recibe:
+
+\begin{itemize}
+    \item Una imagen procesada con cada diente identificado.
+    \item Un informe textual explicando los hallazgos relevantes.
+\end{itemize}
+
+\section*{III. Análisis de la realidad}
+
+Antes de comenzar, identificamos una serie de desafíos. El equipo está compuesto por expertos en IA y Big Data, pero no en odontología, por lo que recurrimos a la colaboración de Ángel Cidad para validar muchos resultados.
+
+\subsection*{Conocimientos adquiridos}
+
+Para trabajar de forma autónoma, investigamos:
+
+\begin{itemize}
+    \item La nomenclatura dental.
+    \item Características visuales comunes de una caries.
+    \item Diferencias entre caries y otras patologías.
+\end{itemize}
+
+\subsection*{Problemas con los datos}
+
+Detectamos limitaciones clave:
+
+\begin{itemize}
+    \item Etiquetas en formatos normalizados (como YOLO) dificultan la validación visual.
+    \item Muchos datasets no se ajustan al contexto clínico deseado.
+    \item No contamos con tiempo suficiente ni recursos para revisar la integridad completa de los datos.
+\end{itemize}
+
+\textbf{Conclusión:} Aún con datos perfectos, ningún modelo es infalible. Por eso, el sistema debe permitir al usuario validar visualmente y no depender ciegamente del modelo.
+
+\section{Arquitectura y tecnologías del sistema}
+
+TrueDent se compone de cuatro modelos IA + una aplicación web como interfaz de usuario.
+
+\subsection*{Preguntas planteadas}
+
+\begin{itemize}
+    \item ¿Qué precisión se espera alcanzar?
+    \item ¿Qué tipo y calidad de datos se tienen disponibles?
+    \item ¿Cuál es la complejidad esperada de la app?
+    \item ¿Quién será el usuario final?
+\end{itemize}
+
+Originalmente se quería detectar todo tipo de patologías. Por cuestiones de tiempo, el MVP sólo diferencia entre dientes sanos y no sanos.
+
+\subsection*{Requisitos de datasets}
+
+\begin{enumerate}
+    \item Radiografías panorámicas con máscaras de cada diente.
+    \item Imágenes individuales de dientes, con etiqueta binaria: \texttt{sano} / \texttt{no sano}.
+\end{enumerate}
+
+\section{Resumen de modelos}
+
+\begin{center}
+\begin{tabular}{|l|l|p{8cm}|}
+\hline
+\textbf{Modelo} & \textbf{Tipo} & \textbf{Función principal} \\
+\hline
+Detector de dientes & CNN (YOLOv8m) & Extrae automáticamente cada diente a partir de una pantomografía dental. \\
+\hline
+Clasificador & CNN & Determina si un diente es sano o no. \\
+\hline
+Segmentador (futuro) & CNN & Localiza regiones afectadas dentro del diente para analizar la patología. \\
+\hline
+Generador de diagnóstico & Modelo generativo de texto & Redacta un informe textual con la posible patología detectada. \\
+\hline
+\end{tabular}
+\end{center}
+
+\end{document}
