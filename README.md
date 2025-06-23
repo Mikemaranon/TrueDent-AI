@@ -13,10 +13,10 @@ El planteamiento base es muy sencillo: se compone de tres modelos principales ba
 
 | Modelo | Tipo | Función principal |                                                                                                   
 |--------|------|-------------------|
-| TD-detector_m1 | CNN (YOLOv8m) | Detecta y recorta automáticamente cada diente individual a partir de la pantomografía. |
-| TD-class_m2 | CNN | Clasifica cada diente como **sano** o **no sano**. |
-| TD-detector_m3 | CNN | Basándose en el resultado del modelo anterior, busca ciertas patologías especificadas por el usuario. |
-| TD-diag_m4 | Modelo generativo (texto) | Genera un párrafo explicando posibles patologías basadas en los resultados de los modelos anteriores. |
+| TD_V1 | CNN (YOLOv8m) | Detecta y recorta automáticamente cada diente individual a partir de la pantomografía. |
+| TD_V2 | CNN | Clasifica cada diente como **sano** o **no sano**. |
+| TD_V3 | CNN | **NO ALCANZADO** Basándose en el resultado del modelo anterior, busca ciertas patologías especificadas por el usuario. |
+| TD-diag_V4 | Modelo generativo (texto) | **NO ALCANZADO** Genera un párrafo explicando posibles patologías basadas en los resultados de los modelos anteriores. |
 
 
  > El tercer modelo `TD_detector_m3`realmente es una agrupación de muchos modelos, para cada patología general habrá un modelo especializado en detectarlas, de esta forma se puede especializar y dividir el trabajo del flujo evitando el uso de modelos sobreentrenados y simplificando sus resultados
