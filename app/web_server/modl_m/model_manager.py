@@ -1,13 +1,25 @@
+import os
+
 from modl_m.models.TD_V1 import V1_main
+from modl_m.models.TD_V2 import V2_main
 
 class ModelManager:
     def __init__(self):
         print("ModelManager initialized.")
 
     def inference_v1(self):
-        # Placeholder for the inference logic of version 1
+        # TrueDent_V1 inference logic
+        
         print("Running inference for TrueDent_V1 model...")
         V1_main()
         
+    def inference_v2(self):
+        # TrueDent_V2 inference logic
+        
+        results = []
+        print(f"Running inference for TrueDent_V2 model with image: {img}")
+        for img in os.listdir("imgs/predictions/isolated_teeth"):
+            results.append(V2_main(img))
+        return results
     
     

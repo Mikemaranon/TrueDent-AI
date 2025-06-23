@@ -37,8 +37,9 @@ class ApiManager:
     def _register_APIs(self):
         self.app.add_url_rule("/api/check", "check", self.API_check, methods=["GET"])
         self.app.add_url_rule("/api/register", "register", self.API_register, methods=["POST"])
-        self.app.add_url_rule("/api/detect", "detect", self.API_detect, methods=["POST"])
         self.app.add_url_rule("/api/upload-image", "upload_image", self.API_upload_image, methods=["POST"])
+        self.app.add_url_rule("/api/detect", "detect", self.API_detect, methods=["GET"])
+        self.app.add_url_rule("/api/get-image", "get_image", self.API_get_image, methods=["GET"])
     
     # =========================================
     #       API protocols start from here
@@ -64,11 +65,6 @@ class ApiManager:
         self.database.add_user(username, password)
         return jsonify({"message": "User registered successfully"}), 201
     
-    def API_detect(self):
-        # This is a placeholder for the detect API
-        # Implement the detection logic here
-        return jsonify({"message": "Detection API not implemented yet"}), 501
-    
     def API_upload_image(self):
         if 'imagen' not in request.files:
             return jsonify({'error': 'No se encontró el archivo'}), 400
@@ -93,3 +89,18 @@ class ApiManager:
             
         else:
             return jsonify({'error': 'Extensión de archivo no permitida'}), 400
+        
+    def API_detect(self):
+        results = self.model_manager.inference_v2()
+        return results, 200
+    
+    def API_get_image(self):
+        # Get the image name from the request
+        image_name = request.args.get('image_name')
+        if not image_name:
+            return jsonify({"error": "No image name provided"}), 400
+        
+        # Construct the full path to the image
+        img_dir = os.path.join(HOME_DIR, 'imgs/predictions/isolated_teeth')
+        return send_from_directory(img_dir, image_name)
+        

@@ -9,7 +9,7 @@ body {
 header {
     background-color: #0077b6;
     color: white;
-    padding: 20px;
+    padding: 0px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
@@ -57,7 +57,7 @@ button:hover {
     background-color: #0077b6;
 }
 
-#resultado {
+#resultado_1, #resultado_2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +70,7 @@ button:hover {
     border-radius: 8px;
 }
 
-#resultado img {
+#resultado_1 img {
     display: block;
     margin: 10px auto;
     max-height: 300px;
