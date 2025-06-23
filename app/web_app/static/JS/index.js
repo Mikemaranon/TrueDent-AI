@@ -1,13 +1,13 @@
 const formulario = document.getElementById('formulario');
-const resultadoDiv = document.getElementById('resultado');
+const resultado_1 = document.getElementById('resultado_1');
+const resultado_2 = document.getElementById('resultado_2');
 const analyzeTeeth = document.getElementById('analyze-teeth');
 
 formulario.addEventListener('submit', async function (e) {
     e.preventDefault();
 
-    const resultadoDiv = document.getElementById('resultado');
-    resultadoDiv.innerHTML = '';
-    resultadoDiv.style.display = 'block';
+    resultado_1.innerHTML = '';
+    resultado_1.style.display = 'block';
 
     const formData = new FormData(this);
 
@@ -24,18 +24,21 @@ formulario.addEventListener('submit', async function (e) {
 
     } catch (err) {
         console.error(err);
-        resultadoDiv.innerHTML = "<p class='text-danger'>❌ Error en la detección.</p>";
+        resultado_1.innerHTML = "<p class='text-danger'>❌ Error en la detección.</p>";
     }
 });
 
 function render_image_from_blob(imageUrl) {
-    const resultadoDiv = document.getElementById('resultado');
-    resultadoDiv.innerHTML = ''; // Limpiamos contenido anterior
+    const resultado_1 = document.getElementById('resultado_1');
+    resultado_1.innerHTML = ''; // Limpiamos contenido anterior
 
     const img = document.createElement('img');
     img.src = imageUrl;
     img.alt = 'Resultado';
 
-    resultadoDiv.appendChild(img);
+    resultado_1.appendChild(img);
 }
 
+function render_teeth_analysis(analysis) {
+    // renderizamos el análisis de los dientes
+}
