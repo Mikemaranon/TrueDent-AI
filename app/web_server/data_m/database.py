@@ -7,6 +7,8 @@ USER_FILE = "users.json"
 USERNAME = 'username'
 PASSWORD = 'password'
 
+HOME_DIR = "/home/mike/Desktop/codes/projects/AI_PRJ/TrueDent-AI/app/web_server/modl_m"
+
 class Database:
     
     # static ini

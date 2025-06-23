@@ -56,13 +56,17 @@ async function send_API_request(method, endpoint, body = null) {
     const options = {
         method: method.toUpperCase(),
         headers: {
-            "Content-Type": "application/json",
             "Authorization": "Bearer " + token
         }
     };
     
     if (body && method.toUpperCase() !== "GET") {
-        options.body = JSON.stringify(body);
+        if (body instanceof FormData) {
+            options.body = body; 
+        } else {
+            options.headers["Content-Type"] = "application/json";
+            options.body = JSON.stringify(body);
+        }
     }
 
     console.log("Fetching:", endpoint, options);

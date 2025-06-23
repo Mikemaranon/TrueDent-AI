@@ -4,3 +4,10 @@ uploads
 TrueDent/02_diagnosis_model/app/__pycache__
 TrueDent/02_diagnosis_model/app/user_m/__pycache__
 TrueDent/02_diagnosis_model/app/data_m/__pycache__
+
+app/__pycache__
+app/web_server/user_m/__pycache__
+app/web_server/api_m/__pycache__
+app/web_server/data_m/__pycache__
+app/web_server/modl_m/__pycache__
+app/web_server/modl_m/models/__pycache__
