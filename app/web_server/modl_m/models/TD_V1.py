@@ -197,38 +197,54 @@ def save_isolated_teeth(results, img, img_name: str, output_dir: str) -> None:
 
 
 def V1_main():
-    
     # ============ CONFIG AND CONSTANTS ============
     HOME_DIR = "/home/mike/Desktop/codes/projects/AI_PRJ/TrueDent-AI/app/web_server/modl_m"
     
     model_path = os.path.join(HOME_DIR, "models/TrueDent_v1.onnx")
-    output_folder = os.path.join(HOME_DIR, "/predictions")
-    img_path = os.path.join(HOME_DIR, "/uploads/RADIO.jpg")
+    output_folder = os.path.join(HOME_DIR, "imgs/predictions") # Cambiado para ser una ruta absoluta desde HOME_DIR
+    img_path = os.path.join(HOME_DIR, "imgs/uploads/RADIO.jpg") # Cambiado para ser una ruta absoluta desde HOME_DIR
     
-    isolated_teeth_dir = os.path.join(HOME_DIR, "predictions/isolated_teeth")
+    isolated_teeth_dir = os.path.join(HOME_DIR, "imgs/predictions/isolated_teeth")
     os.makedirs(isolated_teeth_dir, exist_ok=True)
 
     ensure_output_folder(output_folder)
+    
+    # Load Model
     model = get_model(model_path)
     
     # =========== MAIN PROCESS ===========
 
     print(f"🦷 Procesando {img_path}...")
     img = read_image(img_path)
-    img = transform_image(img)
-    img = stretch_contrast_grayscale(img)
-    
-    results = predict_image(model, img)
+
+    if img is None:
+        print(f"⛔ Error: La imagen en {img_path} no pudo ser leída o no existe. Abortando proceso.")
+        return 
+
+    img_transformed = transform_image(img.copy()) 
+    img_processed = stretch_contrast_grayscale(img_transformed)
+    results = predict_image(model, img_processed)
+
+    if results is None:
+        print("❌ No se detectaron objetos en la imagen. No se generarán recortes ni superposiciones.")
+        # Opcional: Eliminar la imagen original aunque no se haya procesado completamente
+        if os.path.exists(img_path):
+            os.remove(img_path)
+            print(f"🧹 Archivo original eliminado: {img_path}")
+        return # Sale si no hay resultados
 
     cls_indices = results[0].boxes.cls.cpu().numpy().astype(int).tolist()
 
     names_dict = results[0].names
+    # Asegúrate de que los IDs en names_dict sean enteros si representan los números de dientes.
     detected_labels = [int(names_dict[idx]) for idx in cls_indices]
     
-    save_isolated_teeth(results, img, image, isolated_teeth_dir)
+    # Guarda los recortes de los dientes aislados
+    save_isolated_teeth(results, img, img_path, isolated_teeth_dir)
     print(f"🦷 Dientes aislados guardados en: {isolated_teeth_dir}")
         
-    draw_and_save_results(results, output_folder, "DRAWN_RADIO.jpg")
+    # Dibuja las cajas delimitadoras y las guarda en la imagen original
+    annotated_image = draw_and_save_results(results, output_folder, Path(img_path).name)
     
     # =========== DELETE RADIO.jpg ===========
     if os.path.exists(img_path):
@@ -236,3 +252,5 @@ def V1_main():
         print(f"🧹 Archivo eliminado: {img_path}")
     else:
         print(f"⚠️ Archivo no encontrado para eliminar: {img_path}")
+        
+    return annotated_image

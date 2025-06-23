@@ -1,11 +1,15 @@
 import jwt
 import zipfile
 from werkzeug.utils import secure_filename
-from flask import render_template, redirect, request, url_for, jsonify
+from io import BytesIO
+import cv2
+from flask import render_template, redirect, request, url_for, jsonify, send_file
 from user_m.user_manager import UserManager
-from data_m.database import Database, USERNAME, PASSWORD
+from modl_m.model_manager import ModelManager
+from data_m.database import Database, USERNAME, PASSWORD, HOME_DIR
 import os
 import json
+import shutil
 
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
 
@@ -13,9 +17,10 @@ def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 class ApiManager:
-    def __init__(self, app, user_manager: UserManager, database: Database):
+    def __init__(self, app, user_manager: UserManager, database: Database, model_manager: ModelManager):
         self.app = app
         self.user_manager = user_manager
+        self.model_manager = model_manager
         self.database = database
         self._register_APIs()
         
@@ -65,21 +70,47 @@ class ApiManager:
         return jsonify({"message": "Detection API not implemented yet"}), 501
     
     def API_upload_image(self):
-        if 'archivo' not in request.files:
+        if 'imagen' not in request.files:
             return jsonify({'error': 'No se encontró el archivo'}), 400
         
-        file = request.files['archivo']
+        file = request.files['imagen']  
 
         if file.filename == '':
             return jsonify({'error': 'No se seleccionó ningún archivo'}), 400
         
         if file and allowed_file(file.filename):
+            predictions_folder = os.path.join(HOME_DIR, 'imgs/predictions')
+            if os.path.exists(predictions_folder):
+                shutil.rmtree(predictions_folder)
             
-            filename = secure_filename(file.filename)
+            filename = 'RADIO.jpg' 
             filepath = os.path.join(self.upload_folder, filename)
             file.save(filepath)
+
+            processed_image_np = self.model_manager.inference_v1()
+
+            # 2. Verificar si se obtuvo una imagen procesada
+            if processed_image_np is None:
+                # Manejar el caso donde no se pudo procesar la imagen (ej. no se detectaron dientes)
+                return jsonify({'error': 'No se pudo procesar la imagen o no se detectaron dientes.'}), 500
+
+            success, encoded_image = cv2.imencode('.png', processed_image_np)
+
+            if not success:
+                return jsonify({'error': 'Fallo al codificar la imagen procesada.'}), 500
+
+            # Crear un objeto BytesIO para enviar los bytes de la imagen
+            image_bytes = BytesIO(encoded_image.tobytes())
+
+            # 4. Devolver la imagen usando send_file
+            # El mimetype debe coincidir con el formato de la imagen (ej. 'image/png')
+            # Puedes usar un nombre de archivo dinámico si lo deseas.
+            return send_file(
+                image_bytes,
+                mimetype='image/png',
+                as_attachment=False, # True si quieres que se descargue, False para mostrarla en el navegador
+                download_name=f"processed_{filename}.png" # Nombre sugerido para la descarga
+            )
             
-            return jsonify({'message': 'Archivo guardado', 'filename': filename}), 200
-        
         else:
             return jsonify({'error': 'Extensión de archivo no permitida'}), 400

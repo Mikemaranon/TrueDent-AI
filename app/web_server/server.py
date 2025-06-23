@@ -2,6 +2,7 @@ import json, os
 from flask import Flask
 from data_m.database import Database
 from user_m.user_manager import UserManager
+from modl_m.model_manager import ModelManager
 from api_m.api_manager import ApiManager
 from app_routes import AppRoutes
 
@@ -12,6 +13,7 @@ class Server:
         
         self.database = self.ini_database()
         self.user_manager = self.ini_user_manager()
+        self.modl_manager = self.ini_model_manager()
         self.app_routes = self.ini_app_routes()
         self.api_manager = self.ini_api_manager()
 
@@ -28,10 +30,13 @@ class Server:
     def ini_user_manager(self):
         return UserManager()
     
+    def ini_model_manager(self):
+        return ModelManager()
+    
     def ini_app_routes(self):
         return AppRoutes(self.app, self.user_manager, self.database)
     
     def ini_api_manager(self):
-        return ApiManager(self.app, self.user_manager, self.database)
+        return ApiManager(self.app, self.user_manager, self.database, self.modl_manager)
     
     

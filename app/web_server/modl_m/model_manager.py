@@ -1,19 +1,14 @@
-
-
+from modl_m.models.TD_V1 import V1_main
 
 class ModelManager:
     def __init__(self):
-        self.model_name = "default_model"
-        self.load_models()
+        print("ModelManager initialized.")
 
-    def load_models(self):
-        print(f"Loading model: {self.model_name}")
-
-    def unload_model(self):
-        # Placeholder for unloading the model
-        print(f"Unloading model: {self.model_name}")
-
-    def predict(self, input_data):
-        # Placeholder for making predictions
-        print(f"Making prediction with {self.model_name} on input: {input_data}")
-        return "prediction_result"
+    def inference_v1(self):
+        # Placeholder for the inference logic of version 1
+        print("Running inference for TrueDent_V1 model...")
+        inference = V1_main()
+        return inference
+        
+    
+    
