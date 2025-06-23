@@ -14,6 +14,8 @@ formulario.addEventListener('submit', async function (e) {
         const response = await send_API_request('POST', '/api/upload-image', formData);
         const data = await response.json();
 
+        console.log(data);
+
         if (Array.isArray(data.imagenes)) {
             render_images(data);
         } else {

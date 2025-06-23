@@ -3,7 +3,7 @@ import zipfile
 from werkzeug.utils import secure_filename
 from io import BytesIO
 import cv2
-from flask import render_template, redirect, request, url_for, jsonify, send_file
+from flask import render_template, redirect, request, send_from_directory, url_for, jsonify, send_file
 from user_m.user_manager import UserManager
 from modl_m.model_manager import ModelManager
 from data_m.database import Database, USERNAME, PASSWORD, HOME_DIR
@@ -87,30 +87,9 @@ class ApiManager:
             filepath = os.path.join(self.upload_folder, filename)
             file.save(filepath)
 
-            processed_image_np = self.model_manager.inference_v1()
-
-            # 2. Verificar si se obtuvo una imagen procesada
-            if processed_image_np is None:
-                # Manejar el caso donde no se pudo procesar la imagen (ej. no se detectaron dientes)
-                return jsonify({'error': 'No se pudo procesar la imagen o no se detectaron dientes.'}), 500
-
-            success, encoded_image = cv2.imencode('.png', processed_image_np)
-
-            if not success:
-                return jsonify({'error': 'Fallo al codificar la imagen procesada.'}), 500
-
-            # Crear un objeto BytesIO para enviar los bytes de la imagen
-            image_bytes = BytesIO(encoded_image.tobytes())
-
-            # 4. Devolver la imagen usando send_file
-            # El mimetype debe coincidir con el formato de la imagen (ej. 'image/png')
-            # Puedes usar un nombre de archivo dinámico si lo deseas.
-            return send_file(
-                image_bytes,
-                mimetype='image/png',
-                as_attachment=False, # True si quieres que se descargue, False para mostrarla en el navegador
-                download_name=f"processed_{filename}.png" # Nombre sugerido para la descarga
-            )
+            self.model_manager.inference_v1()
+            
+            return send_from_directory(os.path.join(HOME_DIR, 'imgs/predictions'), 'pred_RADIO.jpg')
             
         else:
             return jsonify({'error': 'Extensión de archivo no permitida'}), 400

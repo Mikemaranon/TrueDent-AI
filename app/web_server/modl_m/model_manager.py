@@ -7,8 +7,7 @@ class ModelManager:
     def inference_v1(self):
         # Placeholder for the inference logic of version 1
         print("Running inference for TrueDent_V1 model...")
-        inference = V1_main()
-        return inference
+        V1_main()
         
     
     
