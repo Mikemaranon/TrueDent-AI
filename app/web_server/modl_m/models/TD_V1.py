@@ -244,7 +244,7 @@ def V1_main():
     print(f"🦷 Dientes aislados guardados en: {isolated_teeth_dir}")
         
     # Dibuja las cajas delimitadoras y las guarda en la imagen original
-    annotated_image = draw_and_save_results(results, output_folder, Path(img_path).name)
+    draw_and_save_results(results, output_folder, Path(img_path).name)
     
     # =========== DELETE RADIO.jpg ===========
     if os.path.exists(img_path):
@@ -252,5 +252,3 @@ def V1_main():
         print(f"🧹 Archivo eliminado: {img_path}")
     else:
         print(f"⚠️ Archivo no encontrado para eliminar: {img_path}")
-        
-    return annotated_image
