@@ -37,8 +37,10 @@ analyzeTeeth.addEventListener('click', async function () {
         const data = await response.json();
 
         if (!Array.isArray(data)) {
-            throw new Error('Respuesta inesperada del servidor');
+            throw new Error('Respuesta inesperada del servidor');   
         }
+
+        console.log(data);
 
         // Filtramos las predicciones con caries
         const cariousTeeth = data.filter(item => item.predicted_class === 0);
@@ -50,29 +52,7 @@ analyzeTeeth.addEventListener('click', async function () {
 
         // Mostramos cada imagen con caries
         cariousTeeth.forEach(item => {
-            const img = document.createElement('img');
-            img.src = `/static/IMG/predictions/isolated_teeth/${item.image_name}`;
-            img.alt = `Diente con caries`;
-            img.style.maxWidth = "150px";
-            img.style.margin = "10px";
-
-            const info = document.createElement('p');
-            info.textContent = `Confianza: ${(item.confidence * 100).toFixed(1)}%`;
-
-            const label = document.createElement('p');
-            label.textContent = "🦷 ¡Caries detectada!";
-            label.style.color = "red";
-            label.style.fontWeight = "bold";
-
-            const container = document.createElement('div');
-            container.style.display = "inline-block";
-            container.style.textAlign = "center";
-            container.style.margin = "10px";
-            container.appendChild(img);
-            container.appendChild(label);
-            container.appendChild(info);
-
-            resultado_2.appendChild(container);
+            render_teeth(item);
         });
 
     } catch (err) {
@@ -89,4 +69,39 @@ function render_image_from_blob(imageUrl) {
     img.alt = 'Resultado';
 
     resultado_1.appendChild(img);
+}
+
+async function render_teeth(item) {
+
+    const body = {
+        image_name: item.image_name
+    }
+
+    const image = send_API_request('POST', `/api/get-image`, body);
+    const blob = await image.blob();
+    const imageUrl = URL.createObjectURL(blob);
+
+    const img = document.createElement('img');
+    img.src = imageUrl;
+    img.alt = `Diente con caries`;
+    img.style.maxWidth = "150px";
+    img.style.margin = "10px";
+
+    const info = document.createElement('p');
+    info.textContent = `Confianza: ${(item.confidence * 100).toFixed(1)}%`;
+
+    const label = document.createElement('p');
+    label.textContent = "🦷 ¡Caries detectada!";
+    label.style.color = "red";
+    label.style.fontWeight = "bold";
+
+    const container = document.createElement('div');
+    container.style.display = "inline-block";
+    container.style.textAlign = "center";
+    container.style.margin = "10px";
+    container.appendChild(img);
+    container.appendChild(label);
+    container.appendChild(info);
+
+    resultado_2.appendChild(container);
 }

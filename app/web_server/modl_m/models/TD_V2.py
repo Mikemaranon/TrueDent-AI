@@ -23,13 +23,13 @@ def V2_main(img):
     # ============ CONFIG AND CONSTANTS ============
     HOME_DIR = "/home/mike/Desktop/codes/projects/AI_PRJ/TrueDent-AI/app/web_server/modl_m"
     
-    model_path = os.path.join(HOME_DIR, "TrueDent_v2.h5")
+    model_path = os.path.join(HOME_DIR, "models/TrueDent_v2.h5")
     img_path = os.path.join(HOME_DIR, "imgs/predictions/isolated_teeth", img)
     target_size = (128, 128)
 
     model = load_model(model_path)
 
-    prepared_img = transform_img(img, target_size)
+    prepared_img = transform_img(img_path, target_size)
     pred = predict(model, prepared_img)
 
     # Después de obtener la predicción:
@@ -41,6 +41,6 @@ def V2_main(img):
     
     return {
         "image_name": img,
-        "confidence": prob,
-        "predicted_class": p_class
+        "confidence": float(prob),
+        "predicted_class": int(p_class)
     }
