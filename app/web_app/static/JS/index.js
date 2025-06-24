@@ -77,7 +77,7 @@ async function render_teeth(item) {
         image_name: item.image_name
     }
 
-    const image = send_API_request('POST', `/api/get-image`, body);
+    const image = await send_API_request('POST', `/api/get-image`, body);
     const blob = await image.blob();
     const imageUrl = URL.createObjectURL(blob);
 
