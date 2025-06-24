@@ -39,7 +39,7 @@ class ApiManager:
         self.app.add_url_rule("/api/register", "register", self.API_register, methods=["POST"])
         self.app.add_url_rule("/api/upload-image", "upload_image", self.API_upload_image, methods=["POST"])
         self.app.add_url_rule("/api/detect", "detect", self.API_detect, methods=["GET"])
-        self.app.add_url_rule("/api/get-image", "get_image", self.API_get_image, methods=["GET"])
+        self.app.add_url_rule("/api/get-image", "get_image", self.API_get_image, methods=["POST"])
     
     # =========================================
     #       API protocols start from here
