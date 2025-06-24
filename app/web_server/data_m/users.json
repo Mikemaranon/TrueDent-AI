@@ -4,5 +4,8 @@
     },
     "mike": {
         "password": "scrypt:32768:8:1$xapZWRfkwJjeksqa$17bcda1329f8dbf8f71e8bd2a0c595ec832a88757c9646aca5c4acfabb849fff1d08dfe0638b7483ff164f19d522bbe69caaf8aeb631b9e51518a7a276cb8fa8"
+    },
+    "javi": {
+        "password": "scrypt:32768:8:1$0F6MQPHQISYqmfju$82609cce5ebbfa74585f866adbd237d1fea4c72e058130eba023e5e54b87f46a741b872b3834da92829ad4cdebb6f60a3d510d8ba6420e0f0bf48f199490be6a"
     }
 }
