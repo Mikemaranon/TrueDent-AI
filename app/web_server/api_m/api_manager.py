@@ -95,12 +95,20 @@ class ApiManager:
         return results, 200
     
     def API_get_image(self):
-        # Get the image name from the request
-        image_name = request.args.get('image_name')
-        if not image_name:
-            return jsonify({"error": "No image name provided"}), 400
-        
-        # Construct the full path to the image
-        img_dir = os.path.join(HOME_DIR, 'imgs/predictions/isolated_teeth')
-        return send_from_directory(img_dir, image_name)
+        try:
+            data = request.get_json(force=True)  # fuerza parseo incluso si no tiene content-type
+            print("[DEBUG] request.get_json():", data)
+
+            image_name = data.get('image_name')
+
+            if not image_name or not isinstance(image_name, str):
+                return jsonify({"error": "Invalid or missing image name"}), 400
+
+            img_dir = os.path.join(HOME_DIR, 'imgs/predictions/isolated_teeth')
+
+            return send_from_directory(img_dir, image_name)
+
+        except Exception as e:
+            print(f"[ERROR] {e}")
+            return jsonify({"error": str(e)}), 500
         
