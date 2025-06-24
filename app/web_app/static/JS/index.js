@@ -27,6 +27,16 @@ formulario.addEventListener('submit', async function (e) {
         resultado_1.innerHTML = "<p class='text-danger'>❌ Error en la detección.</p>";
     }
 });
+document.addEventListener('click', function (e) {
+    if (e.target.tagName === 'IMG' && !e.target.classList.contains('logo')) {
+        const src = e.target.getAttribute('src');
+        const modalImage = document.getElementById('modalImage');
+        modalImage.src = src;
+
+        const imageModal = new bootstrap.Modal(document.getElementById('imageModal'));
+        imageModal.show();
+    }
+});
 
 analyzeTeeth.addEventListener('click', async function () {
     resultado_2.innerHTML = ''; // Limpiamos contenido anterior
