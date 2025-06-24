@@ -88,7 +88,9 @@ async function render_teeth(item) {
     img.style.margin = "10px";
 
     const info = document.createElement('p');
-    info.textContent = `Confianza: ${(item.confidence * 100).toFixed(1)}%`;
+
+    let confidence = Math.abs(item.confidence - 0.5) / 0.5;
+    info.textContent = `Confianza: ${(confidence * 100).toFixed(1)}%`;
 
     const label = document.createElement('p');
     label.textContent = "🦷 ¡Caries detectada!";
