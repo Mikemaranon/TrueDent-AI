@@ -93,7 +93,7 @@ async function render_teeth(item) {
     info.textContent = `Confianza: ${(confidence * 100).toFixed(1)}%`;
 
     const label = document.createElement('p');
-    label.textContent = "🦷 ¡Caries detectada!";
+    label.textContent = "🦷 ¡Diente enfermo!";
     label.style.color = "red";
     label.style.fontWeight = "bold";
 
